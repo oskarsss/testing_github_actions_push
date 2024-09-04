@@ -997,9 +997,9 @@ export enum BorderConnectEManifestStatus {
      */
     STATUS_UNSPECIFIED = 0,
     /**
-     * @generated from protobuf enum value: STATUS_DRAFT = 10;
+     * @generated from protobuf enum value: STATUS_DRAFT = 1;
      */
-    STATUS_DRAFT = 10,
+    STATUS_DRAFT = 1,
     /**
      * if this status is set, the manifest is sent to the borderconnect and is in the process of being processed.
      * will not be able to update the manifest until the status is updated.
