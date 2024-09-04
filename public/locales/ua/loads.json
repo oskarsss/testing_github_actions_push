@@ -1,0 +1,406 @@
+{
+  "status": {
+    "all": "все",
+    "available": "в наявності",
+    "pending": "Заброньовано",
+    "assigned": "Призначений",
+    "in_progress": "В дорозі",
+    "delivered": "Доставлено",
+    "deleted": "Видалено",
+    "canceled": "Скасовано",
+    "tonu": "ТОНУ",
+    "Deleted": "Видалено"
+  },
+  "invoice_status": {
+    "not_invoiced": "Рахунок не виставлено",
+    "invoiced": "Виставлено рахунок",
+    "need_review": "Потрібен огляд",
+    "paid": "Платний",
+    "rejected": "Відхилено",
+    "detention_requested": "Прохання про затримання"
+  },
+  "invoicing_payments_type": {
+    "driver": "Водій",
+    "company": "Компанія"
+  },
+  "stop": {
+    "check_in": "Перевірь",
+    "check_out": "Перевірити",
+    "arrived": "Прибув",
+    "eta": "ETA",
+    "late": "Пізно",
+    "early": "Рано",
+    "start_in": "Почати в",
+    "type": {
+      "pickup": "Підніміть",
+      "dropoff": "Висаджувати",
+      "pickup_dropoff": "Забрати та висадити"
+    },
+    "status": {
+      "change_tooltip": "Змінити статус зупинки",
+      "pending": "В очікуванні",
+      "completed": "Виконано",
+      "en_route": "В дорозі",
+      "on_location": "Розташування",
+      "checked_in": "Зареєструвався",
+      "canceled": "Скасовано",
+      "tonu": "ТОНУ"
+    }
+  },
+  "sort_by": {
+    "latest": {
+      "title": "Останній",
+      "description": "Останні навантаження"
+    },
+    "oldest": {
+      "title": "Найстаріший",
+      "description": "Найстаріші вантажі"
+    },
+    "smart_dispatch": {
+      "title": "Smart Dispatch",
+      "description": "Розумна диспетчерська завантаження"
+    },
+    "gross_amount_asc": {
+      "title": "Валовий",
+      "description": "Від низького до високого"
+    },
+    "gross_amount_desc": {
+      "title": "Валовий",
+      "description": "Від високого до низького"
+    },
+    "truck_number_asc": {
+      "title": "Номер вантажівки",
+      "description": "Від низького до високого"
+    },
+    "truck_number_desc": {
+      "title": "Номер вантажівки",
+      "description": "Від високого до низького"
+    },
+    "loaded_miles_asc": {
+      "title": "Майлз",
+      "description": "Від низького до високого"
+    },
+    "loaded_miles_desc": {
+      "title": "Майлз",
+      "description": "Від високого до низького"
+    }
+  },
+  "details": {
+    "error": {
+      "title": "Не вдалося завантажити цю сторінку",
+      "sub_title": "Схоже, ми зіткнулися з проблемою. ",
+      "button": "Перезавантажити",
+      "button_text": {
+        "back_to_loads_page": "Повернення до сторінки «Навантаження»."
+      }
+    },
+    "notes": {
+      "driver": {
+        "not_found": "Драйвер не знайдено"
+      }
+    },
+    "characteristics": {
+      "titles": {
+        "loaded": "Завантажено",
+        "empty": "Порожній",
+        "commodity": "товарний",
+        "weight": "вага",
+        "total": "Всього",
+        "rpm": "RPM",
+        "temperature": "температура"
+      },
+      "tooltips": {
+        "rpm": "RPM з порожнім",
+        "copy_rpm": "Скопіювано RPM"
+      }
+    },
+    "header": {
+      "title": "ID-{{friendlyId}}",
+      "buttons": {
+        "download_invoice": "рахунок-фактура"
+      }
+    },
+    "map": {
+      "tooltips": {
+        "show_current_loc": "Показати поточне місцезнаходження"
+      }
+    },
+    "overview": {
+      "tooltips": {
+        "assign_truck": "Призначити вантажівку",
+        "filter_by_truck_new_tab": "Відфільтрувати за вантажівкою та відкрити в новій вкладці",
+        "filter_by_client": "Фільтрувати за клієнтом",
+        "filter_by_client_new_tab": "Відфільтрувати за клієнтом і відкрити в новій вкладці"
+      },
+      "confirm": {
+        "unassign_truck": {
+          "title": "Скасувати призначення \"{{ref}}\"?",
+          "body": "Ви скасуєте призначення вантажівки."
+        }
+      },
+      "empty_state": {
+        "no_driver": "Призначити водія вантажівці",
+        "no_trailer": "Без трейлера",
+        "no_truck": "Призначити вантажівку",
+        "power_only": "Тільки живлення"
+      }
+    },
+    "progress_bar": {
+      "buttons": {
+        "add_stop": "Додайте зупинку"
+      }
+    },
+    "tabs": {
+      "labels": {
+        "load_stops": "Зупинки навантаження",
+        "documents": "Документи",
+        "financials": "Фінанси"
+      },
+      "financials": {
+        "titles": {
+          "driver_pay": "Оплата водія",
+          "invoicing_details": "Реквізити для виставлення рахунків"
+        },
+        "buttons": {
+          "add_driver": "Додати драйвер"
+        },
+        "confirm": {
+          "remove_driver_pay": {
+            "title": "Видалити цей драйвер?",
+            "body": "Видалення цього драйвера призведе до скасування оплати за навантаження з розрахунку {{fullName}}"
+          }
+        }
+      },
+      "stops": {
+        "titles": {
+          "ref": "№ посилання"
+        },
+        "copy": {
+          "notes": "Нотатки скопійовано"
+        }
+      },
+      "photos": {
+        "vin": "VIN номер",
+        "photos": "Фотографії"
+      }
+    }
+  },
+  "stats": {
+    "drafts": "Чернетки"
+  },
+  "analytics": {
+    "active_loads": {
+      "title": "Активні навантаження",
+      "empty_state": {
+        "title": "Активних завантажень ще немає",
+        "sub_title": "Ваш список активних завантажень наразі порожній. "
+      }
+    },
+    "clients": {
+      "title": "Брокери / Клієнти",
+      "other": "Інший",
+      "empty_state": {
+        "title": "Брокерів не знайдено",
+        "sub_title": "Схоже, ваш список брокерів порожній. "
+      }
+    },
+    "performance": {
+      "titles": {
+        "late_pickup": "Пізній прийом",
+        "late_dropoff": "Пізня висадка",
+        "gps_inactive": "GPS неактивний"
+      },
+      "tooltips": {
+        "switch_gps": "Увімкніть/вимкніть сповіщення GPS"
+      }
+    },
+    "trends": {
+      "title": "Тенденції",
+      "items": {
+        "avgFuelPricePerQuantity": "Дизель на галон",
+        "avgFuelPricePerTotalMile": "Дизель на милю",
+        "avgRpm": "Середні оберти"
+      }
+    }
+  },
+  "table": {
+    "error": "Ой! ",
+    "titles": {
+      "id": "ID",
+      "client": "Клієнт",
+      "origin": "Походження",
+      "miles": "Майлз",
+      "destination": "Пункт призначення",
+      "total": "Всього",
+      "eta": "ETA",
+      "pay_item": "Оплатити товар",
+      "units": "одиниці",
+      "rate": "Оцінка",
+      "amount": "Сума",
+      "rpm": "RPM",
+      "ref": "посилання",
+      "appt": "кв",
+      "loc_adr": "Loc Adr",
+      "loc_name": "Назва місця"
+    }
+  },
+  "dialogs": {
+    "edit_load": {
+      "titles": {
+        "main": "Редагувати завантаження",
+        "notes": "Платіжні примітки",
+        "invoicing_payments": "Виставлення рахунків-фактур"
+      },
+      "buttons": {
+        "download_invoice": "рахунок-фактура"
+      },
+      "confirm": {
+        "delete": {
+          "title": "Ви впевнені, що бажаєте позначити це завантаження як \"Віддалене\"?",
+          "body": "Інформація про завантаження залишиться в системі та буде доступна в статусі «Видалено»."
+        }
+      },
+      "fields": {
+        "errors": {
+          "duplicate_load_id": "Дубльований ідентифікатор завантаження"
+        },
+        "titles": {
+          "load_type": "Тип навантаження",
+          "booking_dispatcher": "Диспетчер бронювання / CSR",
+          "factoring_company": "Факторингова компанія"
+        },
+        "dialog_titles": {
+          "booking_dispatcher": "Ви впевнені, що хочете змінити диспетчера?",
+          "factoring_company": "Ви впевнені, що хочете змінити факторингову компанію?",
+          "reference_id": "Ви впевнені, що бажаєте змінити ідентифікатор посилання?",
+          "temperature": "Ви впевнені, що хочете змінити температуру?"
+        }
+      },
+      "driver_pay_items": {
+        "title": "Оплата водія",
+        "no_drivers": "У вас немає драйверів, призначених для цього навантаження.",
+        "select_truck": "Виберіть вантажівку",
+        "override_gross": "Перевизначити Гросс",
+        "override_gross_amount": "Встановлюючи цю суму, ви заміните вихідну валову суму {{grossAmountFormatted}}",
+        "dialogs": {
+          "create_driver_pay": {
+            "no_drivers": "Без водіїв"
+          },
+          "override_gross": {
+            "title": "Ви впевнені, що бажаєте замінити вихідну суму {{brokerAmount}}?",
+            "desc": "Це налаштування замінить початкову суму, будьте обережні"
+          },
+          "restore_gross": {
+            "title_1": "Ви впевнені, що хочете видалити свій",
+            "title_2": "Перевизначити",
+            "title_3": "Оригінальний брутто?"
+          }
+        }
+      },
+      "truck_items": {
+        "confirm": {
+          "title": "Скасувати призначення \"{{truckReferenceId}}\"?",
+          "body": "Ви скасуєте призначення вантажівки."
+        }
+      },
+      "stops": {
+        "title": "Зупинки",
+        "labels": {
+          "empty_miles_short": "Порожній Mi",
+          "loaded_miles_short": "Завантажений Мі",
+          "empty_miles": "Порожні милі",
+          "loaded_miles": "Завантажені милі"
+        },
+        "buttons": {
+          "add_stop": "Додайте зупинку"
+        },
+        "dialogs": {
+          "override_empty_miles": {
+            "title": "Ви впевнені, що бажаєте замінити оригінальні порожні милі {{defaultValue}}?",
+            "description": "Це налаштування замінить початкові порожні милі, будьте обережні"
+          },
+          "override_loaded_miles": {
+            "title": "Ви впевнені, що хочете замінити оригінальні завантажені милі {{defaultValue}}?",
+            "description": "Це налаштування замінить початкові завантажені милі, будьте обережні"
+          }
+        }
+      }
+    },
+    "stops": {
+      "titles": {
+        "add_stop": "Додайте зупинку",
+        "edit_stop": "Змінити зупинку"
+      },
+      "labels": {
+        "sequence": "Seq Nr.",
+        "ref": "№ посилання",
+        "location_name": "Назва розташування",
+        "start_appointment": "Початок зустрічі",
+        "end_appointment": "Завершення зустрічі",
+        "fixed_appointment": "Фіксована зустріч"
+      },
+      "placeholders": {
+        "sequence": "1",
+        "ref": "123",
+        "location_name": "Склад"
+      }
+    }
+  },
+  "menus": {
+    "check_in_out": {
+      "titles": {
+        "update": "Оновити час {{title}}",
+        "add": "Додайте час {{title}}"
+      }
+    },
+    "driver_pay_item": {
+      "titles": {
+        "add": "Додати елемент оплати водія",
+        "edit": "Оновити пункт оплати водія"
+      }
+    },
+    "invoice_item": {
+      "titles": {
+        "add": "Додати позицію рахунку-фактури",
+        "edit": "Оновити позицію рахунку-фактури"
+      }
+    },
+    "invoice_payment": {
+      "titles": {
+        "add": "Додати оплату рахунку",
+        "edit": "Оновити оплату рахунку"
+      },
+      "labels": {
+        "paid_on": "Оплачено",
+        "receiver_type": "Тип приймача"
+      }
+    },
+    "share_link": {
+      "title": "Поділіться сторінкою відстеження цього завантаження",
+      "description": "Будь-хто, хто має посилання, може переглянути це завантаження",
+      "show": "Показати",
+      "controls": {
+        "capacity": {
+          "label": "Ємність",
+          "info": "Таблиця місткості водія з додатковою інформацією"
+        },
+        "documents": {
+          "label": "Документи",
+          "info": "Завантажити документи"
+        },
+        "eta": {
+          "label": "ETA",
+          "info": "Очікуваний час прибуття"
+        },
+        "driver_contact": {
+          "label": "Контакт водія",
+          "info": "Контактна інформація водія"
+        },
+        "other_load_stops": {
+          "label": "Інші зупинки навантаження",
+          "info": "Показати інші зупинки навантаження"
+        }
+      }
+    }
+  }
+}

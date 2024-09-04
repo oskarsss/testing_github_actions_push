@@ -1,0 +1,75 @@
+@use '@/scss/abstracts' as *;
+
+.paper {
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    gap: 2px;
+    background-color: var(--semantic-background-primary);
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    box-shadow: none !important;
+    transition: width 150ms linear;
+    margin-top: 10px;
+
+    &.fullVisible {
+        width: 50px;
+        height: 96px;
+        margin: 0 6px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &.notFullVisible {
+        width: 204px;
+        height: 48px;
+        align-items: center;
+        margin: 0 19px;
+        justify-content: center;
+    }
+}
+
+.tabs {
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    color: var(--semantic-text-secondary);
+    background: var(--semantic-foreground-secondary);
+
+    &NotFullVisible {
+        width: 36px;
+        flex-direction: column;
+    }
+}
+
+.tab {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    svg {
+        width: 24px;
+        height: 24px;
+        fill: var(--semantic-foreground-primary);
+    }
+
+    @include apply-typography($body-xs-medium);
+
+    &NotFullVisible {
+        border-radius: 4px;
+        padding: 6px;
+    }
+
+    &.selected {
+        color: var(--semantic-text-primary);
+        background: var(--semantic-foreground-white-primary);
+    }
+}

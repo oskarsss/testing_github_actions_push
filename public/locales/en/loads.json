@@ -1,0 +1,186 @@
+{
+  "sort_by": {
+    "latest": {
+      "title": "Latest",
+      "description": "The latest orders"
+    },
+    "oldest": {
+      "title": "Oldest",
+      "description": "The oldest orders"
+    },
+    "smart_dispatch": {
+      "title": "Smart Dispatch",
+      "description": "The smart dispatch orders"
+    },
+    "gross_amount_asc": {
+      "title": "Gross",
+      "description": "Low to High"
+    },
+    "gross_amount_desc": {
+      "title": "Gross",
+      "description": "High to Low"
+    },
+    "truck_number_asc": {
+      "title": "Truck Number",
+      "description": "Low to High"
+    },
+    "truck_number_desc": {
+      "title": "Truck Number",
+      "description": "High to Low"
+    },
+    "loaded_miles_asc": {
+      "title": "Miles",
+      "description": "Low to High"
+    },
+    "loaded_miles_desc": {
+      "title": "Miles",
+      "description": "High to Low"
+    }
+  },
+  "details": {
+    "error": {
+      "title": "Couldn’t order this page",
+      "sub_title": "Looks like we ran into a problem. Don’t worry, hitting reload should fix the issue",
+      "button": "Reload",
+      "button_text": {
+        "back_to_loads_page": "Back to Orders page"
+      }
+    },
+    "notes": {
+      "driver": {
+        "not_found": "Driver not found"
+      }
+    },
+    "characteristics": {
+      "titles": {
+        "loaded": "Loaded",
+        "empty": "Empty",
+        "commodity": "Commodity",
+        "weight": "Weight",
+        "total": "Total",
+        "rpm": "RPM",
+        "temperature": "Temperature"
+      },
+      "tooltips": {
+        "rpm": "RPM w/ Empty",
+        "copy_rpm": "Copy RPM"
+      }
+    },
+    "header": {
+      "tooltips": {
+        "back_to_loads": "Back to Orders"
+      },
+      "buttons": {
+        "download_invoice": "Invoice"
+      }
+    },
+    "overview": {
+      "tooltips": {
+        "assign_truck": "Assign Truck",
+        "filter_by_truck_new_tab": "Filter by Truck and open in new tab",
+        "filter_by_client": "Filter by Client",
+        "filter_by_client_new_tab": "Filter by Client and open in new tab"
+      },
+      "confirm": {
+        "unassign_truck": {
+          "title": "Unassign \"{{ref}}\" ?",
+          "body": "You will unassign truck from order."
+        }
+      },
+      "empty_state": {
+        "no_driver_title": "No Driver",
+        "no_driver": "Assign Driver to Manifest",
+        "no_truck": "Assign Truck",
+        "power_only": "Power Only"
+      }
+    },
+    "progress_bar": {
+      "buttons": {
+        "add_stop": "Add Stop"
+      }
+    },
+    "tabs": {
+      "labels": {
+        "load_stops": "Order Stops",
+        "documents": "Documents",
+        "financials": "Financials",
+        "commodities": "Commodities"
+      },
+      "financials": {
+        "titles": {
+          "driver_pay": "Driver Pay",
+          "invoicing_details": "Invoicing Details"
+        },
+        "buttons": {
+          "add_driver": "Add Driver"
+        },
+        "confirm": {
+          "remove_driver_pay": {
+            "title": "Remove this Driver?",
+            "body": "Removing this driver will remove your order pay from {{fullName}} settlement"
+          }
+        }
+      },
+      "stops": {
+        "checkboxes": {
+          "show_completed": "Show completed: {{count}}",
+          "show_other": "Show other stops: {{count}}"
+        },
+        "tooltips": {
+          "unrelated_load": "Unrelated to original order"
+        },
+        "titles": {
+          "ref": "Ref #"
+        },
+        "copy": {
+          "notes": "Notes copied"
+        }
+      },
+      "photos": {
+        "vin": "VIN",
+        "photos": "Photos"
+      }
+    }
+  },
+  "stats": {
+    "drafts": "Drafts"
+  },
+  "analytics": {
+    "active_loads": {
+      "title": "Active Orders",
+      "empty_state": {
+        "title": "No Active Orders Yet",
+        "sub_title": "Your list of active orders is currently empty. Start by adding orders to keep track of ongoing shipments and deliveries"
+      }
+    },
+    "clients": {
+      "title": "Brokers / Customers",
+      "other": "Other",
+      "empty_state": {
+        "title": "No Brokers Found",
+        "sub_title": "Looks like your list of brokers is empty. Add brokers to manage your trucking relationships efficiently"
+      }
+    },
+    "performance": {
+      "titles": {
+        "late_pickup": "Late Pick-up",
+        "late_dropoff": "Late Drop-off",
+        "gps_inactive": "GPS Inactive"
+      },
+      "tooltips": {
+        "switch_gps": "Turn On/Off GPS Alerts"
+      }
+    },
+    "trends": {
+      "title": "Trends",
+      "items": {
+        "avgFuelPricePerQuantity": "Diesel per Gallon",
+        "avgFuelPricePerTotalMile": "Diesel per Mile",
+        "avgRpm": "Average RPM"
+      }
+    }
+  },
+  "table": {
+    "error": "Whoops! An error occurred."
+  }
+}

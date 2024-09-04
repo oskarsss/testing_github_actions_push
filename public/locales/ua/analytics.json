@@ -1,0 +1,61 @@
+{
+  "charts": {
+    "total_unpaid": {
+      "empty_screen": {
+        "firstText": "Без повної неоплати",
+        "secondText": "Зараз у системі немає Total Unpaid"
+      },
+      "title": "Всього неоплачено",
+      "status": "Статус",
+      "amount": "Сума"
+    },
+    "total_loads": {
+      "empty_screen": {
+        "firstText": "Без загальних навантажень"
+      },
+      "title": "Загальні навантаження",
+      "info": {
+        "title": "Всі навантаження"
+      }
+    },
+    "top_debtors": {
+      "empty_screen": {
+        "firstText": "Без найбільших боржників"
+      },
+      "title": "Найбільші боржники",
+      "info": {
+        "all_debtors": "Всі боржники"
+      },
+      "table": {
+        "columns": {
+          "count": "Рахувати",
+          "client": "Клієнт",
+          "loads": "Навантаження",
+          "total": "Всього"
+        }
+      }
+    },
+    "aging_reports": {
+      "title": "Звіти про старіння",
+      "info": {
+        "loads": "Навантаження",
+        "total": "Всього"
+      }
+    },
+    "active_loads": {
+      "title": "Активні навантаження",
+      "search": "Пошук",
+      "tabs": "Вкладки",
+      "table": {
+        "columns": {
+          "product": "Продукт",
+          "status": "Статус",
+          "miles": "Майлз",
+          "sales": "Продажі",
+          "delivery_id": "Доставка в",
+          "weight": "Вага (фунтів)"
+        }
+      }
+    }
+  }
+}

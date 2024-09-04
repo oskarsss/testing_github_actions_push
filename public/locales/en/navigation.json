@@ -1,0 +1,113 @@
+{
+  "header_menu": {
+    "items": {
+      "org_settings": "Organization Settings",
+      "members": "Members",
+      "billing": "Billing",
+      "documents": "Documents",
+      "onboarding": "Onboarding",
+      "switch_organization": "Switch Organization"
+    },
+    "sub_menu": {
+      "buttons": {
+        "create_new_organization": "Create a new organization"
+      },
+      "companies": {
+        "search_field": {
+          "placeholder": "Enter name"
+        },
+        "empty_list": "Do not find company"
+      }
+    }
+  },
+  "widgets": {
+    "onboarding": {
+      "title": "Setup Checklist"
+    }
+  },
+  "signing_out": "Signing out",
+  "collapse": "Collapse",
+  "dot": "DOT",
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "tooltips": {
+    "logout": "Logout",
+    "expand": "Expand",
+    "go_to_profile": "Go to profile"
+  },
+  "items": {
+    "notifications": "Inbox",
+    "analytics": "Analytics",
+    "dispatch": {
+      "main": "Dispatch",
+      "schedule": "Schedule",
+      "schedule_loads": "Schedule - orders",
+      "loads": "Orders",
+      "tracking": "Tracking",
+      "manifests": "Manifests",
+      "brokers": "Brokers",
+      "customers": "Customers"
+    },
+    "map": "Map",
+    "fleet": {
+      "main": "Fleet",
+      "trucks": "Trucks",
+      "drivers": "Drivers",
+      "trailers": "Trailers",
+      "plates": "Plates",
+      "vendors": "Vendors",
+      "plate_companies": "Plate Companies",
+      "trailer_companies": "Trailer Companies"
+    },
+    "maintenance": {
+      "main": "Maintenance",
+      "overview": "Overview",
+      "service_logs": "Service Logs",
+      "scheduling": "Service Schedule",
+      "defects": "Defects",
+      "dvir": "Inspections",
+      "service_providers": "Service Providers"
+    },
+    "billing": {
+      "main": "Billing",
+      "all": "All",
+      "factoring": "Factoring",
+      "amazon": "Amazon",
+      "direct": "Direct"
+    },
+    "accounting": {
+      "main": "Accounting",
+      "settlements": "Settlements",
+      "dispatchers": "Dispatchers",
+      "payouts": "Payouts",
+      "recurring_transactions": "Recurring Transactions",
+      "tolls": "Tolls",
+      "fuel": "Fuel"
+    },
+    "reports": {
+      "main": "Reports",
+      "ifta": "IFTA Report",
+      "oregon": "Oregon Report"
+    },
+    "settings": {
+      "main": "Settings"
+    },
+    "help": "Help"
+  },
+  "menu": {
+    "create": {
+      "new_company": {
+        "header": {
+          "title": "Create New Company"
+        },
+        "sections": {
+          "details": "Details",
+          "contact_info": "Contact Info",
+          "address_info": "Address Info"
+        }
+      }
+    }
+  }
+}

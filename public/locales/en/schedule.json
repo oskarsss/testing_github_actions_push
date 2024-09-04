@@ -1,0 +1,136 @@
+{
+  "header": {
+    "buttons": {
+      "cap_list": "CAP LIST",
+      "add_time_off": "Add Time Off",
+      "only_online": "Only Online"
+    },
+    "filters": {
+      "labels": {
+        "truck_status": "Truck Status",
+        "trailer_type": "Trailer Type",
+        "manifest_status": "Manifest Status"
+      },
+      "shortcuts": {
+        "three_days": "Three days",
+        "one_week": "One week",
+        "two_weeks": "Two weeks",
+        "month": "Month",
+        "this_and_next_week": "This Week & Next Week"
+      }
+    }
+  },
+  "table": {
+    "tooltips": {
+      "manifest": {
+        "error_size": "The difference in time between the first and the last stop cannot be less than 1 hour"
+      }
+    },
+    "no_covered": "NOT COVERED",
+    "local_time": "local time",
+    "errors": {
+      "less_than_one_hour": "Time difference cannot be less than 1 hour"
+    },
+    "header": {
+      "tabs": {
+        "las_week": "Last week",
+        "now": "NOW",
+        "next_week": "Next week"
+      },
+      "period_list": {
+        "morning": "Morning",
+        "noon": "Noon",
+        "evening": "Evening"
+      }
+    },
+    "time_off": {
+      "title": "Time Off",
+      "add": "Add Time Off"
+    },
+    "truck": {
+      "location": {
+        "current_loc": "Current Loc",
+        "tooltips": {
+          "copy_driver_info": "Copy Driver Info",
+          "unpin_the_track": "Unpin the track",
+          "pin_the_track": "Pin the track"
+        }
+      }
+    },
+    "trailer_type": {
+      "tooltips": {
+        "power_only": "Power Only"
+      }
+    },
+    "truck_status": {
+      "in_transit": "In Transit",
+      "no_load": "No Order",
+      "no_manifests": "No Manifests"
+    },
+    "driver": {
+      "send_critical_alert": "Send Critical Alert",
+      "info": {
+        "hours_of_service": "Hours of service",
+        "link_vehicle_with_eld": "Link Vehicle with ELD",
+        "drive": "Drive",
+        "break": "Break",
+        "shift": "Shift",
+        "cycle": "Cycle",
+        "home_time": "Home Time"
+      }
+    }
+  },
+  "dialogs": {
+    "cap_list": {
+      "header": {
+        "labels": {
+          "filter": "Filter",
+          "copy_all": "Copy all"
+        }
+      },
+      "table": {
+        "header": {
+          "titles": {
+            "empty_at": "Empty At",
+            "truck_type": "Truck Type",
+            "trailer_type": "Trailer Type",
+            "note": "Note"
+          }
+        },
+        "empty": "No, not covered trucks",
+        "copy_row": "Copy row",
+        "cells": {
+          "note": {
+            "placeholder": "Leave note"
+          }
+        }
+      }
+    },
+    "share_cap_list": {
+      "title": "Share tracking page for this cap list",
+      "description": "Anyone with link can view this cap list"
+    },
+    "time_off": {
+      "titles": {
+        "add": "Add Time Off",
+        "edit": "Edit Time Off"
+      },
+      "fields": {
+        "truck": {
+          "label": "Truck",
+          "value": "Selected #{{referenceId}} Truck",
+          "placeholder": "Please select truck",
+          "error": "Please select truck"
+        },
+        "date_range": {
+          "label": "Choose a date",
+          "error": "Please choose a date"
+        },
+        "description": {
+          "label": "Description",
+          "placeholder": "Bertrand Park, 700 W 3rd St, Oakley, KS 67748"
+        }
+      }
+    }
+  }
+}

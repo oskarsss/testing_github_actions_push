@@ -1,0 +1,69 @@
+{
+  "buttons": {
+    "clear_all": "Очистити все",
+    "compare": "Порівняйте",
+    "book": "книга",
+    "call": "Телефонуйте"
+  },
+  "fields": {
+    "date_range": {
+      "start": "Дата початку отримання",
+      "end": "Кінцева дата отримання"
+    },
+    "equipments_type": {
+      "label": "Тип обладнання"
+    },
+    "origin_radius": {
+      "label": "DH-O"
+    },
+    "destination_radius": {
+      "label": "DH-D"
+    },
+    "min_rate": {
+      "label": "Мінімальна ставка"
+    },
+    "max_rate": {
+      "label": "Максимальна ставка"
+    },
+    "min_length": {
+      "label": "Мін. довжина"
+    },
+    "max_length": {
+      "label": "Максимальна довжина"
+    }
+  },
+  "connect_integration": {
+    "error": {
+      "title": "Схоже, у вас немає навантажувальних дошок. ",
+      "sub_title": "Налаштування",
+      "header": "Немає підключених навантажувальних панелей"
+    }
+  },
+  "no_search": {
+    "error": {
+      "title": "Здається, у вас немає пошуків. ",
+      "sub_title": "Створити пошук",
+      "header": "Пошуків не знайдено"
+    }
+  },
+  "dialogs": {
+    "searches": {
+      "titles": {
+        "add": "Додати пошук",
+        "edit": "Редагувати пошук"
+      },
+      "sub_titles": {
+        "load_details": "Завантажити деталі",
+        "equipment": "Обладнання",
+        "trip": "подорож"
+      },
+      "fields": {
+        "labels": {
+          "radius": "Радіус",
+          "max_weight": "Максимальна вага",
+          "max_length": "Максимальна довжина"
+        }
+      }
+    }
+  }
+}

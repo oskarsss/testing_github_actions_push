@@ -1,0 +1,52 @@
+@use '@/scss/abstracts' as *;
+
+.portalName {
+    @include apply-typography($body-md-semibold);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-lg;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: $gap-md;
+    p {
+        @include apply-typography($body-md-semibold);
+    }
+
+    svg {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+.overview {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.overviewControls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: $gap-sm;
+}
+
+.searchContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: $gap-md;
+}
+
+.domainsWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-md;
+}

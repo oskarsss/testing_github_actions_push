@@ -1,0 +1,44 @@
+{
+  "error": "Couldn't load orders",
+  "panel": {
+    "checkboxes": {
+      "other_stops": "Other stops: {{count}}",
+      "completed": "Completed: {{count}}"
+    }
+  },
+  "map": {
+    "titles": {
+      "not_found": "Not Found"
+    }
+  },
+  "sort_by": {
+    "latest": {
+      "title": "Latest",
+      "description": "The latest orders"
+    },
+    "oldest": {
+      "title": "Oldest",
+      "description": "The oldest orders"
+    },
+    "smart_dispatch": {
+      "title": "Smart Dispatch",
+      "description": "The smart dispatch orders"
+    },
+    "truck_number_asc": {
+      "title": "Truck Number",
+      "description": "Low to High"
+    },
+    "truck_number_desc": {
+      "title": "Truck Number",
+      "description": "High to Low"
+    },
+    "loaded_miles_asc": {
+      "title": "Miles",
+      "description": "Low to High"
+    },
+    "loaded_miles_desc": {
+      "title": "Miles",
+      "description": "High to Low"
+    }
+  }
+}

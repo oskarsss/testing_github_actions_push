@@ -1,0 +1,330 @@
+{
+  "header": {
+    "title": "Водій",
+    "filters": {
+      "hire_date": {
+        "start": "Дата найму з",
+        "end": "Дата найму До"
+      },
+      "age": {
+        "label": "Вік",
+        "options": {
+          "all": "все"
+        }
+      }
+    }
+  },
+  "table": {
+    "confirm_dialog": {
+      "insurance_endorsed": {
+        "title": "Схвалено зміну страховки для {{driverName}}",
+        "description": "Ви впевнені, що бажаєте змінити страхування водія?"
+      }
+    }
+  },
+  "eld": {
+    "duty_status": {
+      "on_duty": "На чергуванні",
+      "off_duty": "Не на службі",
+      "driving": "Водіння",
+      "sleeper": "спальне місце",
+      "yard_move": "Переїзд двору",
+      "personal_conveyance": "Особистий транспортний засіб"
+    }
+  },
+  "type_icon": {
+    "default": "За замовчуванням",
+    "owner_operator": "Оператор-власник",
+    "company": "Компанія",
+    "lease": "Оренда",
+    "lease_to_own": "Оренда у власність"
+  },
+  "status": {
+    "empty": "Інший",
+    "all": "все",
+    "onboarding": "Онбордінг",
+    "compliance_review": "Повний огляд",
+    "active": "Активний",
+    "pending_termination": "Термін пера",
+    "terminated": "Припинено",
+    "disabled": "Вимкнено",
+    "deleted": "Видалено"
+  },
+  "full_status": {
+    "onboarding": "Онбордінг",
+    "compliance_review": "Перевірка відповідності",
+    "active": "Активний",
+    "pending_termination": "Очікує розірвання",
+    "terminated": "Припинено",
+    "deleted": "Видалено"
+  },
+  "type": {
+    "owner_operator": "Власник Оператор",
+    "company": "Водій компанії",
+    "lease": "Оренда водія",
+    "lease_to_own": "Оренда для володіння"
+  },
+  "error": {
+    "button_text": {
+      "back_to_drivers_page": "Повернення до сторінки «Драйвери»."
+    }
+  },
+  "dialog": {
+    "invite": {
+      "header": {
+        "sub_title_phone": "Будь ласка, введіть номер телефону водія",
+        "sub_title_email": "Введіть адресу електронної пошти водія"
+      }
+    },
+    "edit": {
+      "header": {
+        "title": "Редагувати {{name}}",
+        "tabs": {
+          "basic": "Базовий",
+          "financial": "Фінансовий"
+        }
+      },
+      "block_title": {
+        "personal": "Особисті",
+        "financial": "Фінансовий",
+        "address": "Адреса",
+        "employment": "Працевлаштування"
+      },
+      "fields": {
+        "hire_date": {
+          "label": "Дата найму"
+        },
+        "date_of_birth": {
+          "label": "Дата народження"
+        },
+        "payout_receiver": {
+          "label": "Одержувач виплат"
+        },
+        "middle_name": {
+          "label": "По батькові",
+          "placeholder": "М"
+        }
+      },
+      "payout_receiver": {
+        "driver": "Водій",
+        "vendor": "Продавець"
+      }
+    },
+    "delete": {
+      "title": "Ви впевнені, що бажаєте позначити цей драйвер як \"Віддалений\"?",
+      "body": "Він буде прихований, але все одно зберігатиметься в системі."
+    }
+  },
+  "profile": {
+    "last_activity": "Остання активність: {{lastActivity}}",
+    "left": {
+      "header": {
+        "critical_notification": {
+          "title": "Попередження",
+          "tooltip": "Надіслати критичне сповіщення"
+        },
+        "trip_information": {
+          "tooltip": "Переглянути навантаження",
+          "loads": "Навантаження",
+          "miles_driven": "Проїхані милі",
+          "menu": {
+            "loads": {
+              "list": {
+                "loads": "Навантаження",
+                "schedule": "розклад"
+              }
+            }
+          }
+        }
+      },
+      "info": {
+        "address": {
+          "title": "Адреса",
+          "no_address": "Немає адреси"
+        },
+        "phone_number": {
+          "title": "Телефон",
+          "no_phone_number": "Без П/Н",
+          "tooltip": "Надіслати SMS"
+        },
+        "email": {
+          "title": "Електронна пошта",
+          "no_email": "Немає електронної пошти"
+        },
+        "revenue": {
+          "title": "Дохід",
+          "no_revenue": "Немає доходу"
+        },
+        "cycle": {
+          "title": "Цикл",
+          "no_cycle": "Без циклу"
+        }
+      },
+      "send_critical_notification": {
+        "title": "Сповіщення про критичне сповіщення",
+        "notification": "Функція включена для драйвера. ",
+        "sub_title": "Останнє надіслане",
+        "alarm": {
+          "sub_title": "Виконується тривога",
+          "message": "Коли ви активуєте сирену в додатку для водія, ви можете закрити це вікно, лише вимкнувши сирену або коли водій відповість"
+        },
+        "error": {
+          "app_not_installed": {
+            "sub_title": "Додаток не встановлено",
+            "message": "У драйвері не встановлено додаток. "
+          },
+          "missing_app_and_contact_info": {
+            "sub_title": "Відсутній додаток і контактна інформація",
+            "message": "Драйвер не встановив програму та не вказав номер телефону, тому неможливо надіслати посилання для завантаження."
+          },
+          "feature_not_enabled": {
+            "sub_title": "Функцію не ввімкнено",
+            "message": "У драйвері встановлено програму, але ця функція не активована. ",
+            "dialog": {
+              "send_sms": {
+                "header": {
+                  "title": "Надіслати SMS",
+                  "sub_title": "Вітаємо, {{driverName}}! Компанія {{companyName}} просить перевірити обов’язкові дії в додатку для водія {{name}} і ввімкнути критичні сповіщення."
+                },
+                "fields": {
+                  "body": {
+                    "label": "повідомлення",
+                    "placeholder": "Введіть повідомлення"
+                  }
+                },
+                "tooltip": "Будь ласка, додайте номер телефону водія"
+              }
+            }
+          },
+          "button": {
+            "edit_profile": "Редагувати профіль",
+            "send_link": "Надіслати посилання"
+          }
+        },
+        "clear_history": "Чиста історія",
+        "table": {
+          "header": {
+            "from": "Від",
+            "message": "повідомлення",
+            "status": "Статус"
+          },
+          "status": {
+            "delivered": "Доставлено",
+            "not_delivered": "Не доставлений"
+          },
+          "body": {
+            "empty": "Немає сповіщень"
+          }
+        },
+        "fields": {
+          "message": {
+            "label": "Повідомлення водієві",
+            "placeholder": "Введіть повідомлення"
+          },
+          "checkbox": {
+            "label": "Я підтверджую, що активація цього сповіщення призведе до ввімкнення сирени на телефоні водія, і я хочу продовжити."
+          }
+        },
+        "activate_button": "Активуйте сирену",
+        "stop_button": "Зупиніть сирену"
+      }
+    },
+    "right": {
+      "partners": {
+        "title": "Партнери-водії",
+        "button_text": "Виберіть",
+        "no_partners": "Немає партнерів-водіїв"
+      },
+      "vendor": {
+        "title": "Постачальник/одержувач",
+        "tooltip": "Видалити постачальника",
+        "no_vendor": "Немає водія. Постачальник/одержувач",
+        "dialog": {
+          "select": {
+            "header": {
+              "title": "Виберіть Постачальник"
+            },
+            "fields": {
+              "vendor_id": {
+                "label": "Назва постачальника"
+              }
+            }
+          },
+          "unassign": {
+            "title": "Скасувати призначення постачальника {{name}}?",
+            "description": "Ви скасуєте призначення постачальника драйверу."
+          }
+        }
+      },
+      "mobile_app": {
+        "title": "Пристрої",
+        "no_app": "Драйвер не має встановленої програми",
+        "device": {
+          "app_version": "Версія програми",
+          "operating_system": "Операційна система"
+        }
+      },
+      "gps_tracking": {
+        "title": "GPS відстеження",
+        "devices": {
+          "title": "На основі",
+          "no_devices": "Немає пристроїв"
+        }
+      },
+      "bank_information": {
+        "title": "Інформація про банк",
+        "bank_name": "банк",
+        "name_on_account": "Ім'я на рахунку",
+        "routing_number": "Номер маршруту",
+        "no_bank": "Немає банківської інформації",
+        "tooltip": "Видалити банківський рахунок",
+        "dialog": {
+          "unassign": {
+            "title": "Видалити банківську інформацію {{accountHolderName}}?",
+            "body": "Ви видалите банківський рахунок у водія."
+          }
+        }
+      },
+      "truck": {
+        "title": "Вантажівка",
+        "no_truck": "Вантажівка не призначена",
+        "dialog": {
+          "unassign_truck": {
+            "title": "Скасувати призначення вантажівки {{referenceId}}?",
+            "body": "Ви скасуєте призначення вантажівки водієві."
+          }
+        }
+      },
+      "assigned_users": {
+        "title": "Призначені користувачі:",
+        "no_users": "Немає призначених користувачів",
+        "dialogs": {
+          "unassign": {
+            "title": "Скасувати призначення {{name}}?",
+            "body": "Ви скасуєте призначення користувача з драйвера."
+          }
+        },
+        "dialog": {
+          "assign": {
+            "header": {
+              "title": "Призначити користувача"
+            },
+            "fields": {
+              "user_id": {
+                "label": "Користувач"
+              }
+            }
+          }
+        }
+      },
+      "independent_note": {
+        "title": "Закріплена примітка",
+        "tooltip": "Видима примітка для водія",
+        "field": {
+          "label": "Примітка",
+          "placeholder": "Введіть примітку"
+        }
+      }
+    }
+  }
+}

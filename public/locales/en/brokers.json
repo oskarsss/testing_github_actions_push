@@ -1,0 +1,14 @@
+{
+  "header": {
+    "buttons": {
+      "add_broker": "Add Broker",
+      "unpaid_loads": "Unpaid Orders"
+    },
+    "filters": {
+      "labels": {
+        "created_start": "Created From",
+        "created_end": "Created To"
+      }
+    }
+  }
+}

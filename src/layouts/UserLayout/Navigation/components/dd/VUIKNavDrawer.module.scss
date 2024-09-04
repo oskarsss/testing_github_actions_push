@@ -1,0 +1,36 @@
+.root {
+    overflow-x: hidden;
+    transition: width 0.25s ease-in-out;
+    width: 240px;
+    box-shadow: 5px 0px 20px rgba(151, 161, 173, 0.15);
+    height: inherit;
+    overflow: hidden;
+
+    &.navCollapsed {
+        width: 64px;
+        box-shadow: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        width: 100%;
+        text-decoration: none;
+    }
+}
+
+.paper {
+    background-color: var(--semantic-foreground-white-tertiary);
+    left: unset;
+    right: unset;
+    overflow-x: hidden;
+    transition: width 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+    width: 240px;
+    border-right: 1px solid var(--semantic-border-primary);
+
+    &.navCollapsed {
+        width: 64px;
+    }
+}

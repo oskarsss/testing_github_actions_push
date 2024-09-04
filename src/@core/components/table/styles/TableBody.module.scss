@@ -1,0 +1,23 @@
+.Container {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    margin-top: 4px;
+
+    .Fixed__Right {
+        overflow: hidden;
+        position: sticky;
+        right: 0;
+        float: right;
+        z-index: 1;
+        box-shadow: rgb(0 0 0 / 21%) 2px 0px 4px -2px;
+        left: 4px solid #cacaca;
+    }
+
+    .Regular {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+}

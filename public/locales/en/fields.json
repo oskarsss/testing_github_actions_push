@@ -1,0 +1,284 @@
+{
+  "location": {
+    "label": "Location Address",
+    "placeholder": "Enter Address",
+    "no_locations": "No locations"
+  },
+  "select": {
+    "empty_list": "None",
+    "all": "All"
+  },
+  "search": {
+    "label": "Search",
+    "placeholder": "Search...",
+    "placeholder_2": "Search...",
+    "buttons": {
+      "clear_search": "Clear search"
+    }
+  },
+  "weight": {
+    "label": "Weight",
+    "placeholder": "0-100000 (lbs)",
+    "unit": "lbs"
+  },
+  "commodity": {
+    "label": "Commodity",
+    "placeholder": "Commodity"
+  },
+  "note": {
+    "label": "Note",
+    "placeholder": "Note",
+    "placeholder_2": "Leave comment...",
+    "placeholder_3": "Leave a note..."
+  },
+  "notes": {
+    "label": "Notes",
+    "placeholder": "Notes"
+  },
+  "temperature": {
+    "label": "Temperature",
+    "placeholder": "12",
+    "unit": "F"
+  },
+  "origin": {
+    "label": "Origin"
+  },
+  "destination": {
+    "label": "Destination"
+  },
+  "discount_amount": {
+    "label": "Discount Amount",
+    "placeholder": "Enter discount amount"
+  },
+  "name": {
+    "label": "Name",
+    "placeholder": "Enter Name"
+  },
+  "phone_number": {
+    "label": "Phone Number",
+    "placeholder": "(513) 555-7777"
+  },
+  "email": {
+    "label": "Email",
+    "placeholder": "Enter email"
+  },
+  "chip_select": {
+    "tooltip": "Press to change status"
+  },
+  "first_name": {
+    "label": "First name",
+    "label_upper": "First Name",
+    "placeholder": "John",
+    "placeholder_2": "Enter your first name"
+  },
+  "last_name": {
+    "label": "Last name",
+    "label_upper": "Last Name",
+    "placeholder": "Doe",
+    "placeholder_2": "Enter your last name"
+  },
+  "password": {
+    "label": "Password",
+    "placeholder": "Password"
+  },
+  "company_name": {
+    "label": "Company Name",
+    "placeholder": "Enter company name"
+  },
+  "address_line_1": {
+    "label": "Address Line 1",
+    "placeholder": "123 Kansas Street "
+  },
+  "address_line_2": {
+    "label": "Address Line 2",
+    "placeholder": "Apt/Suite 123"
+  },
+  "city": {
+    "label": "City",
+    "placeholder": "Chicago"
+  },
+  "state": {
+    "label": "State",
+    "placeholder": "IL"
+  },
+  "postal_code": {
+    "label": "Postal Code",
+    "zip_label": "ZIP",
+    "placeholder": "32001"
+  },
+  "dot": {
+    "label": "DOT",
+    "placeholder": "Enter Carrier DOT Number"
+  },
+  "entry_plaza": {
+    "label": "Entry Plaza",
+    "placeholder": "Enter entry plaza"
+  },
+  "exit_plaza": {
+    "label": "Exit Plaza",
+    "placeholder": "Enter exit plaza"
+  },
+  "transponder_number": {
+    "label": "Transponder Number",
+    "placeholder": "Enter transponder number"
+  },
+  "reference_id": {
+    "label": "Reference ID",
+    "placeholder": "Enter reference ID"
+  },
+  "amount": {
+    "label": "Amount",
+    "placeholder": "Enter amount"
+  },
+  "entry_datetime": {
+    "label": "Entry Date & Time"
+  },
+  "exit_datetime": {
+    "label": "Exit Date & Time"
+  },
+  "posting_date": {
+    "label": "Posting Date"
+  },
+  "source": {
+    "label": "Source",
+    "placeholder": "ILToll"
+  },
+  "toll_agency": {
+    "label": "Toll Agency",
+    "placeholder": "EZpass"
+  },
+  "status": {
+    "label": "Status"
+  },
+  "address": {
+    "label": "Address",
+    "placeholder": "Enter address"
+  },
+  "cycles": {
+    "label": "Cycles",
+    "tooltips": {
+      "view_drivers": "View drivers",
+      "view_all_cycles": "View all cycles",
+      "edit_cycle": "Edit cycle"
+    }
+  },
+  "periods": {
+    "label": "Periods",
+    "no_cycles": "Make a cycle first",
+    "settlement_count": "Settlements: {{count}}",
+    "company_net": "Company Net: {{companyNet}}",
+    "tooltips": {
+      "create_period": "Create period",
+      "edit_period": "Edit period"
+    },
+    "status": {
+      "open": "Open",
+      "closed": "Closed"
+    },
+    "button": {
+      "create_period": "Create period"
+    }
+  },
+  "datetime": {
+    "label": "Date & Time"
+  },
+  "type": {
+    "label": "Type"
+  },
+  "required": {
+    "label": "Required"
+  },
+  "broker_name": {
+    "label": "Broker Name",
+    "placeholder": "Enter broker name"
+  },
+  "short_name": {
+    "label": "Short Name",
+    "placeholder": "Enter short name"
+  },
+  "mc": {
+    "label": "MC",
+    "placeholder": "Enter MC"
+  },
+  "equipment_type": {
+    "label": "Equipment Type"
+  },
+  "uninsured": {
+    "label": "Uninsured"
+  },
+  "company": {
+    "label": "Company"
+  },
+  "amount_per_unit": {
+    "label": "Amount Per Unit",
+    "placeholder": "$2500"
+  },
+  "units": {
+    "label": "Units",
+    "placeholder": "1"
+  },
+  "description": {
+    "label": "Description",
+    "placeholder": "Enter line item description"
+  },
+  "friendly_name": {
+    "label": "Friendly Name",
+    "placeholder": "Johnny"
+  },
+  "company_id": {
+    "label": "Company / IRP"
+  },
+  "vin": {
+    "label": "VIN",
+    "placeholder": "XXXXXXXXXXXXXXXXX"
+  },
+  "trailer_reference_id": {
+    "label": "Trailer Number",
+    "placeholder": "4321"
+  },
+  "year": {
+    "label": "Year"
+  },
+  "vendor": {
+    "label": "Vendor"
+  },
+  "location_name": {
+    "label": "Location Name",
+    "placeholder": "Warehouse"
+  },
+  "start_date": {
+    "label": "Start Date"
+  },
+  "end_date": {
+    "label": "End Date"
+  },
+  "fixed": {
+    "label": "Fixed"
+  },
+  "start": {
+    "label": "Start"
+  },
+  "end": {
+    "label": "End"
+  },
+  "fax": {
+    "label": "Fax",
+    "placeholder": "(513) 555-7777"
+  },
+  "contact_name": {
+    "label": "Contact Name",
+    "placeholder": "Enter contact name"
+  },
+  "billing_email": {
+    "label": "Billing Email",
+    "placeholder": "Enter billing email"
+  },
+  "quantity": {
+    "label": "Quantity",
+    "placeholder": "Enter quantity"
+  },
+  "rate": {
+    "label": "Rate",
+    "placeholder": "Enter rate"
+  }
+}

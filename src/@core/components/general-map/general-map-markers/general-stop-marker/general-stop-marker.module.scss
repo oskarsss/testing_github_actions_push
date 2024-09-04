@@ -1,0 +1,113 @@
+.wrapper {
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    height: 40px;
+}
+
+.wrapper__selected {
+    box-shadow: 0px 0px 5px 3px #00ffff;
+    border-radius: 8px;
+}
+
+.sequence {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #000;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    z-index: 1;
+    border: 3px solid #000;
+    background-color: #3c3c3c;
+}
+
+.stopCharacteristics {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #fff;
+    margin-left: -4px;
+    padding: 4px 4px 4px 8px;
+    border: 3px solid #00d4d47f;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    color: #000;
+    line-height: 16px;
+    &__time {
+        font-weight: bold;
+        font-size: 14px;
+        color: black;
+    }
+    &__day {
+        font-size: 12px;
+        font-weight: 700;
+        &__pickup {
+            color: #027f09;
+        }
+        &__dropoff {
+            color: #b41a1a;
+        }
+        &__pickup_dropoff {
+            color: #d97200;
+        }
+    }
+}
+
+.pickup {
+    background-color: #00ba0b;
+    border-color: #027f09;
+}
+
+.dropoff {
+    background-color: #e44040;
+    border-color: #b41a1a;
+}
+
+.pickup_dropoff {
+    background-color: #f79009;
+    border-color: #d97200;
+}
+
+.arrow {
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    transform: translate(-50%, 100%);
+}
+
+.arrow_shadow {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 4px);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.arrow_selected {
+    box-shadow: 0px 0px 15px 10px #00ffff;
+    border-radius: 50%;
+}
+
+.checkedStop {
+    &__pickup {
+        svg {
+            fill: #ffffff;
+        }
+    }
+
+    &__dropoff {
+        svg {
+            fill: #ffffff;
+        }
+    }
+}

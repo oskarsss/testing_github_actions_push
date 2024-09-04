@@ -1,0 +1,69 @@
+{
+  "sort_by": {
+    "latest": {
+      "title": "Latest",
+      "description": "High to Low"
+    },
+    "oldest": {
+      "title": "Oldest",
+      "description": "Low to High"
+    },
+    "smart_dispatch": {
+      "title": "Smart Dispatch",
+      "description": "The smart dispatch manifests"
+    },
+    "gross_amount_asc": {
+      "title": "Gross",
+      "description": "Low to High"
+    },
+    "gross_amount_desc": {
+      "title": "Gross",
+      "description": "High to Low"
+    },
+    "loaded_miles_asc": {
+      "title": "Miles",
+      "description": "Low to High"
+    },
+    "loaded_miles_desc": {
+      "title": "Miles",
+      "description": "High to Low"
+    },
+    "distance_asc": {
+      "title": "Distance",
+      "description": "Low to High"
+    },
+    "distance_desc": {
+      "title": "Distance",
+      "description": "High to Low"
+    }
+  },
+  "table": {
+    "cells": {
+      "stops_completed": "Stops completed"
+    },
+    "loads": {
+      "empty": "No Orders"
+    },
+    "filter_empty_state": {
+      "first_title": "No manifests available. You can add a",
+      "second_title": "here",
+      "text_btn": "new manifest or order",
+      "description": "There are currently no manifests in the system"
+    },
+    "empty_state": {
+      "first_title": "No manifests found, you can",
+      "text_btn": "clear filters",
+      "description": "No manifests match the selected filters"
+    },
+    "go_to_all_view": {
+      "first_title": "This page has default filters applied. You can",
+      "text_btn": "go to the all view",
+      "description": "No manifests match the current filters."
+    }
+  },
+  "panel": {
+    "tooltips": {
+      "edit_manifest": "Open Edit Manifest"
+    }
+  }
+}

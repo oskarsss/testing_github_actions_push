@@ -1,0 +1,57 @@
+{
+  "header": {
+    "buttons": {
+      "add_customer": "Додати клієнта",
+      "unpaid_loads": "Неоплачені навантаження"
+    },
+    "filters": {
+      "labels": {
+        "created_start": "Створено з",
+        "created_end": "Створено для",
+        "unassigned": "Непризначений"
+      }
+    }
+  },
+  "dialogs": {
+    "add": {
+      "title": "Додати клієнта",
+      "fields": {
+        "contact_email": {
+          "placeholder": "logistics@customer.com"
+        }
+      }
+    },
+    "edit": {
+      "title": "Редагувати клієнта",
+      "fields": {
+        "group_title": {
+          "address_info": "Інформація про адресу",
+          "personal_info": "Особиста інформація"
+        },
+        "labels": {
+          "contact_name": "Контактна Особа",
+          "contact_phone": "Контактний телефон",
+          "contact_email": "Контактна адреса електронної пошти",
+          "contact_fax": "Зв'яжіться з факсом",
+          "billing_email": "Платіжна електронна пошта"
+        },
+        "placeholders": {
+          "contact_name": "Джон Доу",
+          "contact_phone": "(123) 456-7890",
+          "contact_email": "email@gmail.com",
+          "contact_fax": "6589874",
+          "billing_email": "email@gmail.com"
+        }
+      }
+    }
+  },
+  "menus": {
+    "options": {
+      "download_docs": "Завантажити Документи",
+      "confirm_delete": {
+        "title": "Видалити клієнта {{name}}?",
+        "body": "Ви видалите клієнта назавжди."
+      }
+    }
+  }
+}

@@ -1,0 +1,756 @@
+{
+  "table": {
+    "header": {
+      "checkbox": {
+        "deselect_all": "Зняти вибір із усіх",
+        "select_all": "Вибрати все"
+      }
+    },
+    "table_editor": {
+      "header": {
+        "title": "Керувати колонками",
+        "sub_title": "Налаштуйте кожен від фильтру",
+        "buttons": {
+          "save_changes": "Зберегти зміни"
+        }
+      },
+      "labels": {
+        "columns": "Стовпці",
+        "groups": "Групи",
+        "row_height": "Висота рядка"
+      },
+      "confirm": {
+        "change_view": {
+          "title": "Ви впевнені, що хочете змінити вигляд?",
+          "body": "Якщо ви зміните вигляд, усі зміни буде втрачено."
+        }
+      },
+      "columns": {
+        "main_title": "Типові стовпці сторінки {{page}}",
+        "title": "{{entityType}} Документи та спеціальні поля",
+        "selected": "вибрані",
+        "not_grouped": "Не згруповані",
+        "sub_title": "{{entityType}} Документи",
+        "text": "Текст",
+        "amount": "Кількість",
+        "recurring_transaction": "Повторювана транзакція",
+        "custom": "Виготовлене",
+        "field": "Поле",
+        "document": "Документ",
+        "doc_and_expiration": "Документ + Термін дії",
+        "doc_expiration": "Термін дії Документа",
+        "doc_number": "Число Документа",
+        "custom_fields": "Спеціальні поля",
+        "no_results": "Немає результатів",
+        "pinned_columns": "{{amount}} Закріплені колонки",
+        "regular_columns": "Звичайні колонки",
+        "type": "Тип",
+        "group_name": "Им'я группи",
+        "border": "Кордон",
+        "total": "Загальний",
+        "controls": "Контроллери",
+        "used_in": "використовується в {{count}} колонках",
+        "small": "Малий",
+        "medium": "Середній",
+        "large": "Великий",
+        "checkbox": {
+          "select_all": "Вибрати все",
+          "deselect_all": "Зняти вибір із усіх"
+        },
+        "tooltips": {
+          "show_total": "Показати загальний рахунок знизу",
+          "total_not_supported": "Загальній рахунок не пудтримуеться",
+          "reorder_columns": "Натисніть та перетягніть для зміні порядку колонок"
+        }
+      },
+      "menus": {
+        "field_menu": {
+          "titles": {
+            "add": "Додати поле",
+            "edit": "Поле редагування: {{friendly_name}}"
+          },
+          "fields": {
+            "labels": {
+              "entity_type": "Тип сутності",
+              "select_values": "Виберіть значення"
+            },
+            "type": {
+              "text": "текст",
+              "number": "Номер",
+              "amount": "Сума",
+              "date": "Дата",
+              "datetime": "Дата, час",
+              "select": "Виберіть",
+              "checkbox": "Прапорець"
+            }
+          }
+        },
+        "group_menu": {
+          "titles": {
+            "add": "Додати групу",
+            "edit": "Редагувати групу: {{name}}"
+          },
+          "fields": {
+            "name": {
+              "label": "Назва групи",
+              "placeholder": "Ім'я"
+            }
+          },
+          "tooltips": {
+            "history_of_applied": "Історія застосованих транзакцій не буде видалена"
+          }
+        },
+        "view_menu": {
+          "titles": {
+            "add": "Додати вид",
+            "edit": "Редагувати перегляд {{name}}",
+            "duplicate": "Дубльований перегляд {{name}}"
+          },
+          "submit_text": {
+            "add": "Додати перегляд",
+            "edit": "Редагувати перегляд",
+            "duplicate": "Дубльований перегляд"
+          },
+          "fields": {
+            "name": "Назва перегляду"
+          }
+        }
+      }
+    },
+    "empty_screen": {
+      "entities": {
+        "drivers": "водії",
+        "trucks": "вантажівки",
+        "trailers": "трейлер",
+        "brokers": "брокери",
+        "customers": "клієнтів",
+        "companies": "компаній",
+        "plates": "пластини",
+        "vendors": "постачальники",
+        "settlements": "населені пункти",
+        "recurring_transactions": "повторювані операції",
+        "tolls": "мита",
+        "fuels": "палива",
+        "dispatchers": "диспетчери",
+        "amazon_invoices": "рахунки-фактури Amazon",
+        "factoring_invoices": "факторингові рахунки-фактури",
+        "direct_invoices": "прямі рахунки-фактури",
+        "invoices": "рахунки-фактури",
+        "vehicles": "транспортних засобів",
+        "payouts": "виплати"
+      },
+      "create_text_by_entities": {
+        "drivers": "додати драйвери",
+        "trucks": "додати вантажівки",
+        "trailers": "додати трейлер",
+        "brokers": "додати брокерів",
+        "customers": "додати клієнтів",
+        "companies": "додати компанію",
+        "plates": "додати тарілку",
+        "vendors": "додати постачальника",
+        "settlements": "додати населений пункт",
+        "recurring_transactions": "додати повторювану транзакцію",
+        "tolls": "додати мито",
+        "fuels": "додати палива",
+        "dispatchers": "додати диспетчера"
+      },
+      "empty_columns": {
+        "first_text": "Стовпці не вибрано. ",
+        "second_text": "Ви можете налаштувати цей новий вигляд таблиці, вибравши стовпці та впорядкувавши їх порядок",
+        "button_text": "встановлення колон"
+      },
+      "clear_filters": {
+        "first_text": "{{primaryText}} не знайдено, ви можете",
+        "second_text": "Жоден {{primaryText}} не відповідає вибраним фільтрам",
+        "button_text": "очистити фільтри"
+      },
+      "empty_rows": {
+        "first_text": "{{primaryText}} недоступний{{createText}}",
+        "additional_text": ", ти можеш",
+        "second_text": "Наразі в системі немає {{primaryText}}",
+        "button_text": "{{buttonText}}",
+        "text_after_button": "тут"
+      },
+      "easy_not_found": "Даних не знайдено"
+    }
+  },
+  "errors_screen": {
+    "permission": {
+      "title": "У вас недостатньо прав для перегляду цієї сторінки, якщо це помилка, повідомте про це",
+      "button": "Повідомити про проблему",
+      "header": "На жаль, у вас немає дозволу"
+    }
+  },
+  "dialog": {
+    "failed_fetching": {
+      "default": {
+        "button_text": "Повторіть спробу",
+        "second_text_first_part": "Або ви можете ",
+        "second_text_second_part": "Повертайся"
+      }
+    }
+  },
+  "assign_menu": {
+    "revenue_type": "вид доходу",
+    "primary_checkbox": "Первинний",
+    "no_driver": "Драйвер N/A",
+    "select_title": {
+      "drivers": "Водії",
+      "trailers": "Трейлери",
+      "trucks": "Вантажні автомобілі"
+    },
+    "driver_to_truck": {
+      "title": "Призначити водія вантажівці №{{referenceId}}",
+      "message": {
+        "loading": "Призначення водія",
+        "success": "Був призначений водій"
+      }
+    },
+    "trailer_to_truck": {
+      "title": "Призначити причіп вантажівці №{{referenceId}}"
+    },
+    "driver_to_trailer": {
+      "title": "Призначити водія трейлеру №{{referenceId}}"
+    },
+    "truck_to_trailer": {
+      "title": "Призначити вантажівку причепу №{{referenceId}}"
+    },
+    "trailer_to_driver": {
+      "title": "Призначити причіп вантажівці №{{referenceId}}"
+    },
+    "truck_to_driver": {
+      "title": "Призначити вантажівку водію {{firstName}}",
+      "message": {
+        "loading": "Призначення вантажівки",
+        "success": "Вантажівка була призначена"
+      }
+    },
+    "select_truck": {
+      "title": "Виберіть Вантажівка"
+    },
+    "load_to_truck": {
+      "title": "Призначити вантажівку для навантаження №{{friendly_id}}"
+    },
+    "re_assign_loads_to_truck": {
+      "title": "Повторно призначити вантажівку для завантаження #{{friendly_id}}"
+    },
+    "truck_to_settlement": {
+      "title": "Призначити вантажівку населеному пункту №{{friendly_id}}"
+    },
+    "truck_to_manifest": {
+      "title": "Призначити вантажівку маніфесту #{{friendly_id}}"
+    }
+  },
+  "changeable_avatar": {
+    "title": "Оновити фото"
+  },
+  "copy_text": {
+    "tooltip_copy": "Натисніть, щоб скопіювати",
+    "tooltip_copied": "Скопійовано"
+  },
+  "crop_image_dialog": {
+    "title": "Обрізати зображення"
+  },
+  "date_range": {
+    "start": "Дата початку",
+    "end": "Дата закінчення"
+  },
+  "hook_fabric": {
+    "confirm": {
+      "title": "Ви впевнені, що бажаєте закрити це вікно?",
+      "body": "Якщо ви закриєте це вікно, усі зміни буде втрачено."
+    }
+  },
+  "documents": {
+    "company_documents": "Документи компанії",
+    "title": "Документи",
+    "version": "Версія",
+    "not_loaded_files": "Не завантажений",
+    "buttons": {
+      "add": "Додати документ"
+    },
+    "fields": {
+      "version": {
+        "label": "Версія",
+        "uploaded": "Оновленно {{diffFormatted}} назад"
+      },
+      "number": {
+        "label": "Номер",
+        "label_read_only": "Номер (тільки читання)",
+        "placeholder": "xxxx"
+      },
+      "state": {
+        "label": "Держава",
+        "label_read_only": "Штат (лише читання)"
+      },
+      "expires_at": {
+        "label": "Термін дії закінчується о",
+        "label_read_only": "Термін дії закінчується (тільки читання)"
+      },
+      "status": {
+        "label": "Статус",
+        "label_read_only": "Статус (лише читання)"
+      }
+    },
+    "tooltips": {
+      "download_all": "Завантажити всі документи",
+      "no_files": "Немає файлів для завантаження",
+      "new": "новий",
+      "crop": "Урожай",
+      "print": "Роздрукувати",
+      "download": "Завантажити",
+      "rotate_right": "Повернути вправо",
+      "open_new_tab": "Відкрити документ у новій вкладці",
+      "clear_document": "Очистити документ",
+      "delete_document": "Видалити документ"
+    },
+    "clear_document_confirm": {
+      "title": "{{title}} буде видалено",
+      "body": "Ви впевнені, що хочете очистити {{title}}?"
+    },
+    "delete_document_confirm": {
+      "title": "{{title}} буде видалено",
+      "body": "Ви впевнені, що хочете видалити {{title}}?"
+    },
+    "upload_banner": {
+      "title": "Завантажити документ(и)",
+      "sub_title": "або перетягніть кілька файлів для автоматичного об’єднання PDF",
+      "loading": "Завантаження",
+      "format_files": "Дозволено *.jpeg, *.jpg, *.png, *.pdf"
+    },
+    "empty_state": {
+      "first_text": "У вас немає документів для попереднього перегляду. ",
+      "second_text": "Почніть із додавання документа",
+      "button_text": "Додайте документ",
+      "clear_document": "Ой, схоже, цей документ очищено"
+    },
+    "dialogs": {
+      "download_documents": {
+        "title": "Завантажити документи для {{title}}"
+      }
+    },
+    "menus": {
+      "choose_document_type": {
+        "no_types_found": "Типи не знайдено",
+        "or": "АБО",
+        "name_is_required": "Необхідно вказати ім'я",
+        "already_exist": "Документ уже існує",
+        "fields": {
+          "name": {
+            "label": "Новий тип документа",
+            "placeholder": "Введіть новий тип документа"
+          }
+        }
+      }
+    }
+  },
+  "export_dialog": {
+    "title": "Експортує інформацію про {{label}}",
+    "empty_state": "Немає інформації для експорту",
+    "failed_fetch": "Немає інформації для експорту",
+    "loading": "Готується експорт",
+    "error": "Щось пішло не так. ",
+    "success": "Ваш експорт готовий. Якщо ви не можете його знайти, перевірте",
+    "success_link": "спробуйте завантажити ще раз.",
+    "exports": "Експорт",
+    "fields": {
+      "labels": {
+        "invoice_status": "Статус рахунку-фактури"
+      },
+      "date_range": {
+        "label": "Проміжок часу",
+        "options": {
+          "today": "Сьогодні",
+          "last_7_days": "Останні 7 днів",
+          "current_month": "Поточний місяць",
+          "last_month": "Минулого місяця",
+          "custom": "Custom",
+          "all": "все"
+        }
+      },
+      "multiselect": {
+        "options": {
+          "default": "За замовчуванням",
+          "custom": "Custom"
+        }
+      }
+    },
+    "button": {
+      "export": "Експорт"
+    }
+  },
+  "filters": {
+    "labels": {
+      "sort_by": "Сортувати за",
+      "revenue_type": "Тип доходу",
+      "fuel_transaction": "Перевірений статус",
+      "invoice_status": "Статус рахунку-фактури",
+      "vehicle_type": "Тип транспортного засобу",
+      "tags": "Теги",
+      "company": "Компанія",
+      "driver_net_type": "Тип мережі драйвера",
+      "settlement": "Поселення",
+      "ownership_type": "Тип власності"
+    },
+    "menu": {
+      "search": {
+        "placeholder": "Пошук фільтра"
+      },
+      "clear_filter_tooltip": "Очистити фільтр"
+    },
+    "clear_filters": "Очистити фільтри",
+    "save_filter_view": "Зберегти перегляд фільтра",
+    "update_filter_view": "Оновити перегляд фільтра",
+    "and_more": "і ще {{count}}"
+  },
+  "import": {
+    "header": {
+      "title": "Імпорт даних"
+    },
+    "button": {
+      "records": "Записи",
+      "import_another_file": "Імпортувати інший файл",
+      "view_report": "Переглянути звіт",
+      "download": "Завантажте файл зразка"
+    },
+    "steps": {
+      "upload": "Завантажити файл",
+      "extract": "Витяг і перегляд",
+      "import": "Імпортувати результати"
+    },
+    "step": {
+      "first": {
+        "title": "Виберіть тип даних для імпорту",
+        "select": "Тип файлу",
+        "desc": "Імпорт даних ",
+        "descr": "від",
+        "dropzone": {
+          "title": "Перетягніть, щоб завантажити файл, або перегляньте",
+          "desc": "Підтримка файлів Excel, CSV"
+        }
+      },
+      "second": {
+        "title": "Результати витягнутих даних",
+        "desc_invalid": "Під час імпорту сталася помилка. ",
+        "desc_valid": "Будь ласка, перегляньте витягнуті дані із завантаженого файлу, щоб продовжити імпорт",
+        "report_valid": "Будь ласка, перегляньте витягнуті дані із завантаженого файлу",
+        "extracted": "Витягнуті рядки",
+        "importable": "Імпортовані нові рядки"
+      },
+      "third": {
+        "title": "Імпортувати результати",
+        "uploaded_rows": "Завантажені рядки",
+        "desc": {
+          "is_loading": "Виконується імпорт",
+          "is_error": "Помилка завантаження",
+          "loading": "Будь ласка, зачекайте, ця дія може зайняти кілька днів",
+          "done": "Виконано!",
+          "error": "Вибачте, ваш документ містить помилку"
+        }
+      },
+      "report": {
+        "title": "звіт",
+        "incomplete": "Неповні ряди"
+      }
+    },
+    "error": {
+      "file": "Тип файлу не підтримується або багато файлів"
+    }
+  },
+  "loads_empty_state": {
+    "filter_empty_state": {
+      "first_title": "Немає доступних навантажень, ви можете додати",
+      "second_title": "тут",
+      "text_btn": "нове навантаження",
+      "description": "Зараз в системі немає навантажень"
+    },
+    "empty_state": {
+      "first_title": "Навантажень не знайдено, можна",
+      "text_btn": "очистити фільтри",
+      "description": "Жодне навантаження не відповідає вибраним фільтрам"
+    }
+  },
+  "notes": {
+    "title": "Примітки",
+    "you": "ви",
+    "drag_active_title": "Перетягніть свій файл сюди, щоб легко ним поділитися!",
+    "errors": {
+      "uploading_file": "Помилка завантаження файлу",
+      "not_supported_file": "Тип файлу не підтримується"
+    },
+    "tooltips": {
+      "attach_file": "Прикріпити файл",
+      "save_changes": "Зберегти зміни",
+      "leave_note": "Залиште записку"
+    },
+    "no_notes": {
+      "title": "Розділ приміток порожній",
+      "desc": "Почніть записувати свої думки та важливу інформацію"
+    },
+    "tabs": {
+      "all": "все",
+      "team": "Команда",
+      "driver": "Водій"
+    },
+    "more_options": {
+      "delete": {
+        "confirm": {
+          "title": "Видалити примітку",
+          "body": "Ви впевнені, що бажаєте видалити цю нотатку?"
+        }
+      }
+    }
+  },
+  "search": {
+    "main_name": "Пошук",
+    "clear_search": "Очистити пошук",
+    "autocomplete": {
+      "suggested_filers": "Пропоновані фільтри",
+      "show_all_result": "Показати всі результати для",
+      "placeholder": "Пошук за датою, назвою, сумою, вантажівкою, типом…",
+      "ship": {
+        "tooltips": {
+          "delete_all": "Видалити всі фішки",
+          "show_more": "Показати більше"
+        }
+      }
+    }
+  },
+  "basic": {
+    "edit_filter_view": {
+      "title": "Редагувати перегляд фільтра"
+    },
+    "date_range": {
+      "shortcuts": {
+        "this_week": "Цього тижня",
+        "last_7_days": "Останні 7 днів",
+        "last_week": "Минулого тижня",
+        "this_month": "Цього місяця",
+        "last_month": "Минулого місяця",
+        "reset": "Скинути"
+      }
+    },
+    "google_maps_btn": {
+      "tooltip": "Переглянути на Google Maps"
+    },
+    "load": {
+      "clone_button": {
+        "confirm": {
+          "title": "Ви бажаєте продовжити?",
+          "body": "Буде створено нове навантаження з тим самим клієнтом і зупинками. "
+        }
+      },
+      "driver_pay_items_table": {
+        "header": {
+          "pay_item": "Оплатити товар",
+          "units": "одиниці",
+          "rate": "Оцінка",
+          "total": "Всього"
+        }
+      },
+      "invoicing_payments_table": {
+        "header": {
+          "description": "опис",
+          "rec_type": "Тип запису",
+          "amount": "Сума"
+        }
+      },
+      "documents": {
+        "tooltip": {
+          "download": "Завантажити документ",
+          "print": "Роздрукувати документ"
+        },
+        "button": {
+          "upload": "Завантажити документ"
+        },
+        "empty_text": "Без документів",
+        "uploading": "Завантаження {{title}}",
+        "time": {
+          "day_ago": "{{days}} день тому",
+          "hours_ago": "{hours, plural, =1 {{# годину}} other {{# годин}}} тому",
+          "minutes_ago": "{{minutes}} хвилин тому"
+        }
+      },
+      "filter_control": {
+        "new_view": "Новий вид"
+      },
+      "map": {
+        "weather_menu": {
+          "title": "Погодні шари",
+          "options": {
+            "turn_off": "Вимкніть погоду",
+            "temperature": {
+              "label": "температура",
+              "description": "«Реальне» вимірювання температури (на відстані 2 м)"
+            },
+            "rain_snow": {
+              "label": "Дощ/Сніг",
+              "description": "Миттєва кількість опадів на рівні землі"
+            },
+            "visibility": {
+              "label": "Видимість",
+              "description": "Міра відстані, на якій можна чітко розрізнити об’єкт або світло"
+            }
+          }
+        },
+        "tooltips": {
+          "auto_fit_founds": "Летіть до розташування флоту",
+          "auto_fit_founds_disabled": "вимкнено, оскільки немає місцезнаходження або маршруту",
+          "connect_loc_history": "Підключити історію місцезнаходжень",
+          "disconnect_loc_history": "Відключити історію місцезнаходжень",
+          "switch_to_satellite": "Переключитися на супутниковий режим",
+          "switch_to_light": "Переключіться на світлий режим",
+          "switch_to_dark": "Переключіться на темний режим",
+          "show_other_drivers": "Показати інших драйверів",
+          "hide_other_drivers": "Приховати інші драйвери",
+          "weather_settings": "Налаштування погоди"
+        },
+        "eta": "Ета"
+      }
+    },
+    "mini_table": {
+      "no_items": "Немає призначених елементів",
+      "total": "Всього"
+    },
+    "page_headers": {
+      "avatars": {
+        "tooltips": {
+          "contact": "Контакти",
+          "online": "Онлайн"
+        },
+        "contacts": "Контакти",
+        "times": {
+          "last_seen_minutes": "востаннє в мережі {{minutes}} хвилин тому",
+          "last_seen_hours": "останній раз був у мережі {{hours}} годин тому",
+          "last_seen_yesterday": "востаннє бачили вчора о {{date}}",
+          "last_seen": "востаннє в мережі {{date}}"
+        }
+      },
+      "buttons": {
+        "new_load": "Нове навантаження",
+        "export": "Експорт",
+        "import": "Імпорт"
+      },
+      "time_range": {
+        "label": "Рік моделі"
+      }
+    },
+    "profiles": {}
+  },
+  "selects": {
+    "broker": {
+      "create": "Створіть брокера {{name}}"
+    },
+    "driver_pay_items": {
+      "dialog": {
+        "add": {
+          "header": {
+            "title": "Додати категорію"
+          },
+          "fields": {
+            "name": {
+              "label": "Назва категорії",
+              "placeholder": "Категорія Ім"
+            }
+          }
+        }
+      }
+    },
+    "trailer_ownership_type": {
+      "label": "Право власності"
+    },
+    "driver": {
+      "label": "Виберіть драйвер",
+      "tooltip": "Створити новий драйвер"
+    },
+    "tag": {
+      "tooltip": "Створити тег",
+      "menu": {
+        "fields": {
+          "name": {
+            "label": "Новий тег",
+            "placeholder": "Назва тегу"
+          }
+        }
+      }
+    },
+    "trailer": {
+      "label": "Виберіть трейлер"
+    },
+    "truck": {
+      "label": "Виберіть Вантажівка"
+    },
+    "color": {
+      "label": "Колір"
+    },
+    "country": {
+      "label": "Країна"
+    },
+    "driver_type": {
+      "label": "Тип драйвера"
+    },
+    "driver_type_tags": {
+      "label": "Тип драйвера"
+    },
+    "factoring_company": {
+      "label": "Факторингова компанія"
+    },
+    "payout_status": {
+      "label": "Статус"
+    },
+    "payout_type": {
+      "label": "Оплата"
+    },
+    "plate": {
+      "owned": "(У власності)",
+      "not_owned": "(Не у власності)"
+    },
+    "role": {
+      "label": "Роль"
+    },
+    "trailer_type": {
+      "label": "Тип"
+    },
+    "transaction_category": {
+      "read_only_label": "{{label}} (лише читання)"
+    },
+    "table_color": {
+      "label": "Колір",
+      "colors": {
+        "default": "За замовчуванням",
+        "slate_gray": "Сланцево-сірий",
+        "steel_blue": "Сталевий синій",
+        "cadet_blue": "Cadet Blue",
+        "dark_sea_green": "Темно-морський зелений",
+        "medium_turquoise": "Середня бірюза",
+        "thistle": "Розторопша",
+        "light_steel_blue": "Світло-сталевий блакитний",
+        "powder_blue": "Пудрово-блакитний",
+        "pale_goldenrod": "Золотарник блідий",
+        "khaki": "Хакі",
+        "rosy_brown": "Рожевий Браун",
+        "indian_red": "Індійський червоний",
+        "salmon": "Лосось",
+        "dark_khaki": "Темний хакі",
+        "tan": "Тан",
+        "burlywood": "Бурливуд",
+        "sandy_brown": "Сенді Браун",
+        "dark_salmon": "Темний лосось",
+        "light_coral": "Світло-Кораловий",
+        "peach_puff": "Peach Puff"
+      }
+    },
+    "autocomplete": {
+      "add_button": {
+        "tooltip": "Додати {{label}}"
+      },
+      "no_options": {
+        "default_text": "Без варіантів",
+        "create": {
+          "first_text": "Створити ",
+          "second_text": "{{entity}}"
+        }
+      }
+    }
+  }
+}

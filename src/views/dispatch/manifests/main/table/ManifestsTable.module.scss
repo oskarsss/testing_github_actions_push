@@ -1,0 +1,23 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    min-width: fit-content;
+    min-height: 100%;
+    flex: 1 1 100%;
+}
+
+.rows {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    position: relative;
+    min-width: fit-content;
+    outline: none;
+}
+
+.row {
+    grid-template-columns:
+        minmax(80px, 0.5fr) minmax(90px, 0.5fr) minmax(100px, 1fr) minmax(140px, 1.4fr)
+        minmax(70px, 0.5fr) minmax(140px, 1fr) minmax(90px, 0.5fr) minmax(140px, 1.4fr)
+        minmax(100px, 0.5fr) minmax(65px, 0.7fr) minmax(125px, 1fr);
+}

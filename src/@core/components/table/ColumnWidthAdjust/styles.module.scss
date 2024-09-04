@@ -1,0 +1,44 @@
+.blocks {
+    &::before,
+    &::after {
+        content: '';
+        background-color: #333;
+        position: absolute;
+        height: 20px;
+        top: 10px;
+        width: 4px;
+        border-radius: 3px;
+        display: none;
+    }
+
+    &::after {
+        right: 0px;
+    }
+
+    &::before {
+        left: 0px;
+    }
+
+    // &:hover::after, &:hover::before {
+    //     display: block;
+    // }
+}
+
+.show_blocks {
+    &::after,
+    &::before {
+        display: block;
+    }
+}
+
+.vl_blocks {
+    &::after {
+        left: -8px;
+        right: auto;
+    }
+
+    &::before {
+        right: -8px;
+        left: auto;
+    }
+}

@@ -1,0 +1,52 @@
+@use '@/scss/abstracts' as *;
+
+.compactedWrapper {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    z-index: 1;
+    background-color: var(--utility-foreground-blue-dark-primary);
+}
+
+.compactedDateBadge {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    font-size: 10px;
+    max-height: 15px;
+    border-radius: 0 2px 2px 0;
+    padding: 0 2px;
+    color: var(--utility-foreground-blue-dark-tertiary);
+    font-weight: 700;
+    background: var(--utility-foreground-blue-dark-primary);
+}
+
+.wideWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 12px;
+    overflow: hidden;
+    width: 100%;
+    height: 25px;
+    background-color: var(--semantic-foreground-white-primary);
+    gap: $gap-xs;
+    svg {
+        width: 16px;
+        height: 16px;
+        color: var(--semantic-foreground-primary);
+    }
+    &Today {
+        svg {
+            color: var(--semantic-foreground-brand-primary);
+        }
+    }
+}
+
+.wideCollapse {
+    position: sticky;
+    top: 45;
+    left: 0;
+    z-index: 1;
+}

@@ -1,0 +1,1218 @@
+{
+  "header": {
+    "title": "Settings"
+  },
+  "categories": {
+    "header": {
+      "tabs": {
+        "current": "Current {{count}}",
+        "deleted": "Deleted {{count}}"
+      }
+    }
+  },
+  "navigation": {
+    "my_account": {
+      "title": "My account",
+      "profile": "Profile",
+      "password": "Password",
+      "language": "Language",
+      "notifications": "My Notifications"
+    },
+    "organization": {
+      "title": "Organization",
+      "members": "Members",
+      "roles": "Roles",
+      "company": "Company",
+      "advanced_config": "Advanced Config",
+      "billing": "Billing & Plan",
+      "bank_accounts": "Bank accounts",
+      "security": "Security",
+      "teams": "Teams",
+      "domains": "Domains",
+      "customer_portal": "Customer Portal"
+    },
+    "integrations": {
+      "title": "Integrations",
+      "integrations": "Integrations"
+    },
+    "invoicing": {
+      "title": "Invoicing",
+      "invoicing_companies": "Invoicing Companies",
+      "factoring_companies": "Factoring Companies"
+    },
+    "drivers": {
+      "title": "Drivers",
+      "driver_types": "Driver Types"
+    },
+    "settlements": {
+      "title": "Settlements",
+      "general_settings": "General Settings",
+      "cycles": "Cycles",
+      "revenue_types": "Revenue Types",
+      "credit_categories": "Credit Categories",
+      "debit_categories": "Debit Categories"
+    },
+    "documents": {
+      "title": "Documents",
+      "document_types": "Document Types"
+    },
+    "loads": {
+      "title": "Orders",
+      "driver_pay_categories": "Driver Pay Categories",
+      "invoice_item_categories": "Invoice Item Categories",
+      "load_types": "Order Types"
+    },
+    "trailers": {
+      "title": "Trailers",
+      "trailer_types": "Trailer Types"
+    }
+  },
+  "notifications": {
+    "categories": {
+      "order": "Order Notifications",
+      "manifest": "Manifest Notifications",
+      "other": "Other Notifications"
+    }
+  },
+  "teams": {
+    "table": {
+      "columns": {
+        "title": "Title",
+        "trailers": "Trailers",
+        "trucks": "Trucks",
+        "drivers": "Drivers",
+        "members": "Members"
+      }
+    },
+    "profile": {
+      "no_email": "no-email",
+      "back": "Back",
+      "about": "About",
+      "drivers": {
+        "header": {
+          "title": "Drivers"
+        },
+        "table": {
+          "columns": {
+            "driver": "Driver"
+          }
+        }
+      },
+      "members": {
+        "header": {
+          "title": "Members"
+        },
+        "table": {
+          "columns": {
+            "member": "Member",
+            "role": "Role"
+          }
+        }
+      },
+      "trailers": {
+        "header": {
+          "title": "Trailers"
+        },
+        "table": {
+          "columns": {
+            "trailer": "Trailer"
+          }
+        }
+      },
+      "trucks": {
+        "header": {
+          "title": "Trucks"
+        },
+        "table": {
+          "columns": {
+            "truck": "Truck"
+          }
+        }
+      }
+    },
+    "dialog": {
+      "delete": {
+        "team": {
+          "title": "Delete Team ?",
+          "body": "Delete Team You will delete this team {{name}}."
+        },
+        "driver": {
+          "title": "Delete Driver",
+          "body": "You will delete this driver {{fullName}}."
+        },
+        "member": {
+          "title": "Delete Member",
+          "body": "You will delete this member \"{{firstName}} {{lastName}}\"."
+        },
+        "trailer": {
+          "title": "Delete Trailer",
+          "body": "Are you sure you want to delete this trailer?"
+        },
+        "truck": {
+          "title": "Delete Truck",
+          "body": "Are you sure you want to delete this truck?"
+        }
+      },
+      "create": {
+        "header": {
+          "title": "Add team"
+        }
+      },
+      "edit": {
+        "header": {
+          "title": "Edit {{name}}"
+        }
+      },
+      "block_titles": {
+        "details": "Details"
+      },
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Enter team name"
+        },
+        "description": {
+          "label": "Description",
+          "placeholder": "Enter team description"
+        },
+        "logo_url": {
+          "label": "Team Logo"
+        }
+      }
+    },
+    "team_items": {
+      "dialog": {
+        "create": {
+          "drivers": {
+            "header": {
+              "title": "Add Drivers"
+            },
+            "fields": {
+              "show_deleted_drivers": {
+                "label": "Show Deleted Drivers"
+              },
+              "driver_ids": {
+                "label": "Drivers"
+              }
+            }
+          },
+          "members": {
+            "header": {
+              "title": "Add Members"
+            },
+            "fields": {
+              "usersIds": {
+                "label": "Members"
+              }
+            }
+          },
+          "trailers": {
+            "header": {
+              "title": "Add Trailers"
+            },
+            "fields": {
+              "show_deleted_trailers": {
+                "label": "Show Deleted Trailers"
+              },
+              "trailerIds": {
+                "label": "Trailers"
+              }
+            }
+          },
+          "trucks": {
+            "header": {
+              "title": "Add Trucks"
+            },
+            "fields": {
+              "show_deleted_trucks": {
+                "label": "Show Deleted Trucks"
+              },
+              "trucksIds": {
+                "label": "Trucks"
+              }
+            }
+          }
+        }
+      }
+    },
+    "empty_screen": {
+      "button_text": "add",
+      "first_text": "No Teams available, you can",
+      "text_after_button": "them here",
+      "second_text": "Teams are needed to assign drivers, tractors and trailers to selected members"
+    }
+  },
+  "security": {
+    "title": "Security",
+    "fields": {
+      "labels": {
+        "enforce_second_step_auth": "Enforce Second Step Auth",
+        "enforce_strong_password": "Enforce Strong Password"
+      }
+    }
+  },
+  "company": {
+    "titles": {
+      "company_details": "Company Details",
+      "order_preferences": "Order Preferences"
+    },
+    "fields": {
+      "labels": {
+        "light_icon": "Light Icon",
+        "dark_icon": "Dark Icon",
+        "general_email": "General Email",
+        "timezone": "Timezone",
+        "order_id_start_number": "Order ID Start Number",
+        "order_friendly_id_prefix": "Order ID Prefix"
+      },
+      "placeholders": {
+        "order_id_start_number": "Enter order ID start number",
+        "order_friendly_id_prefix": "Enter order ID prefix"
+      }
+    }
+  },
+  "invoicing": {
+    "title": "Invoicing",
+    "fields": {
+      "labels": {
+        "invoice_logo": "Invoice Letterhead Logo",
+        "payment_instructions": "Payment Instructions",
+        "payment_terms": "Default Payment Terms",
+        "cc_emails": "CCd EMails to All Invoices"
+      },
+      "placeholders": {
+        "payment_instructions": "Enter payment instructions",
+        "payment_terms": "Enter payment terms",
+        "cc_emails": "Enter CCd emails"
+      }
+    }
+  },
+  "integrations": {
+    "header": {
+      "title": "Integrations Marketplace",
+      "buttons": {
+        "request_integration": "REQUEST INTEGRATION"
+      }
+    },
+    "cards": {
+      "all_categories": "All Categories",
+      "gps": "GPS",
+      "eld": "ELD",
+      "accounting": "Accounting",
+      "factoring": "Factoring",
+      "fuel": "Fuel",
+      "tolls": "Tolls",
+      "loadboard": "Loadboard"
+    },
+    "details": {
+      "route": {
+        "settings": "Settings",
+        "integrations": "Integrations"
+      },
+      "left_side": {
+        "quickbooks": {
+          "description": "Unite the power of {{friendlyName}}'s management suite with QuickBooks' financial prowess for an integrated, efficient trucking business solution.",
+          "rows": {
+            "what_is_quickbooks": {
+              "title": "What is QuickBooks?",
+              "description": "QuickBooks is a household name in the realm of business finance, designed to simplify the intricate tapestry of accounting. As an innovative financial software solution, QuickBooks provides businesses, irrespective of size, with a toolkit rich in invoicing, cash flow management, tax computation, and payroll processing. Its cloud-driven approach ensures every financial move is recorded, analyzed, and made accessible for strategic planning."
+            },
+            "merge_with_quickbooks": {
+              "title": "{{friendlyName}} Merges with QuickBooks: Financial Clarity on the Move",
+              "description": "When {{friendlyName}} integrates with QuickBooks, the result is a seamless fusion of fleet management with streamlined financial operations. Think automatic logging of order-related expenses, swift and accurate invoicing post-trip, and the ability to keep tabs on your financial health from the same platform that oversees your fleet. With this alliance, gone are the days of juggling between tools or manual data transfers. Instead, experience real-time financial data syncing, ensuring fleet operators can focus on what matters most: delivering quality service and driving growth."
+            }
+          }
+        },
+        "tsc": {
+          "description": "Empower your fleet with enhanced fuel savings, optimizing every mile driven. Integrate all TCS Fuel Cards seamlessly within {{friendlyName}}'s platform.",
+          "rows": {
+            "what_is_tsc": {
+              "title": "What is TCS Fuel Card?",
+              "description": "TCS, or TransConnect Services, revolutionizes the way truckers and trucking companies handle their fuel expenses. Going beyond just a fuel card, TCS offers significant fuel discounts, zero transaction fees at in-network locations, and an array of other features. From a user-friendly mobile app to itemized fuel statements perfect for IFTA reporting, TCS stands out as a reliable partner ensuring your fuel costs are always under control."
+            },
+            "optimizes_tcs": {
+              "title": "How {{friendlyName}} Optimizes TCS Fuel Card",
+              "description": "Integrating {{friendlyName}} with TCS Fuel Card merges state-of-the-art fleet management with optimal fuel expenditure. Enjoy real-time monitoring of fuel savings directly in {{friendlyName}} dashboard. Easily track and analyze fuel consumption patterns, ensuring you tap into the significant savings TCS offers. Furthermore, {{friendlyName}}'s integration encompasses TCS's core features like in-route fuel savings location finder, security protocols for safeguarding transactions, and streamlined account management. The synergy of {{friendlyName}} and TCS means simplified fuel management, with reduced costs, bolstering your bottom line."
+            }
+          }
+        },
+        "fleet_one_wex": {
+          "description": "Elevate your fuel management with automated transaction syncing from Fleet One WEX to {{friendlyName}}'s platform.",
+          "rows": {
+            "what_is_fleet_one_wex": {
+              "title": "What is Fleet One WEX?",
+              "description": "Fleet One WEX stands as an industry leader, offering bespoke solutions tailored for fleets ranging from 1 to 50 vehicles. It’s not just about fuel cards packed with attractive discounts; Fleet One dives deeper into the needs of modern trucking businesses. From extensive fuel networks that ensure unparalleled savings to an array of factoring and financing solutions, Fleet One WEX has positioned itself as the ultimate partner for fleet operators who seek growth, efficiency, and financial clarity."
+            },
+            "sync_with_fleet": {
+              "title": "{{friendlyName}}'s Seamless Sync with Fleet One WEX",
+              "description": "Pairing {{friendlyName}} with Fleet One WEX unlocks a realm of fuel management efficiency. No more manual entries or delayed reconciliations. With our integration, every fuel transaction made via Fleet One is instantaneously and automatically imported into {{friendlyName}}'s system. This not only eliminates human error but ensures fleet operators have real-time access to their fuel expenditures. By merging the capabilities of {{friendlyName}}'s comprehensive trucking management system with Fleet One's fuel transaction data, fleet businesses can enjoy a comprehensive overview of their operations, driving informed decision-making, and promoting significant savings.\n \n Stay ahead of the curve, blending state-of-the-art fleet management with live fuel transaction insights."
+            }
+          }
+        },
+        "motive": {
+          "description": "Unlock real-time fleet insights and driver monitoring from Motive, all within the intuitive {{friendlyName}} platform.",
+          "rows": {
+            "what_is_motive": {
+              "title": "What is Motive?",
+              "description": "Motive brings a new dimension to fleet management with its advanced electronic logging and tracking system. It delivers an unparalleled view into vehicle whereabouts, driver behaviors, and compliance reports. Motive isn't just about compliance; it's about gleaning insights to optimize every movement in your fleet's journey."
+            },
+            "motive": {
+              "title": "{{friendlyName}} & Motive: A Unified Vision",
+              "description": "Integrating {{friendlyName}} with Motive amplifies the power of both platforms. By seamlessly syncing live data, {{friendlyName}} enriches fleet management capabilities. Whether it's pinpointing the exact location of your trucks or understanding driver statuses for better route planning, this alliance offers a 360-degree operational panorama. Minimize the guesswork, reduce manual overlaps, and drive your fleet towards unparalleled efficiency with this cohesive integration."
+            }
+          }
+        },
+        "samsara": {
+          "description": "Achieve precision tracking and real-time driver monitoring seamlessly combined in {{friendlyName}}'s platform.",
+          "rows": {
+            "what_is_samsara": {
+              "title": "What is Samsara ELD?",
+              "description": "Samsara ELD is a cutting-edge, electronic logging device that offers advanced fleet management features. It provides detailed visibility into vehicle locations, driver activities, and safety reporting. Samsara ensures regulatory compliance while giving operators an in-depth look into their fleet's operations."
+            },
+            "enhances_samsara": {
+              "title": "How {{friendlyName}} Enhances Samsara ELD",
+              "description": "{{friendlyName}}'s integration with Samsara ELD offers an enhanced operational capability. By syncing live Hours of Service (HoS) data from drivers, {{friendlyName}} empowers dispatch teams to make informed, data-driven decisions on-the-go. Whether it's tracking your truck or trailer via GPS or utilizing driver status to optimize routing, this integration provides a holistic view, merging the strengths of both platforms for efficient fleet management. It reduces manual checks and promotes a more cohesive, streamlined operational process – positioning your fleet for success."
+            }
+          }
+        },
+        "eld_rider": {
+          "description": "Seamless asset tracking, odometer data, automated order stop updates, and real-time Hours of Service visibility",
+          "rows": {
+            "intro_about_eld_rider": {
+              "title": "Intro about ELD Rider",
+              "description": "ELD Rider stands out as a comprehensive telematics and ELD provider, dedicated exclusively to the trucking industry. By offering cost-effective ELD devices, advanced trailer tracking solutions, and an easy-to-use driver application, ELD Rider streamlines the integration of telematics technology for carriers. This integration not only facilitates seamless asset tracking but also empowers carriers with the tools necessary for efficient and compliant operations."
+            },
+            "how_works": {
+              "title": "Description of How Our Integration Works",
+              "description": "ELD Rider integration unlocks a real-time stream of data, offering insights into truck and trailer locations, odometer readings for proactive maintenance scheduling, and precise GPS positioning. The system's capability for automatic order stop updates streamlines the check-in/check-out process at each stop, providing carriers with accurate data for detention billing. Additionally, this integration enriches dispatcher tools with real-time visibility of driver Hours of Service (HoS), enabling smarter, compliance-aware order planning.\n \n A standout feature of our integration is the capacity to automatically broadcast truck availability to connected order boards based on current locations, enhancing order matching efficiency. Moreover, carriers can effortlessly share real-time order tracking with customers through secure links, reducing the need for constant communication and significantly improving customer satisfaction. For those utilizing MacroPoint, our system seamlessly pushes order tracking data, further streamlining the process for comprehensive order visibility."
+            }
+          }
+        }
+      },
+      "right_side": {
+        "connected_drivers": "Connected Drivers",
+        "connected_vehicles": "Connected Vehicles",
+        "form": {
+          "title": "Settings",
+          "buttons": {
+            "finish_changing": "Finish Changing",
+            "disconnect_from_provider": "Disconnect from {{name}}"
+          }
+        },
+        "quickbooks": {
+          "titles": {
+            "invoicing": "Order Invoice Item Categories",
+            "bank_accounts": "Bank Accounts"
+          },
+          "tabs": {
+            "invoicing": "Invoicing",
+            "bank_accounts": "Bank Accounts"
+          },
+          "table": {
+            "columns": {
+              "bank_name": "Bank Name",
+              "routing_number": "Routing Number",
+              "broker_name": "Broker name",
+              "qb_company_name": "QuickBooks company name",
+              "customer_name": "Customer name",
+              "driver_name": "Driver name",
+              "qb_name": "QuickBooks name",
+              "category_name": "Category name",
+              "qb_description": "QuickBooks description",
+              "entity_type": "Entity type",
+              "revenue_type_name": "Revenue type name",
+              "unit_number": "Unit number",
+              "fully_qb_name": "Fully Qualified Name in QuickBooks",
+              "vendor_name": "Vendor name"
+            }
+          }
+        },
+        "wex": {
+          "table": {
+            "columns": {
+              "transaction_name": "Transaction Name",
+              "auto_import": "Auto Import"
+            }
+          },
+          "empty_screen": {
+            "title": "Auto Import Enabled",
+            "description": "All transactions will be imported automatically."
+          }
+        },
+        "manage": {
+          "connected": "Connected",
+          "not_connected": "Not Connected",
+          "tabs": {
+            "all": "all",
+            "linked": "linked",
+            "non_linked": "non-Linked"
+          }
+        }
+      },
+      "out_of": "Out Of",
+      "invoicing": {
+        "header": {
+          "title": "Order Invoice Item Categories",
+          "view_name": "Invoicing"
+        },
+        "table": {
+          "columns": {
+            "name": "Category name",
+            "apex_name": "Apex Capital name"
+          }
+        }
+      },
+      "equipment": {
+        "header": {
+          "title": "Equipment Types",
+          "view_name": "Equipments"
+        },
+        "table": {
+          "columns": {
+            "name": "Equipment name",
+            "apex_name": "Apex Capital name"
+          }
+        }
+      },
+      "link": "Link Apex Capital"
+    },
+    "connect": {
+      "connecting": "connecting",
+      "connected": "connected",
+      "error_button": "Go to settings and try again",
+      "error_text": "connect error",
+      "success_and_redirect": "Success, wait for redirect"
+    },
+    "disconnect": {
+      "quickbooks": {
+        "by_code": {
+          "error": "Error disconnecting from QuickBooks.",
+          "success": "The company has been successfully disconnected from QuickBooks. Redirecting..."
+        },
+        "get_url": {
+          "error": "Error disconnecting from QuickBooks.",
+          "success": "Redirection..."
+        }
+      }
+    }
+  },
+  "tabs": {
+    "current": "Current {{count}}",
+    "deleted": "Deleted {{count}}"
+  },
+  "document_types": {
+    "header": {
+      "title": "Document Types"
+    },
+    "table": {
+      "columns": {
+        "title": "Title",
+        "expirable": "Expirable",
+        "number_supported": "Number",
+        "state_supported": "State",
+        "required": "Required",
+        "status_supported": "Status",
+        "can_driver_view": "Can Driver View",
+        "can_driver_update": "Can Driver Update"
+      }
+    },
+    "dialog": {
+      "add": {
+        "vehicle_warranty": {
+          "title": "Add Warranty Document Type"
+        },
+        "driver": {
+          "title": "Add Driver Document Type"
+        },
+        "truck": {
+          "title": "Add Truck Document Type"
+        },
+        "trailer": {
+          "title": "Add Trailer Document Type"
+        },
+        "trailer_company": {
+          "title": "Add Trailer Company Document Type"
+        },
+        "plate": {
+          "title": "Add Plate Document Type"
+        },
+        "plate_company": {
+          "title": "Add Plate Company Document Type"
+        },
+        "load": {
+          "title": "Add Order Document Type"
+        },
+        "broker": {
+          "title": "Add Broker Document Type"
+        },
+        "customer": {
+          "title": "Add Customer Document Type"
+        },
+        "vendor": {
+          "title": "Add Vendor Document Type"
+        },
+        "company": {
+          "title": "Add Company Document Type"
+        },
+        "loan": {
+          "title": "Add Loan Document Type"
+        }
+      },
+      "update": {
+        "driver": {
+          "title": "Update Driver Document Type"
+        },
+        "truck": {
+          "title": "Update Truck Document Type"
+        },
+        "trailer": {
+          "title": "Update Trailer Document Type"
+        },
+        "trailer_company": {
+          "title": "Update Trailer Company Document Type"
+        },
+        "plate": {
+          "title": "Update Plate Document Type"
+        },
+        "plate_company": {
+          "title": "Update Plate Company Document Type"
+        },
+        "load": {
+          "title": "Update Order Document Type"
+        },
+        "broker": {
+          "title": "Update Broker Document Type"
+        },
+        "customer": {
+          "title": "Update Customer Document Type"
+        },
+        "vendor": {
+          "title": "Update Vendor Document Type"
+        },
+        "company": {
+          "title": "Update Company Document Type"
+        },
+        "loan": {
+          "title": "Update Loan Document Type"
+        }
+      },
+      "add_update_fields": {
+        "title": {
+          "label": "Title",
+          "placeholder": "Name"
+        },
+        "entity_type": {
+          "label": "Entity Type"
+        },
+        "state": {
+          "label": "State (optional)"
+        },
+        "expirable": {
+          "label": "Expirable"
+        },
+        "number_supported": {
+          "label": "Number"
+        },
+        "can_driver_view": {
+          "label": "Can Driver View"
+        },
+        "can_driver_update": {
+          "label": "Can Driver Update"
+        }
+      },
+      "change_order": {
+        "cancel": {
+          "title": "Cancel changing order",
+          "body": "Your changes will not be saved. Are you sure you want to cancel changing order?"
+        },
+        "save": {
+          "title": "Save changes",
+          "body": "Do you want to save changes?"
+        }
+      },
+      "delete": {
+        "title": "Delete {{documentName}} ?",
+        "body": "You will delete this document type permanently."
+      }
+    },
+    "empty_screen": {
+      "button_text": "add",
+      "first_text": "No Document Types available, you can",
+      "text_after_button": "them here",
+      "second_text": "There are currently no Document Types in the system"
+    }
+  },
+  "revenue_types": {
+    "empty_screen": {
+      "active": {
+        "button_text": "add",
+        "first_text": "No Active Revenue Types available, you can",
+        "text_after_button": "them here",
+        "second_text": "There are currently no active revenue types in the system"
+      },
+      "deactivated": {
+        "button_text": "add",
+        "first_text": "No Deactivated Revenue Types available, you can",
+        "text_after_button": "them here",
+        "second_text": "There are currently no deactivated revenue types in the system"
+      }
+    }
+  },
+  "cycles": {
+    "empty_screen": {
+      "active": {
+        "button_text": "add",
+        "first_text": "No Active Cycles available, you can",
+        "text_after_button": "them here",
+        "second_text": "There are currently no active cycles in the system"
+      },
+      "deactivated": {
+        "button_text": "add",
+        "first_text": "No Deactivated Cycles available, you can",
+        "text_after_button": "them here",
+        "second_text": "There are currently no deactivated cycles in the system"
+      }
+    }
+  },
+  "factoring_companies": {
+    "company": {
+      "content": {
+        "note": "Note: {{note}}",
+        "cut_off_time": "Cut-Off Time",
+        "contract_ending_on": "Contract Ending On",
+        "factoring_fee": "Factoring Fee"
+      },
+      "table": {
+        "columns": {
+          "period": "Period",
+          "loads": "Orders",
+          "gross": "Gross",
+          "factoring": "Factoring",
+          "pending": "Pending",
+          "received": "Received"
+        },
+        "period": "Last 30 days"
+      }
+    },
+    "empty_screen": {
+      "button_text": "add",
+      "first_text": "No Factoring Companies available, you can",
+      "text_after_button": "them here",
+      "second_text": "There are currently no factoring companies in the system"
+    }
+  },
+  "members": {
+    "table": {
+      "columns": {
+        "full_name": "Name",
+        "title": "title",
+        "role_id": "Role",
+        "email": "Email",
+        "phone": "Phone",
+        "2fa": "2fa",
+        "status": "Status"
+      }
+    }
+  },
+  "credit_categories": {
+    "empty_screen": {
+      "button_text": "add",
+      "first_text": "No Credit Transaction Categories available, you can",
+      "text_after_button": "them here",
+      "second_text": "There are currently no Credit Transaction Categories in the system"
+    }
+  },
+  "debit_categories": {
+    "empty_screen": {
+      "button_text": "add",
+      "first_text": "No Debit Transaction Categories available, you can",
+      "text_after_button": "them here",
+      "second_text": "There are currently no Debit Transaction Categories in the system"
+    }
+  },
+  "driver_pay_categories": {
+    "empty_screen": {
+      "button_text": "add",
+      "first_text": "No Driver Pay Categories available, you can",
+      "text_after_button": "them here",
+      "second_text": "There are currently no Driver Pay Categories in the system"
+    }
+  },
+  "invoice_item_categories": {
+    "empty_screen": {
+      "button_text": "add",
+      "first_text": "No Invoice Item Categories available, you can",
+      "text_after_button": "them here",
+      "second_text": "There are currently no Invoice Item Categories in the system"
+    }
+  },
+  "load_types": {
+    "empty_screen": {
+      "button_text": "add",
+      "first_text": "No Order Types available, you can",
+      "text_after_button": "them here",
+      "second_text": "There are currently no Order Types in the system"
+    }
+  },
+  "eld_provider": {
+    "empty_screen": {
+      "button_text": "Request Integration Provider",
+      "first_text": "No Integrations available, you can",
+      "text_after_button": "them here",
+      "second_text": "There are currently no ELD Providers in the system"
+    }
+  },
+  "roles": {
+    "table": {
+      "columns": {
+        "name": "Name",
+        "assigned_permissions": "Assigned permissions"
+      },
+      "permissions": "Permissions"
+    },
+    "dialog": {
+      "create": {
+        "header": {
+          "title": "Add Role"
+        }
+      },
+      "edit": {
+        "header": {
+          "title": "Edit {{roleName}} Role"
+        }
+      }
+    },
+    "empty_screen": {
+      "button_text": "add",
+      "first_text": "No Roles available, you can",
+      "text_after_button": "them here",
+      "second_text": "There are currently no Roles in the system"
+    }
+  },
+  "advanced_config": {
+    "header": {
+      "title": "Advanced Config"
+    },
+    "table": {
+      "action": "Action",
+      "range": "Range",
+      "tooltip": "Range in which driver can apply the actions"
+    },
+    "dialog": {
+      "edit": {
+        "header": {
+          "title": "Edit {{actionName}}"
+        },
+        "fields": {
+          "range": {
+            "label": "Range",
+            "placeholder": "123"
+          },
+          "enabled_range": {
+            "label": "Enable"
+          }
+        }
+      }
+    },
+    "empty_screen": {
+      "button_text": "",
+      "first_text": "No Advanced Config available",
+      "text_after_button": "them here",
+      "second_text": "There are currently no Advanced Config in the system"
+    }
+  },
+  "driver_types": {
+    "header": {
+      "title": "Driver Types"
+    },
+    "table": {
+      "columns": {
+        "name": "Type Name",
+        "is_default": "Default",
+        "permission_settlements": "Settlements",
+        "permission_bank_accounts": "Bank Account",
+        "permission_completed_loads": "Completed Orders",
+        "permission_loads_total_amount": "Orders Total Amount",
+        "permission_loads_driver_pay_amount": "Pay Amount",
+        "permission_loads_distance": "Orders Distance"
+      }
+    },
+    "empty_screen": {
+      "button_text": "add",
+      "first_text": "No Driver Types available, you can",
+      "text_after_button": "them here",
+      "second_text": "There are currently no Driver Types in the system"
+    }
+  },
+  "trailer_types": {
+    "table": {
+      "columns": {
+        "code": "Code",
+        "name": "Name"
+      }
+    },
+    "empty_screen": {
+      "button_text": "add",
+      "first_text": "No Trailer Types available, you can",
+      "text_after_button": "them here",
+      "second_text": "There are currently no Trailer Types in the system"
+    }
+  },
+  "billing": {
+    "header": {
+      "title": "Accelerate Your Trucking Business with Our Tailored Plans",
+      "sub_title": "Find the perfect solution to drive your success"
+    },
+    "next_estimate_payment": {
+      "title": "Next Estimated Payment",
+      "revenue_on": "Renews on {{endDate}}",
+      "empty_state": {
+        "title": "No info about next estimated payment"
+      }
+    },
+    "payment_method": {
+      "title": "Payment Method",
+      "expires": "Expires {{month}}/{{year}}",
+      "empty_state": {
+        "title": "No payment method added"
+      }
+    },
+    "plan": {
+      "cards": {
+        "starter": "Starter",
+        "pro": "Pro",
+        "enterprise": "Enterprise",
+        "mega_carrier": "Mega-Carrier",
+        "interval": "truck"
+      },
+      "info": {
+        "tooltips": {
+          "subscription": "Total active trucks: {{quantity}}",
+          "not_subscription": "We’re offering you this plan based on your truck count.Total active trucks: {{quantity}}"
+        }
+      },
+      "chips": {
+        "current": "Current",
+        "for_you": "For you"
+      }
+    },
+    "table": {
+      "columns": {
+        "finish_date": "Finish Date",
+        "amount": "Amount",
+        "status": "Status",
+        "purpose": "Purpose",
+        "actions": "Actions"
+      },
+      "chips": {
+        "draft": "Draft",
+        "open": "Open",
+        "void": "Void",
+        "paid": "Paid",
+        "uncollectible": "Uncollectible",
+        "unspecified": "Unspecified"
+      }
+    },
+    "cancel_account": {
+      "title": "Cancel your account",
+      "button": {
+        "cancel": "CANCEL ACCOUNT"
+      }
+    },
+    "empty_screen": {
+      "first_text": "No Invoices Found in History",
+      "second_text": "Your invoice history is currently empty"
+    },
+    "dialog": {
+      "cancel_account": {
+        "header": {
+          "title": "We are very sorry to hear that you want to cancel your account."
+        },
+        "description_part_1": "Please contact",
+        "description_part_2": "to cancel your account.",
+        "okay": "Okay"
+      }
+    }
+  },
+  "bank_accounts": {
+    "header": {
+      "title": "Bank accounts"
+    },
+    "table": {
+      "columns": {
+        "bank_name": "Name",
+        "account_holder_name": "Holder",
+        "routing_number": "Routing",
+        "last_four": "Number",
+        "created_at": "Created"
+      }
+    },
+    "empty_screen": {
+      "button_text": "add",
+      "first_text": "No Bank Accounts available, you can",
+      "text_after_button": "them here",
+      "second_text": "There are currently no Bank Accounts in the system"
+    }
+  },
+  "loads": {
+    "driver_pay_categories": {
+      "title": "Driver Pay Categories",
+      "table": {
+        "columns": {
+          "title": "Title"
+        },
+        "confirm": {
+          "delete": {
+            "title": "Delete \"{{name}}\" ?",
+            "body": "You will delete this Driver Pay Category."
+          },
+          "restore": {
+              "title": "Restore \"{{name}}\" ?",
+              "body": "You will restore this Driver Pay Category."
+          }
+        }
+      }
+    },
+    "invoice_item_categories": {
+      "title": "Invoice Item Categories",
+      "table": {
+        "confirm": {
+          "delete": {
+            "title": "Delete {{name}} ?",
+            "body": "You will delete this Invoice Item Category."
+          },
+          "restore": {
+            "title": "Restore {{name}} ?",
+            "body": "You will restore this Invoice Item Category."
+          }
+        },
+        "columns": {
+          "title": "Title",
+          "in_driver_gross": "Include driver gross"
+        }
+      }
+    },
+    "load_types": {
+      "title": "Order Types",
+      "table": {
+        "confirm": {
+          "delete": {
+            "title": "Delete Order Type ?",
+            "body": "You will delete this type \"{{code}}-{{name}}\"."
+          }
+        },
+        "columns": {
+          "code": "Code",
+          "name": "Name"
+        }
+      }
+    }
+  },
+  "password": {
+    "title": "Password",
+    "sub_title": "If you forgot your password, you can update it here.",
+    "fields": {
+      "current_password": {
+        "label": "Current password",
+        "placeholder": "Enter current password"
+      },
+      "new_password": {
+        "label": "New password",
+        "placeholder": "Enter new password"
+      },
+      "password_confirmation": {
+        "label": "Confirm password",
+        "placeholder": "Enter confirm password"
+      }
+    },
+    "buttons": {
+      "submit": "Change Password",
+      "forgot_password": "Forgot your password?"
+    },
+    "dialog": {
+      "forgot_password": {
+        "title": "Forgot Password? 🔒",
+        "sub_title": "We will send you instructions to your email to reset your password.",
+        "submit": "Send reset link"
+      }
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "photo": {
+      "title": "Photo",
+      "error": "file size is over 10 mb"
+    },
+    "fields": {
+      "second_step_auth_enabled": {
+        "label": "Second Step Verification Enabled ( 2FA )"
+      }
+    },
+    "buttons": {
+      "cancel_changes": "Cancel changes"
+    }
+  },
+  "settlements": {
+    "general": {
+      "titles": {
+        "settlement_letterhead": "Settlement Letterhead",
+        "email_settings": "Email Settings"
+      },
+      "fields": {
+        "labels": {
+          "logo": "Logo",
+          "id_start_number": "Settlement ID Start Number",
+          "reply_to_emails": "Reply-To Emails",
+          "ccd_emails": "CCd EMails to All Settlements"
+        },
+        "placeholders": {
+          "id_start_number": "Enter settlement ID start number"
+        }
+      }
+    },
+    "table": {
+      "confirm": {
+        "delete": {
+          "title": "Delete Category",
+          "body": "Are you sure you want to delete category \"{{name}}\"?"
+        },
+        "restore": {
+          "title": "Restore Category",
+          "body": "Are you sure you want to restore category \"{{name}}\"?"
+        }
+      },
+      "columns": {
+        "category": "Category",
+        "index_drivers": "Index Driver's",
+        "entity": "Entity",
+        "recurring": "Recurring",
+        "frequency": "Frequency"
+      }
+    },
+    "debit_categories": {
+      "title": "Debit Transaction Categories"
+    },
+    "credit_categories": {
+      "title": "Credit Transaction Categories"
+    },
+    "revenue_types": {
+      "header": {
+        "tabs": {
+          "active": "Active",
+          "deactivated": "Deactivated"
+        },
+        "buttons": {
+          "add_revenue_type": "Add Revenue Type"
+        }
+      },
+      "type": {
+        "header": {
+          "buttons": {
+            "activate": "Activate",
+            "deactivate": "Deactivate"
+          },
+          "status": {
+            "default": "Default",
+            "not_default": "Not Default"
+          }
+        },
+        "info": {
+          "fuel": {
+            "title": "Fuel Deductions"
+          },
+          "toll": {
+            "title": "Toll Deductions"
+          },
+          "documents": {
+            "label": "Documents attached to Driver Settlement"
+          }
+        },
+        "table": {
+          "columns": {
+            "pay_item_name": "Pay Item Name",
+            "rate": "Rate"
+          },
+          "quantity": {
+            "total_mile": "Total Mile",
+            "loaded_mile": "Loaded Mile",
+            "empty_mile": "Empty Mile",
+            "from_load": "from Order",
+            "from_company_net": "from Company Net",
+            "hour": "Hour"
+          }
+        }
+      },
+      "item": {
+        "dialog": {
+          "delete": {
+            "title": "Delete - {{type}}",
+            "body": "Are you sure you want to delete this pay item?"
+          },
+          "add": {
+            "header": {
+              "title": "Create Item"
+            }
+          },
+          "edit": {
+            "header": {
+              "title": "Edit Item"
+            }
+          },
+          "fields": {
+            "percentage": {
+              "label": "Percentage",
+              "placeholder": "100"
+            }
+          }
+        },
+        "types": {
+          "per_total_mile": "Per Total Mile",
+          "per_loaded_mile": "Per Loaded Mile",
+          "per_empty_mile": "Per Empty Mile",
+          "percentage_from_load": "Percentage From Order",
+          "percentage_from_company_net": "Percentage From Company Net",
+          "flat": "Flat",
+          "hourly": "Hourly"
+        }
+      }
+    },
+    "cycles": {
+      "tabs": {
+        "active": "Active",
+        "deactivated": "Deactivated"
+      },
+      "status": {
+        "default": "Default",
+        "not_default": "Not Default"
+      },
+      "buttons": {
+        "activate": "Activate",
+        "deactivate": "Deactivate",
+        "view_latest_period": "View Latest Period",
+        "create_new_period": "Create New Period",
+        "add_new_cycle": "Add New Cycle"
+      },
+      "item": {
+        "periods": {
+          "weekly": "Weekly",
+          "bi_weekly": "Bi-Weekly",
+          "every_3_weeks": "Every 3 weeks",
+          "monthly": "Monthly",
+          "every_count_weeks": "Every {{period}} weeks"
+        },
+        "titles": {
+          "close_day": "Close Day",
+          "total_periods": "Total Periods",
+          "assigned_drivers": "Assigned Drivers"
+        },
+        "table": {
+          "columns": {
+            "settlements_period": "Settlement Period",
+            "negative_settlements": "Negative Settlements",
+            "company_net": "Company Net"
+          }
+        }
+      }
+    }
+  }
+}

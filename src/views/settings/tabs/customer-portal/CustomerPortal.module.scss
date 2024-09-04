@@ -1,0 +1,7 @@
+@use '@/scss/abstracts' as *;
+
+.portalsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-xlg;
+}

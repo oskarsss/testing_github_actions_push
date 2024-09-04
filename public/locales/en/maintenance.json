@@ -1,0 +1,292 @@
+{
+  "service_providers": {
+    "header": {
+      "stats": {
+        "total_services": "Total Services",
+        "total_cost": "Total Cost",
+        "last_month": "vs last month"
+      }
+    },
+    "table": {
+      "columns": {
+        "name": "Name",
+        "city_state": "City/State",
+        "fax": "Fax",
+        "zip": "ZIP",
+        "total_services": "Total Services",
+        "total_cost": "Total Cost",
+        "added_date": "Added Date"
+      },
+      "empty_screen": {
+        "header": "No service provider here yet",
+        "sub_title": "Add Provider",
+        "description": "Add at least one service provider for easy creation and management Service Logs."
+      }
+    },
+    "modals": {
+      "create": {
+        "header": {
+          "title": "Create Service Provider"
+        }
+      },
+      "edit": {
+        "header": {
+          "title": "Edit Service Provider"
+        }
+      },
+      "form": {
+        "sections": {
+          "stats": "Stats",
+          "contact_info": "Contact Info",
+          "address_info": "Address Info",
+          "last_service_logs": "Last Service Logs"
+        }
+      }
+    }
+  },
+  "service_logs": {
+    "common": {
+      "odometer": "Odometer",
+      "engine_hours": "Engine Hours",
+      "service_items": "Service Items",
+      "solved_defects": "Solved Defects",
+      "files": "Files",
+      "covered": "Covered",
+      "not_covered": "Not Covered",
+      "buttons": {
+        "add_service_item": "Add Service Item",
+        "assign_driver": "Assign Driver",
+        "unassign_driver": "Unassign Driver"
+      },
+      "checkboxes": {
+        "charge_driver": "Charge Driver"
+      },
+      "tables": {
+        "solved_defects": {
+          "title": "Solved Defects",
+          "columns": {
+            "defect": "Defect",
+            "reported_by": "Reported By",
+            "reported_date": "Reported Date",
+            "priority": "Priority"
+          }
+        }
+      }
+    },
+    "header": {
+      "sort_by": {
+        "latest": {
+          "title": "Latest",
+          "description": "The latest service logs"
+        },
+        "oldest": {
+          "title": "Oldest",
+          "description": "The oldest  service logs"
+        },
+        "date_desc": {
+          "title": "Date",
+          "description": "Newest to Oldest"
+        },
+        "date_asc": {
+          "title": "Date",
+          "description": "Oldest to Newest"
+        },
+        "order_number_desc": {
+          "title": "Order Number",
+          "description": "High to Low"
+        },
+        "order_number_asc": {
+          "title": "Order Number",
+          "description": "Low to High"
+        },
+        "total_amount_desc": {
+          "title": "Total Amount",
+          "description": "High to Low"
+        },
+        "total_amount_asc": {
+          "title": "Total Amount",
+          "description": "Low to High"
+        },
+        "odometer_miles_desc": {
+          "title": "Odometer Miles",
+          "description": "High to Low"
+        },
+        "odometer_miles_asc": {
+          "title": "Odometer Miles",
+          "description": "Low to High"
+        },
+        "engine_hours_desc": {
+          "title": "Engine Hours",
+          "description": "High to Low"
+        },
+        "engine_hours_asc": {
+          "title": "Engine Hours",
+          "description": "Low to High"
+        },
+        "type_desc": {
+          "title": "Miles",
+          "description": "High to Low"
+        },
+        "type_asc": {
+          "title": "Miles",
+          "description": "Low to High"
+        }
+      }
+    },
+    "table": {
+      "columns": {
+        "order_number": "Order Number",
+        "completed_date": "Completed Date",
+        "total_amount": "Total Amount",
+        "files": "Files"
+      },
+      "empty_screen": {
+        "header": "No service logs here yet",
+        "sub_title": "Add Service Log",
+        "description": "Add at least one service log"
+      },
+      "tooltips": {
+        "download_documents": "Download Documents"
+      }
+    },
+    "details": {
+      "header": {
+        "title": "Service Log {{friendlyId}}"
+      }
+    },
+    "modals": {
+      "select_provider": {
+        "header": {
+          "title": "Select Service Provider"
+        }
+      },
+      "create": {
+        "header": {
+          "title": "Create Service Log"
+        }
+      },
+      "edit": {
+        "header": {
+          "title": "Edit Service Log {{friendlyId}}"
+        }
+      },
+      "form": {
+        "sections": {
+          "service_provider": {
+            "title": "Service Provider",
+            "fields": {
+              "service_order": {
+                "label": "Service Order",
+                "placeholder": "Enter Service Order"
+              }
+            }
+          },
+          "equipment": {
+            "fields": {
+              "odometer": {
+                "label": "Odometer",
+                "placeholder": "Enter miles"
+              },
+              "engine_hours": {
+                "label": "Engine Hours",
+                "placeholder": "Enter hours"
+              }
+            }
+          },
+          "service_details": {
+            "title": "Service Details",
+            "fields": {
+              "date_in": {
+                "label": "Date In"
+              },
+              "date_out": {
+                "label": "Date Out"
+              },
+              "service_description": {
+                "label": "Service Description",
+                "placeholder": "Enter Service Description"
+              }
+            }
+          },
+          "service_items": {
+            "fields": {
+              "service_item": {
+                "label": "Service Item",
+                "placeholder": "Select Service Item"
+              },
+              "warranty_covered": {
+                "label": "Warranty Covered",
+                "placeholder": "Select Warranty Covered"
+              }
+            }
+          }
+        }
+      },
+      "create_item": {
+        "header": {
+          "title": "Create Service Item"
+        },
+        "fields": {
+          "service_item": {
+            "label": "Service Item",
+            "placeholder": "Enter Service Item"
+          },
+          "warranty_covered": {
+            "label": "Warranty Covered"
+          }
+        }
+      },
+      "update_item": {
+        "header": {
+          "title": "Update Service Item"
+        }
+      },
+      "delete": {
+        "title": "Delete service log?",
+        "description": "Are you sure you want to delete service log?"
+      },
+      "delete_item": {
+        "title": "Delete service item?",
+        "description": "Are you sure you want to delete service item?"
+      },
+      "create_item_type": {
+        "header": {
+          "title": "Create Service Item Type"
+        }
+      }
+    },
+    "panel": {
+      "title": "Service Log {{friendlyId}}",
+      "sections": {
+        "provider": {
+          "service_order": "Service Order",
+          "contact_name": "Contact Name"
+        },
+        "equipment": {
+          "warranty_items": "Warranty: {{amount}} items"
+        },
+        "details": {
+          "title": "Details",
+          "date_in": "Date In",
+          "date_out": "Date Out",
+          "time_spent": "Time Spent",
+          "service_description": "Service Description"
+        },
+        "service_items": {
+          "title": "Service Items",
+          "table": {
+            "columns": {
+                "service_item": "Service Item"
+            }
+          }
+        },
+        "driver": {
+          "no_driver": "Driver does not assigned"
+        },
+        "attached_files": {
+          "title": "Attached Files"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "buttons": {
+    "clear_all": "Clear All",
+    "compare": "Compare",
+    "book": "Book",
+    "call": "Call"
+  },
+  "fields": {
+    "date_range": {
+      "start": "Pickup Start Date",
+      "end": "Pickup End Date"
+    },
+    "equipments_type": {
+      "label": "Equipments Type"
+    },
+    "origin_radius": {
+      "label": "DH-O"
+    },
+    "destination_radius": {
+      "label": "DH-D"
+    },
+    "min_rate": {
+      "label": "Min Rate"
+    },
+    "max_rate": {
+      "label": "Max Rate"
+    },
+    "min_length": {
+      "label": "Min Length"
+    },
+    "max_length": {
+      "label": "Max Length"
+    }
+  },
+  "connect_integration": {
+    "error": {
+      "title": "Looks like you don't have any loadboards. Go to settings and connect it to work with loadboards",
+      "sub_title": "Settings",
+      "header": "No connected loadboards"
+    }
+  },
+  "no_search": {
+    "error": {
+      "title": "Looks like you don't have searches. Create a new search to see the results here.",
+      "sub_title": "Create search",
+      "header": "No searches found"
+    }
+  },
+  "dialogs": {
+    "searches": {
+      "titles": {
+        "add": "Add a search",
+        "edit": "Edit a search"
+      },
+      "sub_titles": {
+        "load_details": "Load Details",
+        "equipment": "Equipment",
+        "trip": "Trip"
+      },
+      "fields": {
+        "labels": {
+          "radius": "Radius",
+          "max_weight": "Max Weight",
+          "max_length": "Max Length"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "table": {
+    "custom_action": {
+      "export_csv": {
+        "label": "Export CSV",
+        "tooltip": "Export CSV for selected invoices"
+      }
+    }
+  },
+  "cell": {
+    "days_since_completed": "{{days}} days",
+    "paper_verified": {
+      "confirm": {
+        "title": "Are you sure?",
+        "body": "Are you sure this paperwork is correct?"
+      }
+    },
+    "notes": {
+      "large": "And {{count}} other... Click to open notes",
+      "other": "{{count}} notes... Click to open"
+    }
+  },
+  "panel": {
+    "header": {
+      "title": "Order #{{friendlyId}}",
+      "buttons": {
+        "download_invoice": {
+          "tooltip": "Download invoice"
+        },
+        "edit_load": {
+          "tooltip": "Edit Order"
+        }
+      }
+    },
+    "no_client": "No client",
+    "title": {
+      "load_type": "Order Type",
+      "commodity": "Commodity",
+      "weight": "Weight",
+      "invoicing_payments": "Invoicing Payments",
+      "invoicing": "Invoicing",
+      "dispatcher": "Booking Dispatcher / CSR",
+      "documents": "Documents",
+      "equipment_type": "Equipment Type"
+    },
+    "widget": {
+      "quickbooks": {
+        "button": {
+          "copy_link": {
+            "tooltip": "Copy link"
+          },
+          "create": {
+            "confirm_dialog": {
+              "title": "Are you sure you want to create this invoice?",
+              "body": "Once created, the invoice cannot be edited. It can only be voided or deleted."
+            }
+          },
+          "send": {
+            "confirm_dialog": {
+              "title": "Are you sure you want to send the invoice?",
+              "body": "You cannot undo this action once the invoice is sent."
+            }
+          },
+          "void": {
+            "confirm_dialog": {
+              "title": "Are you sure you want to void the invoice?",
+              "body": "This will cancel the invoice and it cannot be undone."
+            }
+          },
+          "delete": {
+            "confirm_dialog": {
+              "title": "Are you sure you want to delete the invoice?",
+              "body": "This action cannot be canceled and the invoice will be deleted."
+            }
+          },
+          "sync": {
+            "confirm_dialog": {
+              "title": "Are you sure you want to sync the invoice?",
+              "body": "This action cannot be canceled and the invoice will be sync."
+            }
+          }
+        },
+        "errors": {
+          "please": "Please",
+          "broker_not_connected": {
+            "title": "Your Broker is not connected to QuickBooks",
+            "link": "open edit broker",
+            "after_link": "and connect Broker"
+          },
+          "broker_without_billing_email": {
+            "title": "Broker billing email is missing",
+            "link": "open edit broker",
+            "after_link": "and add billing email"
+          },
+          "client_not_connected": {
+            "title": "Client is missing",
+            "link": "open edit order",
+            "after_link": "and add client"
+          },
+          "customer_without_billing_email": {
+            "title": "Customer billing email is missing",
+            "link": "open edit customer",
+            "after_link": "and add billing email"
+          },
+          "customer_not_connected": {
+            "title": "Your Customer is not connected to QuickBooks",
+            "link": "open edit customer",
+            "after_link": "and connect Customer"
+          },
+          "load_without_invoice": {
+            "title": "Invoice items are missing",
+            "link": "open edit order",
+            "after_link": "and add invoice items"
+          },
+          "invoice_item_category_deleted": {
+            "title": "The invoice item category may have been deleted",
+            "link": "open edit order",
+            "after_link": "and check all Invoicing"
+          },
+          "invoice_item_category_not_connected": {
+            "title": "Order Invoice Item Category is not connected to QuickBooks",
+            "link": "open edit dialog",
+            "after_link": "and connect Invoice Item Category"
+          }
+        },
+        "table": {
+          "header": {
+            "id": "ID",
+            "email": "EMAIL",
+            "pdf": "PDF",
+            "balance": "BALANCE",
+            "amount": "AMOUNT"
+          }
+        }
+      }
+    }
+  },
+  "dialogs": {
+    "chip": {
+      "paper_verified": "Paper Verified"
+    },
+    "selected": "{{count}} selected",
+    "push_to": "Push to {{providerName}}",
+    "submit_invoice_zero": "Submit Invoice",
+    "submit_invoice_one": "Submit Invoice",
+    "submit_invoice_other": "Submit {{count}} Invoices",
+    "open_edit_load": "Open Edit Order",
+    "table": {
+      "header": {
+        "id": "ID",
+        "ref": "Ref",
+        "client": "Client",
+        "mc": "MC",
+        "invoice": "Invoice",
+        "factoring": "Factoring",
+        "net": "Net"
+      }
+    },
+    "export_factoring": {
+      "title": "Export Factoring Invoices",
+      "success": {
+        "title": "Your export is ready.If you can't find it, please",
+        "link": "try downloading again"
+      }
+    },
+    "apex": {
+      "no_invoices": "No orders to invoice",
+      "no_configure": {
+        "button": "settings",
+        "equipments": "equipments",
+        "line_items": "line items",
+        "and": "and",
+        "not_connected": "are not connected",
+        "after_button": "and connect them",
+        "before_button": "Go to Apex Capital"
+      },
+      "toast": {
+        "without_broker": "Please select orders with broker"
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+@use '@/scss/abstracts' as *;
+
+.checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 100%;
+
+    @media (max-width: 1919px) {
+        width: 100%;
+    }
+
+    @media (max-width: 1440px) {
+        width: 100%;
+        padding: 16px;
+    }
+}
+
+.checkbox {
+    &.first {
+        background-color: $sd-colors-brand-800;
+    }
+    &.second {
+        background-color: $sd-colors-brand-700;
+    }
+
+    &.third {
+        background-color: $sd-colors-brand-600;
+    }
+
+    &.fourth {
+        background-color: $sd-colors-brand-500;
+    }
+
+    &.fifth {
+        background-color: $sd-colors-brand-400;
+    }
+
+    &.sixth {
+        background-color: $sd-colors-brand-300;
+    }
+
+    &.seventh {
+        background-color: $sd-colors-brand-200;
+    }
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 24px;
+    gap: $gap-sm;
+    flex-direction: column;
+    flex-grow: 1;
+    min-height: 190px;
+    min-width: 190px;
+
+    @media (max-width: 1919px) {
+        width: 100%;
+    }
+
+    @media (max-width: 1439px) {
+        width: 100%;
+        padding: 24px;
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "free_trial": {
+    "first_text": "You have {{daysLeft}} days left in your free trial.",
+    "link": "Manage subscription"
+  },
+  "payment_method_dont_suspend": {
+    "first_text": "Payment method on file failed. ",
+    "link": "Resolve it",
+    "second_text": "not to loose access."
+  },
+  "payment_method_suspend": {
+    "first_text": "Payment method on file failed. Account restricted. ",
+    "link": "Update Payment Method",
+    "second_text": "to restore access."
+  },
+  "subscribe_dont_suspend": {
+    "first_text": "Free trial has ended! Please ",
+    "link": "subscribe",
+    "second_text": "not to loose access. E-Mail support at "
+  },
+  "subscribe_suspend": {
+    "hi": "Hi",
+    "first_text": "Free trial has expired! ",
+    "link": "Subscribe",
+    "second_text": "not to loose access. E-Mail support at "
+  }
+}

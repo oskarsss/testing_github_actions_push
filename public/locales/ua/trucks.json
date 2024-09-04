@@ -1,0 +1,175 @@
+{
+  "table": {
+    "columns": {
+      "notes": "І ще {{amount}}... Натисніть, щоб відкрити нотатки"
+    }
+  },
+  "dialog": {
+    "delete": {
+      "title": "Ви впевнені, що хочете позначити цю вантажівку як \"Віддалену\"?",
+      "body": "Він буде прихований, але все одно зберігатиметься в системі."
+    },
+    "unassign": {
+      "title": "Скасувати призначення трейлера {{referenceId}}?",
+      "body": "Ви скасуєте призначення причепа вантажівці."
+    },
+    "add": {
+      "fields": {
+        "reference_id": {
+          "label": "Номер одиниці",
+          "placeholder": "101"
+        },
+        "vin": {
+          "label": "VIN (17 символів)"
+        }
+      }
+    },
+    "edit": {
+      "header": {
+        "title": "Вантажівка №"
+      },
+      "confirm": {
+        "change_insurance": {
+          "remove": {
+            "title": "Ви бажаєте видалити страхове підтвердження?",
+            "body": "Це призведе до видалення страхового листа для вантажівки."
+          },
+          "endorse": {
+            "title": "Ви бажаєте затвердити страховку?",
+            "body": "Це підтвердить страховку вантажівки."
+          }
+        }
+      },
+      "fields": {
+        "reference_id": {
+          "label": "Номер одиниці",
+          "placeholder": "101"
+        },
+        "make": {
+          "label": "зробити",
+          "placeholder": "Volvo"
+        },
+        "model": {
+          "label": "Модель",
+          "placeholder": "VNL 760"
+        },
+        "toll_transponder": {
+          "label": "Номер платного транспондера",
+          "placeholder": "XXXXXXXXX"
+        },
+        "fuel_discounts_enabled": {
+          "label": "Знижки на пальне"
+        },
+        "insurance_endorsed": {
+          "label": "Страхування підтримано"
+        }
+      }
+    }
+  },
+  "status": {
+    "empty": "Інший",
+    "all": "все",
+    "onboarding": "Посадка на борт",
+    "compliance_review": "Повний огляд",
+    "active": "Активний",
+    "inactive": "Неактивний",
+    "pending_termination": "Термін пера",
+    "terminated": "термін",
+    "deleted": "Видалено",
+    "available": "в наявності"
+  },
+  "type": {
+    "empty": "Інший",
+    "all": "все",
+    "owned": "У власності",
+    "leased": "Зданий в оренду",
+    "owner_operator": "Власник Оператор",
+    "unassigned": "Непризначений"
+  },
+  "colors": {
+    "black": "чорний",
+    "blue": "Синій",
+    "white": "Білий",
+    "brown": "Коричневий",
+    "gray": "Сірий",
+    "maroon": "Бордовий",
+    "green": "Зелений",
+    "beige": "бежевий",
+    "light_blue": "Блакитний",
+    "purple": "Фіолетовий",
+    "teal": "Чирок",
+    "orange": "Помаранчевий",
+    "pink": "Рожевий",
+    "yellow": "Жовтий",
+    "red": "Червоний"
+  },
+  "profile": {
+    "left": {
+      "info": {
+        "transmission": {
+          "title": "Спосіб передавання",
+          "text": "Автоматичний"
+        },
+        "fuel": {
+          "title": "паливо",
+          "enabled": "Увімкнено знижки на паливо",
+          "disabled": "Знижки на паливо вимкнено"
+        },
+        "plate_company": "Плейт Компани (ИРП)",
+        "toll_transponder": "Номер платного транспондера"
+      },
+      "trip_information": {
+        "title": "Переглянути навантаження",
+        "loads": "Навантаження",
+        "miles_driven": "Проїхані милі"
+      },
+      "menu": {
+        "loads": {
+          "list": {
+            "loads": "Навантаження",
+            "schedule": "розклад"
+          }
+        }
+      }
+    },
+    "right": {
+      "primary_driver": {
+        "title": "Основний драйвер",
+        "no_drivers": "Драйвер не вибрано"
+      },
+      "drivers": {
+        "title": "Водії",
+        "no_drivers": "Водіїв не призначено",
+        "menu": {
+          "options": {
+            "make_primary": "Зробити основним"
+          }
+        },
+        "dialog": {
+          "unassign": {
+            "title": "Скасувати призначення драйвера {{driverName}}?",
+            "body": "Ви знімете водія з вантажівки."
+          }
+        }
+      },
+      "assigned_users": {
+        "dialogs": {
+          "unassign": {
+            "title": "Скасувати призначення користувача {{name}}?",
+            "body": "Ви скасуєте призначення користувача з вантажівки."
+          }
+        }
+      },
+      "independent_note": {
+        "title": "Розташування гаража",
+        "field": {
+          "label": "Розташування гаража",
+          "placeholder": "Введіть розташування гаража"
+        }
+      }
+    },
+    "error": {
+      "button_text": "Повернення до сторінки «Вантажівки»."
+    }
+  }
+}

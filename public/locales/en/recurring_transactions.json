@@ -1,0 +1,31 @@
+{
+  "header": {
+    "title": "Recurring Transactions",
+    "buttons": {
+      "add_recurring": "Add Recurring",
+      "tooltips": {
+        "settings": "Click to set up categories your way"
+      }
+    },
+    "views": {
+      "drivers": "Default",
+      "transactions": "Transactions"
+    }
+  },
+  "tables": {
+    "driver": {
+      "options_menu": {
+        "add_transactions": "Add Transaction",
+        "edit_driver": "Edit Driver",
+        "edit_truck": "Edit Truck",
+        "edit_trailer": "Edit Trailer"
+      }
+    },
+    "transactions": {
+      "options_menu": {
+        "add_transactions": "Add Transaction for driver",
+        "edit_transaction": "Edit Transaction"
+      }
+    }
+  }
+}

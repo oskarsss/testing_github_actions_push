@@ -1,0 +1,32 @@
+{
+  "header": {
+    "buttons": {
+      "add_transaction": "Add Transaction"
+    }
+  },
+  "confirm_dialog": {
+    "delete": {
+      "title": "Delete tolls",
+      "body": "Are you sure you want to delete selected tolls?"
+    },
+    "unassign_equipment": {
+      "title": "Unassign tolls",
+      "body": "Are you sure you want to unassign equipment from selected tolls?"
+    }
+  },
+  "table": {
+    "customActions": {
+      "delete": {
+        "tooltip": "Delete selected tolls"
+      },
+      "assign_equipment": {
+        "tooltip": "Assign equipment to selected tolls",
+        "label": "Assign Equipment"
+      },
+      "unassign_equipment": {
+        "tooltip": "Unassign equipment from selected tolls",
+        "label": "Unassign Equipment"
+      }
+    }
+  }
+}

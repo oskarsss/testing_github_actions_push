@@ -1,0 +1,90 @@
+/* UserLogout.module.scss */
+@use '@/scss/abstracts' as *;
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 16px;
+    flex-grow: 0;
+    height: 57px;
+    margin-top: 20px;
+
+    &.fullVisible {
+        width: 63px;
+    }
+
+    &:not(.fullVisible) {
+        width: 240px;
+    }
+}
+
+.userInfoContent {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    cursor: default;
+
+    &.active {
+        cursor: pointer;
+    }
+}
+
+.userInfo {
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 0;
+    margin-left: 12px;
+    overflow: hidden;
+    max-width: 135px;
+    transition: opacity 250ms;
+
+    &.fullVisible {
+        opacity: 0;
+    }
+
+    &:not(.fullVisible) {
+        opacity: 1;
+    }
+}
+
+.name {
+    @include apply-typography($body-xl-regular);
+    color: var(--palette-semantic-text-primary);
+}
+
+.email {
+    @include apply-typography($body-xl-regular);
+    color: var(--palette-semantic-text-secondary);
+}
+
+.logoutButton {
+    padding: 0;
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 250ms;
+    margin-left: 5px;
+
+    svg {
+        width: 26px;
+        height: 26px;
+        color: var(--semantic-foreground-primary);
+    }
+
+    &FullVisible {
+        opacity: 0;
+    }
+
+    &:not(.fullVisible) {
+        opacity: 1;
+    }
+}
+
+.logoutProcessing {
+    width: 450px;
+    height: 170px;
+}

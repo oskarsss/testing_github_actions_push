@@ -1,0 +1,42 @@
+{
+  "header": {
+    "filters": {
+      "labels": {
+        "truck_type": "Truck Type",
+        "load_status": "Order Status",
+        "trailer_type": "Trailer Type"
+      }
+    }
+  },
+  "left_panel": {
+    "drivers": {
+      "tooltips": {
+        "app_installed": "App installed",
+        "doesnt_install_app": "Driver doesn't install the app"
+      }
+    },
+    "loads": {
+      "titles": {
+        "loaded": "Loaded"
+      },
+      "rpm": "rpm"
+    },
+    "trailers": {
+      "tooltips": {
+        "link_with_eld": "Link with ELD"
+      }
+    }
+  },
+  "empty_state": {
+    "filters": {
+      "first_text": "No {{text}} found, you can",
+      "second_text": "No {{text}} match the selected filters",
+      "button_text": "clear filters"
+    },
+    "default": {
+      "first_text": "No {{text}} available, you can",
+      "second_text": "There are currently no {{text}} in the system",
+      "text_after_button": "here"
+    }
+  }
+}

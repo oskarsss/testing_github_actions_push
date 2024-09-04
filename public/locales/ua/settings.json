@@ -1,0 +1,1628 @@
+{
+  "header": {
+    "title": "Налаштування"
+  },
+  "categories": {
+    "header": {
+      "tabs": {
+        "current": "Поточний {{count}}",
+        "deleted": "Видалено {{count}}"
+      }
+    }
+  },
+  "navigation": {
+    "my_account": {
+      "title": "Мій рахунок",
+      "profile": "Профіль",
+      "password": "Пароль",
+      "language": "Мова"
+    },
+    "organization": {
+      "title": "організація",
+      "members": "Члени",
+      "roles": "Ролі",
+      "company": "Компанія",
+      "advanced_config": "Розширені конфігурації",
+      "billing": "Платежі та план",
+      "bank_accounts": "Банківські рахунки",
+      "security": "Безпека",
+      "teams": "Команди"
+    },
+    "integrations": {
+      "title": "Інтеграції",
+      "integrations": "Інтеграції"
+    },
+    "invoicing": {
+      "title": "Виставлення рахунків",
+      "general_settings": "Загальні налаштування",
+      "factoring_companies": "Факторингові компанії"
+    },
+    "drivers": {
+      "title": "Водії",
+      "driver_types": "Типи драйверів"
+    },
+    "settlements": {
+      "title": "Населені пункти",
+      "general_settings": "Загальні налаштування",
+      "cycles": "Цикли",
+      "revenue_types": "Види доходу",
+      "credit_categories": "Кредитні категорії",
+      "debit_categories": "Дебетові категорії"
+    },
+    "documents": {
+      "title": "Документи",
+      "document_types": "Типи документів"
+    },
+    "loads": {
+      "title": "Навантаження",
+      "driver_pay_categories": "Категорії оплати праці водія",
+      "invoice_item_categories": "Категорії позицій рахунку",
+      "load_types": "Типи навантажень"
+    },
+    "trailers": {
+      "title": "Трейлери",
+      "trailer_types": "Типи трейлерів"
+    }
+  },
+  "teams": {
+    "table": {
+      "columns": {
+        "title": "Назва",
+        "trailers": "Трейлери",
+        "trucks": "Вантажні автомобілі",
+        "drivers": "Водії",
+        "members": "Члени"
+      }
+    },
+    "profile": {
+      "no_email": "немає електронної пошти",
+      "back": "Назад",
+      "about": "про",
+      "drivers": {
+        "header": {
+          "title": "Водії"
+        },
+        "table": {
+          "columns": {
+            "driver": "Водій"
+          }
+        }
+      },
+      "members": {
+        "header": {
+          "title": "Члени"
+        },
+        "table": {
+          "columns": {
+            "member": "Член",
+            "role": "Роль"
+          }
+        }
+      },
+      "trailers": {
+        "header": {
+          "title": "Трейлери"
+        },
+        "table": {
+          "columns": {
+            "trailer": "Трейлер"
+          }
+        }
+      },
+      "trucks": {
+        "header": {
+          "title": "Вантажні автомобілі"
+        },
+        "table": {
+          "columns": {
+            "truck": "Вантажівка"
+          }
+        }
+      }
+    },
+    "dialog": {
+      "delete": {
+        "team": {
+          "title": "Видалити команду?",
+          "body": "Видалити команду Ви видалите цю команду {{name}}."
+        },
+        "driver": {
+          "title": "Видалити драйвер",
+          "body": "Ви видалите цей драйвер {{fullName}}."
+        },
+        "member": {
+          "title": "Видалити учасника",
+          "body": "Ви видалите цього учасника \"{{firstName}} {{lastName}}\"."
+        },
+        "trailer": {
+          "title": "Видалити трейлер",
+          "body": "Ви впевнені, що хочете видалити цей трейлер?"
+        },
+        "truck": {
+          "title": "Видалити вантажівку",
+          "body": "Ви впевнені, що хочете видалити цю вантажівку?"
+        }
+      },
+      "create": {
+        "header": {
+          "title": "Додати команду"
+        }
+      },
+      "edit": {
+        "header": {
+          "title": "Редагувати {{name}}"
+        }
+      },
+      "block_titles": {
+        "details": "Подробиці"
+      },
+      "fields": {
+        "name": {
+          "label": "Ім'я",
+          "placeholder": "Введіть назву команди"
+        },
+        "description": {
+          "label": "опис",
+          "placeholder": "Введіть опис команди"
+        },
+        "logo_url": {
+          "label": "Логотип команди"
+        }
+      }
+    },
+    "team_items": {
+      "dialog": {
+        "create": {
+          "drivers": {
+            "header": {
+              "title": "Додати драйвери"
+            },
+            "fields": {
+              "show_deleted_drivers": {
+                "label": "Показати видалені драйвери"
+              },
+              "driver_ids": {
+                "label": "Водії"
+              }
+            }
+          },
+          "members": {
+            "header": {
+              "title": "Додати учасників"
+            },
+            "fields": {
+              "usersIds": {
+                "label": "Члени"
+              }
+            }
+          },
+          "trailers": {
+            "header": {
+              "title": "Додати трейлери"
+            },
+            "fields": {
+              "show_deleted_trailers": {
+                "label": "Показати видалені трейлери"
+              },
+              "trailerIds": {
+                "label": "Трейлери"
+              }
+            }
+          },
+          "trucks": {
+            "header": {
+              "title": "Додати вантажівки"
+            },
+            "fields": {
+              "show_deleted_trucks": {
+                "label": "Показати видалені вантажівки"
+              },
+              "trucksIds": {
+                "label": "Вантажні автомобілі"
+              }
+            }
+          }
+        }
+      }
+    },
+    "empty_screen": {
+      "button_text": "додати",
+      "first_text": "Немає доступних команд, ви можете",
+      "text_after_button": "їх тут",
+      "second_text": "Команди потрібні для призначення водіїв, тракторів і причепів обраним учасникам"
+    }
+  },
+  "integrations": {
+    "header": {
+      "title": "Ринок інтеграцій",
+      "buttons": {
+        "request_integration": "ЗАПИТ ІНТЕГРАЦІЇ"
+      }
+    },
+    "cards": {
+      "all_categories": "всі категорії",
+      "gps": "GPS",
+      "eld": "ELD",
+      "accounting": "Бухгалтерський облік",
+      "factoring": "Факторинг",
+      "fuel": "паливо",
+      "tolls": "Плата за проїзд",
+      "loadboard": "Навантажувальна дошка"
+    },
+    "details": {
+      "route": {
+        "settings": "Налаштування",
+        "integrations": "Інтеграції"
+      },
+      "left_side": {
+        "quickbooks": {
+          "description": "Об’єднайте потужність пакету керування {{friendlyName}} із фінансовою спроможністю QuickBooks для інтегрованого й ефективного бізнес-рішення для вантажних перевезень.",
+          "rows": {
+            "what_is_quickbooks": {
+              "title": "Що таке QuickBooks?",
+              "description": "QuickBooks — це відоме ім’я у сфері бізнес-фінансів, призначене для спрощення складної системи бухгалтерського обліку. "
+            },
+            "merge_with_quickbooks": {
+              "title": "{{friendlyName}} об’єднується з QuickBooks: фінансова ясність у русі",
+              "description": "Коли {{friendlyName}} інтегрується з QuickBooks, результатом є повне поєднання керування автопарком із спрощеними фінансовими операціями. "
+            }
+          }
+        },
+        "tsc": {
+          "description": "Розширте можливості свого автопарку за допомогою покращеної економії пального, оптимізуючи кожну пройдену милю. ",
+          "rows": {
+            "what_is_tsc": {
+              "title": "Що таке TCS Fuel Card?",
+              "description": "TCS, або TransConnect Services, революціонізує спосіб, у який автоперевізники та транспортні компанії обробляють свої витрати на пальне. "
+            },
+            "optimizes_tcs": {
+              "title": "Як {{friendlyName}} оптимізує паливну картку TCS",
+              "description": "Інтеграція {{friendlyName}} із паливною карткою TCS поєднує сучасне керування автопарком із оптимальними витратами палива. "
+            }
+          }
+        },
+        "fleet_one_wex": {
+          "description": "Покращте керування паливом за допомогою автоматизованої синхронізації транзакцій із Fleet One WEX на платформу {{friendlyName}}.",
+          "rows": {
+            "what_is_fleet_one_wex": {
+              "title": "Що таке Fleet One WEX?",
+              "description": "Fleet One WEX є лідером галузі, пропонуючи індивідуальні рішення для парків від 1 до 50 автомобілів. "
+            },
+            "sync_with_fleet": {
+              "title": "Безперебійна синхронізація {{friendlyName}} із Fleet One WEX",
+              "description": "Поєднання {{friendlyName}} із Fleet One WEX відкриває сферу ефективності керування паливом. "
+            }
+          }
+        },
+        "motive": {
+          "description": "Розблокуйте інформацію про автопарк у реальному часі та моніторинг водіїв від Motive, і все це на інтуїтивно зрозумілій платформі {{friendlyName}}.",
+          "rows": {
+            "what_is_motive": {
+              "title": "Що таке мотив?",
+              "description": "Motive привносить новий вимір в управління автопарком завдяки передовій системі електронного журналювання та відстеження. "
+            },
+            "motive": {
+              "title": "{{friendlyName}} & Motive: єдине бачення",
+              "description": "Інтеграція {{friendlyName}} із Motive посилює потужність обох платформ. "
+            }
+          }
+        },
+        "samsara": {
+          "description": "Досягніть точного відстеження та моніторингу водія в режимі реального часу, бездоганно поєднані на платформі {{friendlyName}}.",
+          "rows": {
+            "what_is_samsara": {
+              "title": "Що таке Samsara ELD?",
+              "description": "Samsara ELD — це передовий електронний пристрій реєстрації, який пропонує розширені функції керування автопарком. "
+            },
+            "enhances_samsara": {
+              "title": "Як {{friendlyName}} покращує Samsara ELD",
+              "description": "Інтеграція {{friendlyName}} із Samsara ELD забезпечує покращені робочі можливості. "
+            }
+          }
+        },
+        "eld_rider": {
+          "description": "Безперебійне відстеження активів, дані одометра, автоматичне оновлення зупинки навантаження та видимість годин роботи в реальному часі",
+          "rows": {
+            "intro_about_eld_rider": {
+              "title": "Інтро про ELD Rider",
+              "description": "ELD Rider виділяється як комплексний постачальник телематики та ELD, який спеціалізується виключно на галузі вантажних перевезень. "
+            },
+            "how_works": {
+              "title": "Опис того, як працює наша інтеграція",
+              "description": "Інтеграція ELD Rider відкриває потік даних у реальному часі, пропонуючи інформацію про місцезнаходження вантажівок і причепів, показання одометра для проактивного планування технічного обслуговування та точне позиціонування GPS. "
+            }
+          }
+        }
+      },
+      "right_side": {
+        "connected_drivers": "Підключені драйвери",
+        "connected_vehicles": "Підключені транспортні засоби",
+        "form": {
+          "title": "Налаштування",
+          "buttons": {
+            "finish_changing": "Завершити зміни",
+            "disconnect_from_provider": "Від’єднатися від {{name}}"
+          }
+        },
+        "quickbooks": {
+          "titles": {
+            "invoicing": "Завантажити категорії позицій рахунку-фактури",
+            "bank_accounts": "Банківські рахунки"
+          },
+          "tabs": {
+            "invoicing": "Виставлення рахунків",
+            "bank_accounts": "Банківські рахунки"
+          },
+          "table": {
+            "columns": {
+              "bank_name": "Назва банку",
+              "routing_number": "Номер маршруту",
+              "broker_name": "Назва брокера",
+              "qb_company_name": "Назва компанії QuickBooks",
+              "customer_name": "Ім'я клієнта",
+              "driver_name": "Ім'я водія",
+              "qb_name": "Назва QuickBooks",
+              "category_name": "Назва категорії",
+              "qb_description": "Опис QuickBooks",
+              "entity_type": "Тип сутності",
+              "revenue_type_name": "Назва виду доходу",
+              "unit_number": "Номер одиниці",
+              "fully_qb_name": "Повне ім’я в QuickBooks",
+              "vendor_name": "Назва постачальника"
+            }
+          }
+        },
+        "manage": {
+          "connected": "Підключено",
+          "not_connected": "Не з'єднано",
+          "tabs": {
+            "all": "все",
+            "linked": "пов'язані",
+            "non_linked": "незв'язаний"
+          }
+        }
+      },
+      "out_of": "З",
+      "invoicing": {
+        "header": {
+          "title": "Завантажити категорії позицій рахунку-фактури",
+          "view_name": "Виставлення рахунків"
+        },
+        "table": {
+          "columns": {
+            "name": "Назва категорії",
+            "apex_name": "Назва Apex Capital"
+          }
+        }
+      },
+      "equipment": {
+        "header": {
+          "title": "Типи обладнання",
+          "view_name": "Обладнання"
+        },
+        "table": {
+          "columns": {
+            "name": "Назва обладнання",
+            "apex_name": "Назва Apex Capital"
+          }
+        }
+      },
+      "link": "Посилання Apex Capital"
+    },
+    "connect": {
+      "connecting": "підключення",
+      "connected": "підключений",
+      "error_button": "Перейдіть до налаштувань і повторіть спробу",
+      "error_text": "помилка підключення",
+      "success_and_redirect": "Успіх, чекайте перенаправлення"
+    },
+    "dialog": {
+      "edit": {
+        "header": {
+          "title": "Редагувати {{name}}"
+        },
+        "fields": {
+          "apexCapitalId": {
+            "label": "Apex Capital Equipment"
+          },
+          "quickbooks": {
+            "customer": "Ім'я клієнта}",
+            "vendor": "Постачальник {{name}}",
+            "gross": "Брутто - {{name}} Пункт",
+            "fuel": "Паливо - {{name}} Item",
+            "tolls": "Дорожні збори - {{name}} Item",
+            "item": "Товар {{name}}",
+            "class": "Клас {{name}}",
+            "bank_account": "Банківський рахунок {{name}}"
+          }
+        }
+      },
+      "change_password": {
+        "title": "Встановіть свій пароль",
+        "sub_title": "Встановіть пароль для свого нового облікового запису. ",
+        "fields": {
+          "new_password": {
+            "label": "Новий пароль",
+            "placeholder": "Введіть новий пароль"
+          },
+          "confirm_password": {
+            "label": "Підтвердьте пароль",
+            "placeholder": "Введіть пароль підтвердження"
+          }
+        },
+        "submit": "Встановити пароль",
+        "confirm": {
+          "body": "Якщо ви закрили це вікно та бажаєте змінити пароль, вам потрібно скинути пароль (Налаштування -> Пароль -> «Забули свій пароль»)"
+        }
+      },
+      "provider": {
+        "disconnect": {
+          "title": "Ви впевнені, що бажаєте відключити {{name}}?",
+          "body": "Це призведе до відключення всіх підключених водіїв і транспортних засобів."
+        }
+      },
+      "drivers": {
+        "title": "Керування драйверами",
+        "confirm": {
+          "unlink_driver": {
+            "title": "Від’єднати драйвер",
+            "body": "Ви впевнені, що хочете від’єднати цей драйвер?"
+          }
+        },
+        "menu": {
+          "assign": {
+            "title": "Призначити водія"
+          }
+        },
+        "button": {
+          "link": "Драйвер посилання",
+          "unlink": "Від’єднати драйвер"
+        },
+        "empty_screen": {
+          "first_text": "Немає {{primaryText}}",
+          "second_text": "Перевірте та додайте їх у {{providerName}}"
+        },
+        "table": {
+          "columns": {
+            "username": "Ім'я користувача",
+            "name": "Ім'я",
+            "phone": "Телефон",
+            "license_number": "Номер ліцензії",
+            "license_state": "Держава ліцензії",
+            "driver_id": "{{name}} Ідентифікатор водія",
+            "driver_name": "{{name}} Ім'я драйвера",
+            "license_number_name": "Номер ліцензії {{name}}",
+            "license_state_name": "{{name}} стан ліцензії"
+          }
+        }
+      },
+      "vehicles": {
+        "dialog": {
+          "title": "Керувати транспортними засобами",
+          "confirm": {
+            "unlink": {
+              "title": "Від’єднати транспортний засіб",
+              "body": "Ви впевнені, що хочете зв’язати цей транспортний засіб?"
+            }
+          },
+          "table": {
+            "columns": {
+              "equipment_id": "ID обладнання",
+              "entity_type": "Тип сутності",
+              "name": "Ім'я",
+              "device_serial": "Серійний номер пристрою"
+            }
+          }
+        },
+        "menu": {
+          "assign": {
+            "title": "Призначити {{entityType}}",
+            "option_name": {
+              "empty_driver": "Драйвер N/A"
+            }
+          }
+        },
+        "button": {
+          "link": "Link Vehicle",
+          "unlink": "Від’єднати транспортний засіб"
+        }
+      },
+      "request_integration": {
+        "title": "Запит на інтеграцію",
+        "description": "Будь ласка, опишіть, яку інтеграцію ви шукаєте, додатково для прискорення\n                ",
+        "sub_title_1": "Інформація про інтеграцію",
+        "sub_title_2": "Контактна особа",
+        "submit": "Запит на інтеграцію",
+        "fields": {
+          "contact_name": {
+            "label": "Твоє ім'я",
+            "placeholder": "Введіть ім'я"
+          },
+          "contact_phone": {
+            "label": "Телефон (необов'язково)",
+            "placeholder": "Введіть свій телефон"
+          },
+          "integration_name": {
+            "label": "Назва інтеграції",
+            "placeholder": "Введіть назву інтеграції"
+          },
+          "integration_website": {
+            "label": "Веб-сайт інтеграції",
+            "placeholder": "Введіть веб-сайт інтеграції"
+          },
+          "integration_purpose": {
+            "label": "Яка мета цієї інтеграції?",
+            "placeholder": "Введіть мету інтеграції"
+          }
+        }
+      }
+    },
+    "disconnect": {
+      "quickbooks": {
+        "by_code": {
+          "error": "Помилка відключення від QuickBooks.",
+          "success": "Компанію успішно відключено від QuickBooks. "
+        },
+        "get_url": {
+          "error": "Помилка відключення від QuickBooks.",
+          "success": "Перенаправлення..."
+        }
+      }
+    }
+  },
+  "tabs": {
+    "current": "Поточний {{count}}",
+    "deleted": "Видалено {{count}}"
+  },
+  "document_types": {
+    "header": {
+      "title": "Типи документів"
+    },
+    "table": {
+      "columns": {
+        "title": "Назва",
+        "expirable": "Термін придатності закінчується",
+        "number_supported": "Номер",
+        "state_supported": "Держава",
+        "required": "вимагається",
+        "status_supported": "Статус",
+        "can_driver_view": "Можливість перегляду драйверів",
+        "can_driver_update": "Можливість оновлення драйверів"
+      }
+    },
+    "dialog": {
+      "add": {
+        "driver": {
+          "title": "Додайте тип документа водія"
+        },
+        "truck": {
+          "title": "Додайте тип документа на вантажівку"
+        },
+        "trailer": {
+          "title": "Додати тип трейлера"
+        },
+        "trailer_company": {
+          "title": "Додайте тип документа компанії-причепа"
+        },
+        "plate": {
+          "title": "Додати тип документа пластини"
+        },
+        "plate_company": {
+          "title": "Додайте тип документа компанії"
+        },
+        "load": {
+          "title": "Додайте тип документа завантаження"
+        },
+        "broker": {
+          "title": "Додайте тип документа брокера"
+        },
+        "customer": {
+          "title": "Додайте тип документа клієнта"
+        },
+        "vendor": {
+          "title": "Додайте тип документа постачальника"
+        },
+        "company": {
+          "title": "Додайте тип документа компанії"
+        },
+        "loan": {
+          "title": "Додайте тип документа позики"
+        }
+      },
+      "update": {
+        "driver": {
+          "title": "Оновити тип документа драйвера"
+        },
+        "truck": {
+          "title": "Оновіть тип документа на вантажівку"
+        },
+        "trailer": {
+          "title": "Оновити тип документа трейлера"
+        },
+        "trailer_company": {
+          "title": "Оновити тип документа трейлера компанії"
+        },
+        "plate": {
+          "title": "Оновити тип документа таблички"
+        },
+        "plate_company": {
+          "title": "Оновити тип документа компанії таблички"
+        },
+        "load": {
+          "title": "Оновити тип завантаженого документа"
+        },
+        "broker": {
+          "title": "Тип документа посередника оновлення"
+        },
+        "customer": {
+          "title": "Оновіть тип документа клієнта"
+        },
+        "vendor": {
+          "title": "Оновити тип документа постачальника"
+        },
+        "company": {
+          "title": "Оновити тип документа компанії"
+        },
+        "loan": {
+          "title": "Оновити тип документа позики"
+        }
+      },
+      "add_update_fields": {
+        "title": {
+          "label": "Назва",
+          "placeholder": "Ім'я"
+        },
+        "entity_type": {
+          "label": "Тип сутності"
+        },
+        "state": {
+          "label": "Штат (необов'язково)"
+        },
+        "expirable": {
+          "label": "Термін придатності закінчується"
+        },
+        "number_supported": {
+          "label": "Номер"
+        },
+        "can_driver_view": {
+          "label": "Можливість перегляду драйверів"
+        },
+        "can_driver_update": {
+          "label": "Можливість оновлення драйверів"
+        }
+      },
+      "change_order": {
+        "cancel": {
+          "title": "Скасувати зміну замовлення",
+          "body": "Ваші зміни не будуть збережені. "
+        },
+        "save": {
+          "title": "Зберегти зміни",
+          "body": "Ви хочете зберегти зміни?"
+        }
+      },
+      "delete": {
+        "title": "Видалити {{documentName}}?",
+        "body": "Цей тип документа буде видалено назавжди."
+      }
+    },
+    "empty_screen": {
+      "button_text": "додати",
+      "first_text": "Немає доступних типів документів, ви можете",
+      "text_after_button": "їх тут",
+      "second_text": "Наразі в системі немає типів документів"
+    }
+  },
+  "revenue_types": {
+    "empty_screen": {
+      "active": {
+        "button_text": "додати",
+        "first_text": "Немає доступних типів активного доходу, ви можете",
+        "text_after_button": "їх тут",
+        "second_text": "Зараз в системі немає активних видів прибутку"
+      },
+      "deactivated": {
+        "button_text": "додати",
+        "first_text": "Ви можете",
+        "text_after_button": "їх тут",
+        "second_text": "Наразі в системі немає відключених видів доходу"
+      }
+    }
+  },
+  "cycles": {
+    "empty_screen": {
+      "active": {
+        "button_text": "додати",
+        "first_text": "Немає активних циклів, ви можете",
+        "text_after_button": "їх тут",
+        "second_text": "Зараз в системі немає активних циклів"
+      },
+      "deactivated": {
+        "button_text": "додати",
+        "first_text": "Немає доступних деактивованих циклів, ви можете",
+        "text_after_button": "їх тут",
+        "second_text": "Наразі в системі немає деактивованих циклів"
+      }
+    }
+  },
+  "factoring_companies": {
+    "company": {
+      "content": {
+        "note": "Примітка: {{note}}",
+        "cut_off_time": "Час відключення",
+        "contract_ending_on": "Договір закінчується",
+        "factoring_fee": "Комісія за факторинг"
+      },
+      "table": {
+        "columns": {
+          "period": "Крапка",
+          "loads": "Навантаження",
+          "gross": "Валовий",
+          "factoring": "Факторинг",
+          "pending": "В очікуванні",
+          "received": "Отримано"
+        },
+        "period": "Останні 30 днів"
+      }
+    },
+    "dialog": {
+      "create": {
+        "header": {
+          "title": "Додати факторингову компанію"
+        }
+      },
+      "update": {
+        "header": {
+          "title": "Редагувати {{companyName}}"
+        }
+      },
+      "sections": {
+        "details": "Подробиці",
+        "contact_info": "Контактна інформація",
+        "address_info": "Інформація про адресу"
+      },
+      "fields": {
+        "feePercentage": {
+          "label": "Комісія за факторинг"
+        },
+        "contractEndAt": {
+          "label": "Кінець договору о"
+        },
+        "cutoffTime": {
+          "label": "Час відключення",
+          "placeholder": "Час відключення"
+        },
+        "fax": {
+          "label": "Факс",
+          "placeholder": "(245) 852-7496"
+        },
+        "ein": {
+          "label": "EIN",
+          "placeholder": "EIN"
+        }
+      },
+      "upload_logo": {
+        "logoFileId": {
+          "label": "Логотип компанії"
+        },
+        "noaFileId": {
+          "label": "NOA"
+        }
+      },
+      "delete": {
+        "title": "Ви впевнені, що хочете видалити {{companyName}}?",
+        "body": "Це видалить факторингову компанію з вашого облікового запису."
+      },
+      "noa": {
+        "header": {
+          "title": "Повідомлення про передачу"
+        }
+      }
+    },
+    "empty_screen": {
+      "button_text": "додати",
+      "first_text": "Немає доступних факторингових компаній, ви можете",
+      "text_after_button": "їх тут",
+      "second_text": "Наразі в системі немає факторингових компаній"
+    }
+  },
+  "members": {
+    "user": {
+      "status": {
+        "all": "всі",
+        "invited": "Запрошений",
+        "active": "Активний",
+        "disabled": "Вимкнено",
+        "deleted": "Видалено"
+      }
+    },
+    "table": {
+      "columns": {
+        "full_name": "Ім'я",
+        "title": "назва",
+        "role_id": "Роль",
+        "email": "Електронна пошта",
+        "phone": "Телефон",
+        "2fa": "2fa",
+        "status": "Статус"
+      }
+    },
+    "dialog": {
+      "add": {
+        "header": {
+          "title": "Додати нового користувача"
+        }
+      },
+      "update": {
+        "header": {
+          "title": "Редагувати користувача"
+        }
+      },
+      "add_update": {
+        "header": {
+          "sub_title": "Переконайтеся, що інформація підтримується актуальною."
+        },
+        "buttons": {
+          "copy_invite": "Копіювати запрошення",
+          "resend_invite": "Повторно надіслати запрошення"
+        },
+        "fields": {
+          "title": {
+            "label": "Назва",
+            "placeholder": "Диспетчер"
+          },
+          "second_step_auth_enabled": {
+            "label": "2FA увімкнено",
+            "tooltip": "Увімкніть подвійну/2FA автентифікацію через SMS"
+          },
+          "password_change_required": {
+            "label": "Зміна PW",
+            "tooltip": "Скинути пароль під час наступного входу"
+          }
+        }
+      },
+      "invite": {
+        "header": {
+          "title": "Запросити члена команди"
+        }
+      }
+    }
+  },
+  "credit_categories": {
+    "empty_screen": {
+      "button_text": "додати",
+      "first_text": "Немає доступних категорій кредитних операцій, ви можете",
+      "text_after_button": "їх тут",
+      "second_text": "Наразі в системі немає категорій кредитних операцій"
+    }
+  },
+  "debit_categories": {
+    "empty_screen": {
+      "button_text": "додати",
+      "first_text": "Немає доступних категорій дебетових транзакцій, ви можете",
+      "text_after_button": "їх тут",
+      "second_text": "Наразі в системі немає категорій дебетових транзакцій"
+    }
+  },
+  "driver_pay_categories": {
+    "empty_screen": {
+      "button_text": "додати",
+      "first_text": "Немає доступних категорій оплати водія, ви можете",
+      "text_after_button": "їх тут",
+      "second_text": "Зараз у системі немає категорій оплати водія"
+    }
+  },
+  "invoice_item_categories": {
+    "empty_screen": {
+      "button_text": "додати",
+      "first_text": "Категорії позицій рахунку-фактури недоступні, ви можете",
+      "text_after_button": "їх тут",
+      "second_text": "Наразі в системі немає категорій позицій рахунку-фактури"
+    }
+  },
+  "load_types": {
+    "empty_screen": {
+      "button_text": "додати",
+      "first_text": "Немає доступних типів навантаження, ви можете",
+      "text_after_button": "їх тут",
+      "second_text": "Наразі в системі немає типів завантаження"
+    }
+  },
+  "eld_provider": {
+    "empty_screen": {
+      "button_text": "Запит постачальника інтеграції",
+      "first_text": "Немає доступних інтеграцій, ви можете",
+      "text_after_button": "їх тут",
+      "second_text": "Зараз у системі немає постачальників ELD"
+    }
+  },
+  "roles": {
+    "table": {
+      "columns": {
+        "name": "Ім'я",
+        "assigned_permissions": "Призначені дозволи"
+      },
+      "permissions": "Дозволи"
+    },
+    "dialog": {
+      "create": {
+        "header": {
+          "title": "Додати роль"
+        }
+      },
+      "edit": {
+        "header": {
+          "title": "Редагувати роль {{roleName}}"
+        }
+      }
+    },
+    "empty_screen": {
+      "button_text": "додати",
+      "first_text": "Немає доступних ролей, ви можете",
+      "text_after_button": "їх тут",
+      "second_text": "Наразі в системі немає ролей"
+    }
+  },
+  "advanced_config": {
+    "header": {
+      "title": "Розширені конфігурації"
+    },
+    "table": {
+      "action": "Дія",
+      "range": "Діапазон",
+      "tooltip": "Діапазон, у якому драйвер може застосовувати дії"
+    },
+    "dialog": {
+      "edit": {
+        "header": {
+          "title": "Редагувати {{actionName}}"
+        },
+        "fields": {
+          "range": {
+            "label": "Діапазон",
+            "placeholder": "123"
+          },
+          "enabled_range": {
+            "label": "Дозволити"
+          }
+        }
+      }
+    },
+    "empty_screen": {
+      "button_text": "",
+      "first_text": "Немає доступних Розширених Конфигурацій",
+      "text_after_button": "їх тут",
+      "second_text": "Зараз у системі немає Розширених Конфигурацій"
+    }
+  },
+  "driver_types": {
+    "header": {
+      "title": "Типи драйверів"
+    },
+    "table": {
+      "columns": {
+        "name": "Тип імені",
+        "is_default": "За замовчуванням",
+        "permission_settlements": "Населені пункти",
+        "permission_bank_accounts": "Банківський рахунок",
+        "permission_completed_loads": "Завершені навантаження",
+        "permission_loads_total_amount": "Загальна кількість завантажень",
+        "permission_loads_driver_pay_amount": "Сума оплати",
+        "permission_loads_distance": "Відстань навантаження"
+      }
+    },
+    "dialog": {
+      "create": {
+        "header": {
+          "title": "Створення типу драйвера"
+        }
+      },
+      "update": {
+        "header": {
+          "title": "Змінити тип драйвера"
+        }
+      },
+      "create_update": {
+        "field": {
+          "type_name": {
+            "label": "Тип імені",
+            "placeholder": "Назва типу драйвера"
+          }
+        },
+        "select": {
+          "driver_type_icon": {
+            "label": "Значок типу драйвера"
+          }
+        },
+        "block": {
+          "settlement": {
+            "title": "Поселення"
+          },
+          "app": {
+            "title": "додаток"
+          }
+        },
+        "is_default": "За замовчуванням",
+        "permission_bank_accounts": "Банківські рахунки",
+        "permission_completed_loads": "Завершені навантаження",
+        "permission_loads_total_amount": "Загальна кількість завантажень",
+        "permission_loads_driver_pay_amount": "Сума оплати",
+        "permission_loads_distance": "Відстань навантаження",
+        "permission_settlements": "Населені пункти",
+        "permission_settlement_view_loads": "Переглянути навантаження",
+        "permission_settlement_view_loads_total_amount": "Переглянути загальну кількість завантажень",
+        "permission_settlement_view_loads_pay_amount": "Перегляд суми оплати завантаження",
+        "permission_settlement_view_loads_distance": "Відстань від вантажів",
+        "permission_settlement_view_fuel": "Переглянути паливо",
+        "permission_settlement_view_tolls": "Переглянути Плати за проїзд",
+        "permission_settlement_view_company_fee": "Переглянути комісію компанії",
+        "permission_settlement_view_debits": "Переглянути дебети",
+        "permission_settlement_view_credits": "Переглянути кредити",
+        "permission_app_take_screenshots": "Робити скріншоти"
+      },
+      "delete": {
+        "title": "Видалення типу драйвера",
+        "body": "Ви впевнені, що хочете видалити цей тип драйвера - {{name}}?"
+      }
+    },
+    "empty_screen": {
+      "button_text": "додати",
+      "first_text": "Немає доступних типів драйверів, ви можете",
+      "text_after_button": "їх тут",
+      "second_text": "Зараз у системі немає типів драйверів"
+    }
+  },
+  "trailer_types": {
+    "table": {
+      "columns": {
+        "code": "Код",
+        "name": "Ім'я"
+      }
+    },
+    "dialog": {
+      "edit": {
+        "header": {
+          "title": "Редагувати тип трейлера"
+        }
+      },
+      "add": {
+        "header": {
+          "title": "Додайте тип трейлера"
+        }
+      },
+      "add_edit": {
+        "fields": {
+          "code": {
+            "label": "Код",
+            "placeholder": "Код"
+          },
+          "name": {
+            "label": "Ім'я",
+            "placeholder": "Назва типу трейлера"
+          },
+          "icon": {
+            "label": "Значок типу трейлера",
+            "icons_titles": {
+              "default": "За замовчуванням",
+              "dry_van": "Сухий фургон",
+              "refer": "Рефрижератор",
+              "flatbed": "Планшетний",
+              "step_dec": "Крок груд",
+              "tanker": "Танкер",
+              "low_boy": "РГН Низький хлопчик",
+              "power_only": "Тільки живлення"
+            }
+          }
+        }
+      },
+      "delete": {
+        "title": "Видалити тип трейлера?",
+        "body": "Ви видалите цей тип {{code}}-{{name}}."
+      }
+    },
+    "empty_screen": {
+      "button_text": "додати",
+      "first_text": "Немає доступних типів трейлерів, ви можете",
+      "text_after_button": "їх тут",
+      "second_text": "Зараз у системі немає типів трейлерів"
+    }
+  },
+  "billing": {
+    "header": {
+      "title": "Розвивайте свій бізнес із вантажоперевезень за допомогою наших індивідуальних планів",
+      "sub_title": "Знайдіть ідеальне рішення для успіху"
+    },
+    "next_estimate_payment": {
+      "title": "Наступний приблизний платіж",
+      "revenue_on": "Поновлення {{endDate}}",
+      "empty_state": {
+        "title": "Немає інформації про наступний приблизний платіж"
+      }
+    },
+    "payment_method": {
+      "title": "Спосіб оплати",
+      "expires": "Термін дії закінчується {{month}}/{{year}}",
+      "empty_state": {
+        "title": "Не додано спосіб оплати"
+      }
+    },
+    "plan": {
+      "cards": {
+        "starter": "Стартер",
+        "pro": "Pro",
+        "enterprise": "підприємство",
+        "mega_carrier": "Мега-перевізник",
+        "interval": "вантажівка"
+      },
+      "info": {
+        "tooltips": {
+          "subscription": "Загальна кількість активних вантажівок: {{quantity}}",
+          "not_subscription": "Ми пропонуємо вам цей план на основі кількості ваших вантажівок. Загальна кількість активних вантажівок: ${{quantity}}"
+        }
+      },
+      "chips": {
+        "current": "поточний",
+        "for_you": "Для тебе"
+      }
+    },
+    "table": {
+      "columns": {
+        "finish_date": "Дата закінчення",
+        "amount": "Сума",
+        "status": "Статус",
+        "purpose": "призначення",
+        "actions": "Дії"
+      },
+      "chips": {
+        "draft": "Чернетка",
+        "open": "ВІДЧИНЕНО",
+        "void": "Пустота",
+        "paid": "Платний",
+        "uncollectible": "Безнадійний",
+        "unspecified": "Невизначений"
+      }
+    },
+    "cancel_account": {
+      "title": "Скасувати обліковий запис",
+      "button": {
+        "cancel": "СКАСУВАТИ ОБЛІКОВИЙ ЗАПИС"
+      }
+    },
+    "empty_screen": {
+      "first_text": "Рахунки-фактури не знайдено в історії",
+      "second_text": "Ваша історія рахунків наразі порожня"
+    },
+    "dialog": {
+      "cancel_account": {
+        "header": {
+          "title": "Нам дуже прикро чути, що ви хочете скасувати свій обліковий запис."
+        },
+        "description_part_1": "Будь ласка зв'яжіться",
+        "description_part_2": "щоб скасувати свій обліковий запис.",
+        "okay": "Гаразд"
+      }
+    }
+  },
+  "bank_accounts": {
+    "header": {
+      "title": "Банківські рахунки"
+    },
+    "table": {
+      "columns": {
+        "bank_name": "Ім'я",
+        "account_holder_name": "Тримач",
+        "routing_number": "Маршрутизація",
+        "last_four": "Номер",
+        "created_at": "Створено"
+      }
+    },
+    "dialog": {
+      "create": {
+        "header": {
+          "title": "Додати банківський рахунок"
+        },
+        "fields": {
+          "name_on_account": {
+            "label": "Ім'я на рахунку",
+            "placeholder": "Джон Доу"
+          },
+          "routing_number": {
+            "label": "Номер маршруту",
+            "placeholder": "021000021"
+          },
+          "account_number": {
+            "label": "Номер рахунку",
+            "placeholder": "01234567890"
+          }
+        }
+      },
+      "delete": {
+        "title": "Видалити банківський рахунок",
+        "body": "Ви впевнені, що бажаєте видалити цей банківський рахунок?"
+      }
+    },
+    "empty_screen": {
+      "button_text": "додати",
+      "first_text": "Немає доступних банківських рахунків, ви можете",
+      "text_after_button": "їх тут",
+      "second_text": "Наразі в системі немає банківських рахунків"
+    }
+  },
+  "loads": {
+    "driver_pay_categories": {
+      "title": "Категорії оплати праці водія",
+      "table": {
+        "columns": {
+          "title": "Назва"
+        },
+        "confirm": {
+          "delete": {
+            "title": "Видалити {{name}}?",
+            "body": "Ви видалите цю категорію оплати водія."
+          }
+        }
+      },
+      "dialog": {
+        "fields": {
+          "name": {
+            "label": "Назва категорії",
+            "placeholder": "Назва категорії"
+          }
+        },
+        "add": {
+          "title": "Додайте категорію оплати водія"
+        },
+        "edit": {
+          "title": "Редагувати категорію оплати водія"
+        }
+      }
+    },
+    "invoice_item_categories": {
+      "title": "Категорії позицій рахунку",
+      "table": {
+        "confirm": {
+          "delete": {
+            "title": "Видалити {{name}}?",
+            "body": "Ви видалите цю категорію позицій рахунку-фактури."
+          },
+          "restore": {
+            "title": "Відновити {{name}}?",
+            "body": "Ви відновите цю категорію позицій рахунку-фактури."
+          }
+        },
+        "columns": {
+          "title": "Назва",
+          "in_driver_gross": "Включити валову вартість водія"
+        }
+      },
+      "dialog": {
+        "fields": {
+          "name": {
+            "label": "Назва категорії",
+            "placeholder": "Назва категорії"
+          },
+          "required": {
+            "label": " Необхідно означає, що цю категорію потрібно заповнити під час створення нового завантаження, і вона автоматично додаватиметься до нових чернеток завантаження."
+          },
+          "include_in_gross_amount": {
+            "label": " Include in driver bruss відповідає за правильний розрахунок загальної суми водія брутто."
+          }
+        },
+        "add": {
+          "title": "Додайте категорію позиції рахунку-фактури"
+        },
+        "edit": {
+          "title": "Редагувати категорію позиції рахунку-фактури"
+        }
+      }
+    },
+    "load_types": {
+      "title": "Типи навантажень",
+      "table": {
+        "confirm": {
+          "delete": {
+            "title": "Видалити тип завантаження?",
+            "body": "Ви видалите цей тип \"{{code}}-{{name}}\"."
+          }
+        },
+        "columns": {
+          "code": "Код",
+          "name": "Ім'я"
+        }
+      },
+      "dialog": {
+        "fields": {
+          "code": {
+            "label": "Код",
+            "placeholder": "FTL"
+          },
+          "name": {
+            "label": "Ім'я",
+            "placeholder": "Повне завантаження вантажівки"
+          }
+        },
+        "add": {
+          "title": "Додайте тип навантаження"
+        },
+        "edit": {
+          "title": "Редагувати тип навантаження"
+        }
+      }
+    }
+  },
+  "password": {
+    "title": "Пароль",
+    "sub_title": "Якщо ви забули свій пароль, ви можете оновити його тут.",
+    "fields": {
+      "current_password": {
+        "label": "Поточний пароль",
+        "placeholder": "Введіть поточний пароль"
+      },
+      "new_password": {
+        "label": "Новий пароль",
+        "placeholder": "Введіть новий пароль"
+      },
+      "password_confirmation": {
+        "label": "Підтвердьте пароль",
+        "placeholder": "Введіть пароль підтвердження"
+      }
+    },
+    "buttons": {
+      "submit": "Змінити пароль",
+      "forgot_password": "Забули свій пароль?"
+    },
+    "dialog": {
+      "forgot_password": {
+        "title": "Забули пароль? ",
+        "sub_title": "Ми надішлемо вам на вашу електронну пошту інструкції щодо скидання пароля.",
+        "submit": "Надіслати посилання для скидання"
+      }
+    }
+  },
+  "profile": {
+    "title": "Профіль",
+    "photo": {
+      "title": "Фото",
+      "error": "розмір файлу більше 10 мб"
+    },
+    "fields": {
+      "second_step_auth_enabled": {
+        "label": "Другий крок перевірки ввімкнено (2FA)"
+      }
+    },
+    "buttons": {
+      "cancel_changes": "Скасувати зміни"
+    }
+  },
+  "settlements": {
+    "table": {
+      "confirm": {
+        "delete": {
+          "title": "Видалити категорію",
+          "body": "Ви впевнені, що хочете видалити категорію \"{{name}}\"?"
+        }
+      },
+      "columns": {
+        "category": "Категорія",
+        "index_drivers": "Індекс драйверів",
+        "entity": "Сутність",
+        "recurring": "Повторювані",
+        "frequency": "Частота"
+      }
+    },
+    "debit_categories": {
+      "title": "Категорії дебетових операцій",
+      "dialog": {
+        "fields": {
+          "labels": {
+            "name": "Ім'я",
+            "entity_type": "Тип сутності",
+            "recurring": "Повторювані",
+            "cycle_frequency": "Частота циклу"
+          }
+        },
+        "edit": {
+          "title": "Редагувати категорію дебету"
+        },
+        "add": {
+          "title": "Додайте дебетову категорію"
+        }
+      }
+    },
+    "credit_categories": {
+      "title": "Категорії кредитних операцій",
+      "dialog": {
+        "edit": {
+          "title": "Редагувати кредитну категорію"
+        },
+        "add": {
+          "title": "Додайте кредитну категорію"
+        }
+      }
+    },
+    "revenue_types": {
+      "header": {
+        "tabs": {
+          "active": "Активний",
+          "deactivated": "Деактивовано"
+        },
+        "buttons": {
+          "add_revenue_type": "Додайте тип доходу"
+        }
+      },
+      "type": {
+        "header": {
+          "buttons": {
+            "activate": "активувати",
+            "deactivate": "Дезактивувати"
+          },
+          "status": {
+            "default": "За замовчуванням",
+            "not_default": "Не за замовчуванням"
+          }
+        },
+        "info": {
+          "fuel": {
+            "title": "Відрахування на паливо"
+          },
+          "toll": {
+            "title": "Відрахування за проїзд"
+          },
+          "documents": {
+            "label": "Документи, що додаються до Водійської Угоди"
+          }
+        },
+        "table": {
+          "columns": {
+            "pay_item_name": "Назва позиції оплати",
+            "rate": "Оцінка"
+          },
+          "quantity": {
+            "total_mile": "Загальна миля",
+            "loaded_mile": "Завантажена миля",
+            "empty_mile": "Порожня миля",
+            "from_load": "від Навантаження",
+            "from_company_net": "від компанії Net",
+            "hour": "годину"
+          }
+        }
+      },
+      "dialog": {
+        "add": {
+          "header": {
+            "title": "Створіть тип доходу"
+          }
+        },
+        "edit": {
+          "header": {
+            "title": "Редагувати тип {{typeName}}"
+          }
+        },
+        "fields": {
+          "deduct_fuel": {
+            "label": "Відніміть паливо"
+          },
+          "deduct_tolls": {
+            "label": "Відніміть мита"
+          },
+          "default": {
+            "label": "За замовчуванням"
+          }
+        }
+      },
+      "item": {
+        "dialog": {
+          "delete": {
+            "title": "Видалити - {{type}}",
+            "body": "Ви впевнені, що хочете видалити цей елемент оплати?"
+          },
+          "add": {
+            "header": {
+              "title": "Створити предмет"
+            }
+          },
+          "edit": {
+            "header": {
+              "title": "Редагувати елемент"
+            }
+          },
+          "fields": {
+            "percentage": {
+              "label": "Відсоток",
+              "placeholder": "100"
+            }
+          }
+        },
+        "types": {
+          "per_total_mile": "За загальну милю",
+          "per_loaded_mile": "За завантажену милю",
+          "per_empty_mile": "За порожню милю",
+          "percentage_from_load": "Відсоток від навантаження",
+          "percentage_from_company_net": "Відсоток від мережі компанії",
+          "flat": "Плоский",
+          "hourly": "щогодини"
+        }
+      }
+    },
+    "cycles": {
+      "tabs": {
+        "active": "Активний",
+        "deactivated": "Деактивовано"
+      },
+      "status": {
+        "default": "За замовчуванням",
+        "not_default": "Не за замовчуванням"
+      },
+      "buttons": {
+        "activate": "активувати",
+        "deactivate": "Дезактивувати",
+        "view_latest_period": "Переглянути останній період",
+        "create_new_period": "Створити новий період",
+        "add_new_cycle": "Додати новий цикл"
+      },
+      "item": {
+        "periods": {
+          "weekly": "Щотижня",
+          "bi_weekly": "Раз на два тижні",
+          "every_3_weeks": "Кожні 3 тижні",
+          "monthly": "Щомісяця",
+          "every_count_weeks": "Кожні {{period}} тижнів"
+        },
+        "titles": {
+          "close_day": "День закриття",
+          "total_periods": "Загальна кількість періодів",
+          "assigned_drivers": "Призначені драйвери"
+        },
+        "table": {
+          "columns": {
+            "settlements_period": "Розрахунковий період",
+            "negative_settlements": "Негативні розрахунки",
+            "company_net": "Компанія Net"
+          }
+        }
+      },
+      "dialog": {
+        "add": {
+          "title": "Створіть свій новий цикл"
+        },
+        "edit": {
+          "title": "Редагувати цикл {{cycleName}}"
+        },
+        "fields": {
+          "name": {
+            "label": "Ім'я",
+            "placeholder": "Назва циклу"
+          },
+          "period_weeks": {
+            "label": "Тижні в одному циклі"
+          },
+          "closing_day": {
+            "label": "Закриття робочого дня"
+          },
+          "closing_time": {
+            "label": "Час закриття",
+            "placeholder": "Час закриття"
+          },
+          "pay_date_days_after_closing": {
+            "label": "Дата оплати"
+          },
+          "description": {
+            "label": "Примітка",
+            "placeholder": "Примітка"
+          }
+        },
+        "checkboxes": {
+          "auto_create_period_settlements": {
+            "label": "Поставте прапорець, щоб автоматично створювати розрахунки за періоди."
+          },
+          "auto_create_periods": {
+            "label": "Поставте прапорець, щоб зробити період автоматичного створення."
+          },
+          "default": {
+            "label": "Поставте прапорець, щоб зробити цей цикл вашим циклом організації за замовчуванням і автоматично призначати всі нові драйвери цьому циклу."
+          }
+        }
+      }
+    }
+  }
+}

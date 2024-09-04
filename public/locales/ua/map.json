@@ -1,0 +1,41 @@
+{
+  "header": {
+    "filters": {
+      "labels": {
+        "truck_type": "Тип вантажівки",
+        "load_status": "Статус завантаження",
+        "trailer_type": "Тип причепа"
+      }
+    }
+  },
+  "left_panel": {
+    "drivers": {
+      "tooltips": {
+        "app_installed": "Додаток встановлено",
+        "doesnt_install_app": "Драйвер не встановлює програму"
+      }
+    },
+    "loads": {
+      "titles": {
+        "loaded": "Завантажено"
+      }
+    },
+    "trailers": {
+      "tooltips": {
+        "link_with_eld": "Зв'язок з ELD"
+      }
+    }
+  },
+  "empty_state": {
+    "filters": {
+      "first_text": "{{text}} не знайдено, ви можете",
+      "second_text": "Жоден {{text}} не відповідає вибраним фільтрам",
+      "button_text": "очистити фільтри"
+    },
+    "default": {
+      "first_text": "Немає доступного {{text}}, ви можете",
+      "second_text": "Зараз у системі немає {{text}}",
+      "text_after_button": "тут"
+    }
+  }
+}

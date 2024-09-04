@@ -1,0 +1,132 @@
+{
+  "header": {
+    "buttons": {
+      "cap_list": "КАП СПИСОК",
+      "add_time_off": "Додайте вихідний час",
+      "only_online": "Тільки онлайн"
+    },
+    "filters": {
+      "labels": {
+        "truck_status": "Статус вантажівки",
+        "trailer_type": "Тип причепа",
+        "load_status": "Статус завантаження"
+      },
+      "shortcuts": {
+        "three_days": "Три дні",
+        "one_week": "Один тиждень",
+        "two_weeks": "Два тижні",
+        "month": "місяць",
+        "this_and_next_week": "Цей тиждень і наступний тиждень"
+      }
+    }
+  },
+  "table": {
+    "no_covered": "НЕ ПОКРИВАЄТЬСЯ",
+    "local_time": "місцевий час",
+    "errors": {
+      "less_than_one_hour": "Різниця в часі не може бути менше 1 години"
+    },
+    "header": {
+      "tabs": {
+        "las_week": "Минулого тижня",
+        "now": "ЗАРАЗ",
+        "next_week": "Наступного тижня"
+      },
+      "period_list": {
+        "morning": "Ранок",
+        "noon": "полудень",
+        "evening": "вечір"
+      }
+    },
+    "time_off": {
+      "title": "Час вийшов",
+      "add": "Додайте вихідний час"
+    },
+    "truck": {
+      "location": {
+        "current_loc": "Поточний лок",
+        "tooltips": {
+          "copy_driver_info": "Копіювати інформацію про драйвер",
+          "change_to_offline": "Змінити на офлайн",
+          "change_to_online": "Змінити на онлайн",
+          "unpin_the_track": "Відкріпити трек",
+          "pin_the_track": "Закріпіть трек"
+        }
+      }
+    },
+    "trailer_type": {
+      "tooltips": {
+        "power_only": "Тільки живлення"
+      }
+    },
+    "truck_status": {
+      "in_transit": "В дорозі",
+      "no_load": "Без навантаження"
+    },
+    "driver": {
+      "send_critical_alert": "Надіслати критичне сповіщення",
+      "info": {
+        "hours_of_service": "Години роботи",
+        "link_vehicle_with_eld": "Пов’язати транспортний засіб із ELD",
+        "drive": "Драйв",
+        "break": "Перерва",
+        "shift": "Shift",
+        "cycle": "Цикл",
+        "home_time": "Домашній час"
+      }
+    }
+  },
+  "dialogs": {
+    "cap_list": {
+      "header": {
+        "labels": {
+          "filter": "фільтр",
+          "copy_all": "Копіювати все"
+        }
+      },
+      "table": {
+        "header": {
+          "titles": {
+            "empty_at": "Порожній At",
+            "truck_type": "Тип вантажівки",
+            "trailer_type": "Тип причепа",
+            "note": "Примітка"
+          }
+        },
+        "empty": "Ні, не криті вантажівки",
+        "copy_row": "Копіювати рядок",
+        "cells": {
+          "note": {
+            "placeholder": "Залиште записку"
+          }
+        }
+      }
+    },
+    "share_cap_list": {
+      "title": "Поділіться сторінкою відстеження для цього верхнього списку",
+      "description": "Кожен, хто має посилання, може переглянути цей список"
+    },
+    "time_off": {
+      "titles": {
+        "add": "Додайте вихідний час",
+        "edit": "Редагувати час вимкнення"
+      },
+      "fields": {
+        "truck": {
+          "label": "Вантажівка",
+          "value": "Вибрана #{{referenceId}} вантажівка",
+          "placeholder": "Виберіть вантажівку",
+          "error": "Виберіть вантажівку"
+        },
+        "date_range": {
+          "label": "Виберіть дату",
+          "error": "Будь ласка, виберіть дату"
+        },
+        "description": {
+          "label": "опис",
+          "placeholder": "Bertrand Park, 700 W 3rd St, Oakley, KS 67748"
+        }
+      }
+    }
+  }
+}

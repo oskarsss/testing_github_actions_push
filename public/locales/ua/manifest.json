@@ -1,0 +1,35 @@
+{
+  "status": {
+    "planning": "Планування",
+    "completed": "Виконано",
+    "moving": "Переїзд",
+    "deleted": "Видалено",
+    "assigned": "Призначений",
+    "canceled": "Скасовано"
+  },
+  "table": {
+    "columns": {
+      "next_stop": "Наступна зупинка",
+      "pay_item": "Оплатити товар",
+      "units": "одиниці",
+      "rate": "Оцінка",
+      "req_date": "Дата запиту",
+      "arr_at": "Приб",
+      "eta": "ETA",
+      "commodity": "товарний",
+      "truck_load": "Вантажівка",
+      "distance": "Відстань"
+    },
+    "cells": {
+      "stops_completed": "Зупинки завершено"
+    }
+  },
+  "dialogs": {
+    "driver_pay_item": {
+      "titles": {
+        "add": "Додати елемент оплати водія",
+        "edit": "Редагувати пункт оплати водія"
+      }
+    }
+  }
+}

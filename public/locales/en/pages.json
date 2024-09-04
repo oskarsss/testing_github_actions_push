@@ -1,0 +1,41 @@
+{
+  "": "",
+  "map": "Map",
+  "onboarding": "Setup Checklist",
+  "manifests": "Manifests",
+  "schedule": "Schedule",
+  "trucks": "Trucks",
+  "drivers": "Drivers",
+  "trailers": "Trailers",
+  "load": "Orders",
+  "settlements": "Settlements",
+  "plate_companies": "Plate Companies",
+  "trailer_companies": "Trailer Companies",
+  "billing": {
+    "factoring": "Factoring Billing",
+    "all": "All Billing",
+    "amazon": "Amazon Billing",
+    "direct": "Direct Billing"
+  },
+  "customers": "Customers",
+  "vendors": "Vendors",
+  "tolls": "Tolls",
+  "fuel": "Fuels",
+  "plates": "Plates",
+  "brokers": "Brokers",
+  "payouts": "Payouts",
+  "app": {
+    "fallback": {
+      "first_text": "Oops! We hit a bump in the road. You can go back to the",
+      "second_text": "Get back on track by returning to the Dashboard",
+      "button_text": "Dashboard"
+    }
+  },
+  "deleted_item": {
+    "fallback": {
+      "first_text": "{{text}} has been deleted.",
+      "second_text": "Please go back to the previous page and activate the {{text}} to view it again.",
+      "button_text": "Go Back"
+    }
+  }
+}

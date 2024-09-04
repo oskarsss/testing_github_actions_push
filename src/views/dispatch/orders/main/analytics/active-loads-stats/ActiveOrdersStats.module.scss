@@ -1,0 +1,47 @@
+@use '@/scss/abstracts' as *;
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 24px;
+    flex-grow: 1;
+    min-height: 190px;
+    min-width: 190px;
+}
+
+.checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 100%;
+    padding: 24px;
+
+    @media (max-width: 1919px) {
+        width: 100%;
+    }
+
+    @media (max-width: 1440px) {
+        width: 100%;
+        padding: 16px;
+    }
+}
+
+.checkbox {
+    &.in_progress {
+        background-color: $sd-colors-blue-dark-500;
+    }
+    &.drafts {
+        background-color: var(--semantic-foreground-primary);
+    }
+
+    &.pending {
+        background-color: var(--utility-foreground-yellow-primary);
+    }
+
+    &.assigned {
+        background-color: var(--utility-foreground-warning-primary);
+    }
+}

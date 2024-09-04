@@ -1,0 +1,53 @@
+{
+  "header": {
+    "buttons": {
+      "add_broker": "Додати брокера",
+      "unpaid_loads": "Неоплачені навантаження",
+      "unassigned": "Непризначений"
+    },
+    "filters": {
+      "labels": {
+        "created_start": "Створено з",
+        "created_end": "Створено для"
+      }
+    }
+  },
+  "dialogs": {
+    "edit": {
+      "title": "Редагувати брокера",
+      "confirm_delete_modal": {
+        "title": "Ви впевнені, що хочете видалити цього брокера?",
+        "description": "Якщо ви видалите цього брокера, вся інформація буде втрачена."
+      },
+      "fields": {
+        "billing_email": {
+          "label": "Платіжна електронна пошта",
+          "placeholder": "Введіть платіжну електронну адресу"
+        }
+      }
+    }
+  },
+  "menus": {
+    "add": {
+      "title": "Додати брокера",
+      "safer_lookup": "Безпечніший пошук",
+      "fields": {
+        "name": {
+          "label": "Ім'я",
+          "placeholder": "Назва брокера"
+        },
+        "email": {
+          "label": "Електронна пошта",
+          "placeholder": "logistics@broker.com"
+        }
+      }
+    },
+    "options": {
+      "download_docs": "Завантажити Документи",
+      "confirm_delete": {
+        "title": "Видалити брокера {{mc}}?",
+        "body": "Ви видалите брокера назавжди."
+      }
+    }
+  }
+}

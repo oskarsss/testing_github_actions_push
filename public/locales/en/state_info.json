@@ -1,0 +1,314 @@
+{
+  "documents": {
+    "status": {
+      "unspecified": "-",
+      "valid": "Valid",
+      "invalid": "Invalid",
+      "pending": "Pending",
+      "deleted": "Deleted"
+    }
+  },
+  "user": {
+    "status": {
+      "all": "All",
+      "invited": "Invited",
+      "active": "Active",
+      "disabled": "Disabled",
+      "deleted": "Deleted"
+    }
+  },
+  "recurring_transactions": {
+    "status": {
+      "active": "Active",
+      "paused": "Paused",
+      "completed": "Completed",
+      "deleted": "Deleted",
+      "canceled": "Canceled"
+    },
+    "status_grpc_enum": {
+      "1": "Active",
+      "2": "Paused",
+      "3": "Completed",
+      "4": "Canceled",
+      "5": "Deleted"
+    }
+  },
+  "settlements": {
+    "cycle": {
+      "state": {
+        "default": "Default"
+      }
+    },
+    "status": {
+      "open": "Open",
+      "in_review": "In Review",
+      "sent": "Sent",
+      "deleted": "Deleted",
+      "closed": "Closed",
+      "paid": "Paid",
+      "verified": "Verified"
+    },
+    "driver_net_type": {
+      "positive": "Positive",
+      "negative": "Negative"
+    },
+    "recurring_transaction_cycle_period_frequency": {
+      "monthly": "Monthly",
+      "every_period": "Every Period"
+    },
+    "period": {
+      "status": {
+        "open": "Open",
+        "closed": "Closed"
+      }
+    }
+  },
+  "vendors": {
+    "type": {
+      "company": "Company",
+      "individual": "Individual"
+    }
+  },
+  "trucks": {
+    "status": {
+      "empty": "Other",
+      "all": "All",
+      "onboarding": "On-Boarding",
+      "compliance_review": "Compl Review",
+      "active": "Active",
+      "inactive": "Inactive",
+      "pending_termination": "Pen Term",
+      "terminated": "Term",
+      "deleted": "Deleted",
+      "available": "Available"
+    },
+    "type": {
+      "empty": "Other",
+      "all": "All",
+      "owned": "Owned",
+      "leased": "Leased",
+      "owner_operator": "Owner Operator",
+      "unassigned": "Unassigned"
+    },
+    "colors": {
+      "black": "Black",
+      "blue": "Blue",
+      "white": "White",
+      "brown": "Brown",
+      "gray": "Gray",
+      "maroon": "Maroon",
+      "green": "Green",
+      "beige": "Beige",
+      "light_blue": "Light Blue",
+      "purple": "Purple",
+      "teal": "Teal",
+      "orange": "Orange",
+      "pink": "Pink",
+      "yellow": "Yellow",
+      "red": "Red"
+    }
+  },
+  "trailers": {
+    "po": "PO",
+    "no_trailer": "Power Only",
+    "status": {
+      "all": "All",
+      "active": "Active",
+      "deleted": "Deleted",
+      "offline": "Offline"
+    },
+    "ownership_type": {
+      "owned": "Owned",
+      "owner_operator": "Owner Operator",
+      "leased": "Leased"
+    }
+  },
+  "plates": {
+    "status": {
+      "empty": "Other",
+      "all": "All",
+      "active": "Active",
+      "pending_cancellation": "Pending Cancellation",
+      "cancelled": "Cancelled",
+      "deleted": "Deleted"
+    },
+    "vehicle_type": {
+      "empty": "Other",
+      "all": "All",
+      "truck": "Truck",
+      "trailer": "Trailer"
+    }
+  },
+  "payouts": {
+    "status": {
+      "pending": "Pending",
+      "succeeded": "Succeeded",
+      "canceled": "Canceled",
+      "failed": "Failed"
+    },
+    "type": {
+      "ach": "Ach",
+      "check": "Check",
+      "wire": "Wire",
+      "cash": "Cash",
+      "zelle": "Zelle",
+      "venmo": "Venmo",
+      "cashApp": "Cash App",
+      "crypto": "Crypto"
+    }
+  },
+  "fuel_transaction": {
+    "verified": {
+      "verified": "Verified",
+      "not_verified": "Not Verified"
+    }
+  },
+  "drivers": {
+    "eld": {
+      "duty_status": {
+        "on_duty": "On Duty",
+        "off_duty": "Off Duty",
+        "driving": "Driving",
+        "sleeper": "Sleeper",
+        "yard_move": "Yard Move",
+        "personal_conveyance": "Personal Conveyance"
+      }
+    },
+    "type_icon": {
+      "default": "Default",
+      "owner_operator": "Owner operator",
+      "company": "Company",
+      "lease": "Lease",
+      "lease_to_own": "Lease to own"
+    },
+    "status": {
+      "empty": "Other",
+      "all": "All",
+      "onboarding": "Onboarding",
+      "compliance_review": "Compl Review",
+      "active": "Active",
+      "pending_termination": "Pen Term",
+      "terminated": "Terminated",
+      "disabled": "Disabled",
+      "deleted": "Deleted"
+    },
+    "full_status": {
+      "onboarding": "Onboarding",
+      "compliance_review": "Compliance review",
+      "active": "Active",
+      "pending_termination": "Pending termination",
+      "terminated": "Terminated",
+      "deleted": "Deleted"
+    },
+    "type": {
+      "owner_operator": "Owner Operator",
+      "company": "Company Driver",
+      "lease": "Lease Driver",
+      "lease_to_own": "Lease To Own"
+    }
+  },
+  "manifests": {
+    "status": {
+      "0": "Unknown",
+      "1": "Planning",
+      "2": "Assigned",
+      "3": "Moving",
+      "4": "Completed",
+      "5": "Canceled",
+      "6": "TONU",
+      "7": "Deleted"
+    }
+  },
+  "stop": {
+    "check_in": "Check In",
+    "check_out": "Check Out",
+    "arrived": "Arrived",
+    "eta": "ETA",
+    "late": "Late",
+    "early": "Early",
+    "start_in": "Start in",
+    "load_stop_status": {
+      "1": "Planning",
+      "2": "En Route",
+      "3": "On Location",
+      "4": "Checked In",
+      "5": "Completed",
+      "6": "Canceled",
+      "7": "TONU",
+      "8": "Deleted"
+    },
+    "manifest_stop_status": {
+      "1": "Planning",
+      "2": "En Route",
+      "3": "On Location",
+      "4": "Checked In",
+      "5": "Completed",
+      "6": "Canceled",
+      "8": "Deleted"
+    },
+    "type": {
+      "pickup": "Pick up",
+      "dropoff": "Drop off",
+      "pickup_dropoff": "Pick up & Drop off",
+      "pickup_trailer": "Pick up Trailer",
+      "dropoff_trailer": "Drop off Trailer",
+      "pickup_chassis": "Pick up Chassis",
+      "dropoff_chassis": "Drop off Chassis",
+      "border_crossing": "Border Crossing",
+      "start": "Start",
+      "end": "End"
+    },
+    "type_short": {
+      "pickup": "Pick up",
+      "dropoff": "Drop off",
+      "pickup_dropoff": "DROP&PICK",
+      "pickup_trailer": "Pick up Trailer",
+      "dropoff_trailer": "Drop off Trailer",
+      "pickup_chassis": "Pick up Chassis",
+      "dropoff_chassis": "Drop off Chassis",
+      "border_crossing": "Border Crossing",
+      "start": "Start",
+      "end": "End"
+    }
+  },
+  "loads": {
+    "load_types": {
+      "icon": {
+        "default": "Default",
+        "full_truck": "Full Truck",
+        "less_than_truck": "Less Than Truck"
+      }
+    },
+    "invoicing_payments_type": {
+      "driver": "Driver",
+      "company": "Company"
+    },
+    "status": {
+      "all": "All",
+      "available": "Available",
+      "pending": "Booked",
+      "assigned": "Assigned",
+      "in_progress": "In Transit",
+      "delivered": "Delivered",
+      "deleted": "Deleted",
+      "canceled": "Canceled",
+      "tonu": "TONU",
+      "Deleted": "Deleted"
+    },
+    "invoice_status": {
+      "not_invoiced": "Not Invoiced",
+      "invoiced": "Invoiced",
+      "need_review": "Need Review",
+      "paid": "Paid",
+      "rejected": "Rejected",
+      "detention_requested": "Detention Requested"
+    }
+  },
+  "maintenance": {
+    "type": {
+      "planned": "Planned",
+      "unplanned": "Unplanned",
+      "emergency": "Emergency"
+    }
+  }
+}

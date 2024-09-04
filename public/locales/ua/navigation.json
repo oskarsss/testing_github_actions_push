@@ -1,0 +1,105 @@
+{
+  "header_menu": {
+    "items": {
+      "org_settings": "Налаштування організації",
+      "members": "Члени",
+      "billing": "Виставлення рахунків",
+      "documents": "Документи",
+      "onboarding": "Онбордінг",
+      "switch_organization": "Організація комутатора"
+    },
+    "sub_menu": {
+      "buttons": {
+        "create_new_organization": "Створіть нову організацію"
+      },
+      "companies": {
+        "search_field": {
+          "placeholder": "Введіть ім'я"
+        },
+        "empty_list": "Не знайти компанії"
+      }
+    }
+  },
+  "signing_out": "Вихід",
+  "collapse": "Згорнути",
+  "dot": "КРАПКА",
+  "theme": {
+    "light": "Світла",
+    "dark": "Темний"
+  },
+  "tooltips": {
+    "logout": "Вийти",
+    "expand": "Розгорнути",
+    "go_to_profile": "Перейти в профіль"
+  },
+  "items": {
+    "analytics": "Аналітика",
+    "dispatch": {
+      "main": "Відправка",
+      "schedule": "Розклад",
+      "loads": "Навантаження",
+      "tracking": "Відстеження",
+      "manifests": "Маніфести",
+      "brokers": "Брокери",
+      "customers": "Клієнти"
+    },
+    "map": "Карта",
+    "fleet": {
+      "main": "Флот",
+      "trucks": "Вантажні автомобілі",
+      "drivers": "Водії",
+      "trailers": "Трейлери",
+      "plates": "Тарілки",
+      "vendors": "Продавці",
+      "plate_companies": "Компанії плит",
+      "trailer_companies": "Трейлерні компанії"
+    },
+    "maintenance": {
+      "main": "Технічне обслуговування",
+      "overview": "Огляд",
+      "service_logs": "Журнали обслуговування",
+      "scheduling": "Графік обслуговування",
+      "defects": "Дефекти",
+      "dvir": "DVIR"
+    },
+    "billing": {
+      "main": "Виставлення рахунків",
+      "all": "Все",
+      "factoring": "Факторинг",
+      "amazon": "Amazon",
+      "direct": "Прямий"
+    },
+    "accounting": {
+      "main": "Бухгалтерський облік",
+      "settlements": "Населені пункти",
+      "dispatchers": "Диспетчери",
+      "payouts": "Виплати",
+      "recurring_transactions": "Повторювані транзакції",
+      "tolls": "Плата за проїзд",
+      "fuel": "Паливо"
+    },
+    "reports": {
+      "main": "Звіти",
+      "ifta": "Звіт IFTA",
+      "oregon": "Орегонський звіт"
+    },
+    "settings": {
+      "main": "Налаштування"
+    },
+    "help": "Довідка"
+  },
+  "menu": {
+    "create": {
+      "new_company": {
+        "header": {
+          "title": "Створити нову компанію"
+        },
+        "sections": {
+          "details": "Подробиці",
+          "contact_info": "Контактна інформація",
+          "address_info": "Інформація про адресу"
+        }
+      }
+    }
+  }
+}

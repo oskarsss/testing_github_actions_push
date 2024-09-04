@@ -1,0 +1,69 @@
+{
+  "table": {
+    "columns": {
+      "notes": "And {{amount}} other... Click to open notes"
+    }
+  },
+  "profile": {
+    "left": {
+      "info": {
+        "transmission": {
+          "title": "Transmission",
+          "text": "Automatic"
+        },
+        "fuel": {
+          "title": "Fuel",
+          "enabled": "Fuel Discounts Enabled",
+          "disabled": "Fuel Discounts Disabled"
+        },
+        "plate_company": "Plate Company (IRP)",
+        "toll_transponder": "Toll Transponder Number"
+      },
+      "trip_information": {
+        "title": "View Orders",
+        "loads": "Orders",
+        "miles_driven": "Miles Driven"
+      },
+      "menu": {
+        "loads": {
+          "list": {
+            "loads": "Orders",
+            "schedule": "Schedule"
+          }
+        }
+      }
+    },
+    "right": {
+      "primary_driver": {
+        "title": "Primary Driver",
+        "no_drivers": "No driver selected"
+      },
+      "drivers": {
+        "title": "Drivers",
+        "no_drivers": "No drivers assigned",
+        "menu": {
+          "options": {
+            "make_primary": "Make Primary"
+          }
+        },
+        "dialog": {
+          "unassign": {
+            "title": "Unassign driver {{driverName}} ?",
+            "body": "You will unassign driver from the truck."
+          }
+        }
+      },
+      "assigned_users": {
+        "dialogs": {
+          "unassign": {
+            "title": "Unassign user {{name}} ?",
+            "body": "You will unassign user from the truck."
+          }
+        }
+      }
+    },
+    "error": {
+      "button_text": "Back to Trucks page"
+    }
+  }
+}

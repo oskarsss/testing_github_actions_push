@@ -1,0 +1,73 @@
+{
+  "period": {
+    "buttons": {
+      "create_period": "Create period"
+    }
+  },
+  "labels": {
+    "period": "Period",
+    "periods": "Periods",
+    "cycles": "Cycles",
+    "company_net": "Company Net"
+  },
+  "header": {
+    "please_select": "Please Select",
+    "confirm": {
+      "sync": {
+        "title": "Are you sure you want to SYNC",
+        "body": "It will only sync"
+      }
+    },
+    "buttons": {
+      "create_settlements": "Create Settlements"
+    },
+    "tooltips": {
+      "edit_table_view": "Edit table view",
+      "edit_view": "Edit view"
+    },
+    "filters": {
+      "labels": {
+        "driver_type": "Driver Type",
+        "truck_type": "Truck Type",
+        "show_percentages": "Show %"
+      }
+    }
+  },
+  "table": {
+    "custom_action": {
+      "change_status_to": {
+        "label": "Change status to",
+        "tooltip": "Change status for selected settlement"
+      },
+      "export": {
+        "tooltip": "Export selected settlements"
+      },
+      "send": {
+        "tooltip": "Send selected settlements"
+      },
+      "delete": {
+        "tooltip": "Delete selected settlements"
+      }
+    }
+  },
+  "confirm_dialog": {
+    "delete": {
+      "title": "Delete settlements",
+      "body": "Are you sure you want to delete selected settlements?"
+    }
+  },
+  "fallback": {
+    "no_cycles": {
+      "first_text": "No cycles available, you can",
+      "button_text": "add cycles",
+      "text_after_button": "here",
+      "second_text": "There are currently no cycles in the system."
+    },
+    "no_periods": {
+      "first_text": "No periods available, you can",
+      "second_text": "There are currently no periods in the system",
+      "button_text": "add period",
+      "text_after_button": "here"
+    }
+  }
+}

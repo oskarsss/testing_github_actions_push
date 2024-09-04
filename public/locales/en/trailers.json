@@ -1,0 +1,29 @@
+{
+  "trailer_company": {
+    "header": {
+      "button": {
+        "add": "Add Company / IRP"
+      }
+    }
+  },
+  "profile": {
+    "left": {
+      "info": {
+        "year": "Year",
+        "plate_company": "Plate Company"
+      }
+    },
+    "right": {
+      "company": {
+        "buttons": {
+          "assign": "Assign Company",
+          "remove": "Remove Company"
+        },
+        "empty": "No trailer company assigned"
+      }
+    },
+    "error": {
+      "button_text": "Back to Trailers page"
+    }
+  }
+}

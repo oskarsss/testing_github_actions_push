@@ -1,0 +1,42 @@
+$grid-template-columns: minmax(70px, 0.5fr) /* ID Column */ minmax(100px, 1fr) /* Client Column */
+    minmax(90px, 0.8fr) /* Truck Column */ minmax(140px, 1.4fr) /* Origin Column */
+    minmax(65px, 0.5fr) /* Miles Column */ minmax(140px, 1.4fr) /* Destination Column */
+    minmax(75px, 0.8fr) /* Total Column */ minmax(65px, 0.7fr) /* ETA Column */ minmax(145px, 1.5fr); /* Status Column */
+
+.rowGridTemplate {
+    grid-template-columns: $grid-template-columns;
+}
+
+.tableWrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+    background-color: var(--semantic-background-secondary);
+    position: relative;
+    max-width: 1300px;
+}
+
+.innerWrapper {
+    display: flex;
+    flex-direction: column;
+    min-width: fit-content;
+    flex: 1 1 100%;
+    min-height: 100%;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    min-height: 100%;
+    min-width: fit-content;
+}
+
+.rowsWrapper {
+    display: flex;
+    flex-direction: column;
+    min-width: fit-content;
+    flex: 1 1 100%;
+    outline: none;
+}

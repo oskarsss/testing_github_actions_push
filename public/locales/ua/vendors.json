@@ -1,0 +1,62 @@
+{
+  "header": {
+    "filters": {
+      "tax_id": {
+        "label": "Без податкового номера"
+      }
+    }
+  },
+  "options": {
+    "type": {
+      "company": "Компанія",
+      "individual": "Індивідуальний"
+    }
+  },
+  "dialog": {
+    "add": {
+      "fields": {
+        "name": {
+          "label": "Ім'я",
+          "placeholder": "ABC Trucking Inc"
+        }
+      }
+    },
+    "edit": {
+      "header": {
+        "title": "Редагувати інформацію про постачальника",
+        "sub_title": "Переконайтеся, що інформація підтримується актуальною."
+      },
+      "block_title": {
+        "address": "Адреса",
+        "basic_details": "Основні деталі",
+        "contact_details": "Контактні дані",
+        "tax_settings": "Налаштування податку"
+      },
+      "fields": {
+        "contact_name": {
+          "label": "Контактна Особа",
+          "placeholder": "Джон Доу"
+        },
+        "contact_email": {
+          "label": "Контактна адреса електронної пошти",
+          "placeholder": "john@gmail.com"
+        },
+        "contact_phone_number": {
+          "label": "Контактний номер телефону",
+          "placeholder": "(201) 123-1234"
+        },
+        "tax_id": {
+          "label": "ІПН",
+          "placeholder": "123"
+        },
+        "state": {
+          "placeholder": "Канзас"
+        }
+      }
+    },
+    "delete": {
+      "title": "Видалити {{name}}?",
+      "body": "Ви остаточно видалите постачальника."
+    }
+  }
+}

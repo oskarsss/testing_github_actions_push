@@ -1,0 +1,16 @@
+{
+  "header": {
+    "filters": {
+      "equipment_inactive": {
+        "label": "Equipment Inactive for 7 days"
+      }
+    }
+  },
+  "plate_companies": {
+    "header": {
+      "buttons": {
+        "add_company": "Add Company"
+      }
+    }
+  }
+}

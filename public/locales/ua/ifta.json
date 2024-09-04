@@ -1,0 +1,61 @@
+{
+  "header": {
+    "title": "Звітність IFTA"
+  },
+  "period": {
+    "new_tax_owned": "Наступний податковий борг:"
+  },
+  "buttons": {
+    "view_report": "Переглянути звіт",
+    "view_rates": "Переглянути тарифи"
+  },
+  "details": {
+    "header": {
+      "tabs": {
+        "trucks": "Вантажні автомобілі",
+        "totals": "Підсумки",
+        "stops": "Зупинки"
+      }
+    },
+    "totals": {
+      "table": {
+        "columns": {
+          "country": "КРАЇНА",
+          "state": "ДЕРЖАВА",
+          "total_distance": "МІЛІ",
+          "total_fuel_quantity": "ПАЛИВО"
+        },
+        "total": "Всього:"
+      }
+    },
+    "stops": {
+      "table": {
+        "columns": {
+          "truck_reference_id": "REF",
+          "from_load_id": "ВІД ЗАВАНТАЖЕННЯ ID",
+          "from_city": "З МІСТА",
+          "from_state": "ВІД ДЕРЖАВИ",
+          "from_at": "ВІД AT",
+          "end_load_id": "Ідентифікатор кінцевого навантаження",
+          "end_city": "КІНЕЦЬ МІСТО",
+          "end_state": "КІНЦЕВИЙ СТАН",
+          "end_at": "КІНЕЦЬ О",
+          "state": "ДЕРЖАВА",
+          "miles": "МІЛІ"
+        }
+      }
+    },
+    "trucks": {
+      "table": {
+        "columns": {
+          "reference_id": "ВАНТАЖІВКА №",
+          "type": "ТИП",
+          "state": "ДЕРЖАВА",
+          "driver": "ВОДІЙ",
+          "total_fuel_quantity": "ПАЛИВО",
+          "total_distance": "МІЛІ"
+        }
+      }
+    }
+  }
+}

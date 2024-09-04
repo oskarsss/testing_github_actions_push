@@ -1,0 +1,850 @@
+{
+  "table": {
+    "header": {
+      "checkbox": {
+        "deselect_all": "Deselect All",
+        "select_all": "Select All"
+      }
+    },
+    "table_editor": {
+      "empty_columns": "No columns",
+      "header": {
+        "title": "Manage Columns",
+        "sub_title": "Customize Each Filter View",
+        "buttons": {
+          "save_changes": "Save Changes"
+        }
+      },
+      "labels": {
+        "columns": "Columns",
+        "groups": "Groups",
+        "row_height": "Row Height"
+      },
+      "confirm": {
+        "change_view": {
+          "title": "Are you sure you want to change view?",
+          "body": "If you changes view, all the changes will be lost."
+        }
+      },
+      "columns": {
+        "main_title": "Default {{page}} Page Columns",
+        "selected": "selected",
+        "not_grouped": "Not Grouped",
+        "title": "{{entityType}} Documents & Custom Fields",
+        "text": "text",
+        "amount": "Amount",
+        "recurring_transaction": "Recurring Transaction",
+        "custom": "Custom",
+        "field": "Field",
+        "document": "Document",
+        "doc_and_expiration": "Doc + Expiration",
+        "doc_expiration": "Doc Expiration",
+        "doc_number": "Doc Number",
+        "sub_title": "{{entityType}} Documents",
+        "custom_fields": "Custom Fields",
+        "no_results": "No results",
+        "pinned_columns": "{{amount}} Pinned Columns",
+        "regular_columns": "Regular Columns",
+        "type": "Type",
+        "group_name": "Group Name",
+        "controls": "Controls",
+        "used_in": "Used in {{count}} columns",
+        "border": "Border",
+        "total": "Total",
+        "small": "small",
+        "medium": "Medium",
+        "large": "Large",
+        "checkbox": {
+          "select_all": "Select All",
+          "deselect_all": "Deselect All"
+        },
+        "tooltips": {
+          "show_total": "Show Total in Footer",
+          "total_not_supported": "Total is not supported",
+          "reorder_columns": "Click and drag to reorder the columns"
+        }
+      },
+      "menus": {
+        "field_menu": {
+          "titles": {
+            "add": "Add field",
+            "edit": "Edit field: {{friendly_name}}"
+          },
+          "fields": {
+            "labels": {
+              "entity_type": "Entity Type",
+              "select_values": "Select values"
+            },
+            "type": {
+              "text": "Text",
+              "number": "Number",
+              "amount": "Amount",
+              "date": "Date",
+              "datetime": "Datetime",
+              "select": "Select",
+              "checkbox": "Checkbox"
+            }
+          }
+        },
+        "group_menu": {
+          "titles": {
+            "add": "Add group",
+            "edit": "Edit group: {{name}}"
+          },
+          "fields": {
+            "name": {
+              "label": "Name of group",
+              "placeholder": "Name"
+            }
+          },
+          "tooltips": {
+            "history_of_applied": "History of applied transactions won't be deleted"
+          }
+        },
+        "view_menu": {
+          "titles": {
+            "add": "Add view",
+            "edit": "Edit {{name}} View",
+            "duplicate": "Duplicate {{name}} View"
+          },
+          "submit_text": {
+            "add": "Add View",
+            "edit": "Edit View",
+            "duplicate": "Duplicate View"
+          },
+          "fields": {
+            "name": "View Name"
+          }
+        }
+      }
+    },
+    "empty_screen": {
+      "entities": {
+        "drivers": "drivers",
+        "trucks": "trucks",
+        "trailers": "trailer",
+        "brokers": "brokers",
+        "customers": "customers",
+        "companies": "companies",
+        "plates": "plates",
+        "vendors": "vendors",
+        "settlements": "settlements",
+        "recurring_transactions": "recurring transactions",
+        "tolls": "tolls",
+        "fuels": "fuels",
+        "dispatchers": "dispatchers",
+        "amazon_invoices": "amazon invoices",
+        "factoring_invoices": "factoring invoices",
+        "direct_invoices": "direct invoices",
+        "invoices": "invoices",
+        "vehicles": "vehicles",
+        "payouts": "payouts"
+      },
+      "create_text_by_entities": {
+        "drivers": "add driver",
+        "trucks": "add truck",
+        "trailers": "add trailer",
+        "brokers": "add broker",
+        "customers": "add customer",
+        "companies": "add company",
+        "plates": "add plate",
+        "vendors": "add vendor",
+        "settlements": "add settlement",
+        "recurring_transactions": "add recurring transaction",
+        "tolls": "add toll",
+        "fuels": "add fuel",
+        "dispatchers": "add dispatcher"
+      },
+      "empty_columns": {
+        "first_text": "No columns selected. Customize this view by",
+        "second_text": "You can customize this new table view by selecting columns and arranging their order",
+        "button_text": "setting up columns"
+      },
+      "clear_filters": {
+        "first_text": "No {{primaryText}} found, you can",
+        "second_text": "No {{primaryText}} match the selected filters",
+        "button_text": "clear filters"
+      },
+      "empty_rows": {
+        "first_text": "No {{primaryText}} available{{createText}}",
+        "additional_text": ", you can",
+        "second_text": "There are currently no {{primaryText}} in the system",
+        "button_text": "{{buttonText}}",
+        "text_after_button": "here"
+      },
+      "easy_not_found": "No Data Found"
+    }
+  },
+  "errors_screen": {
+    "permission": {
+      "title": "You do not have sufficient permission to view this page, if this is an error, please report it",
+      "button": "Report issue",
+      "header": "Oops, looks like you don't have permission"
+    },
+    "warranty": {
+      "title": "No Warranty here yet",
+      "button": "Add warranty",
+      "header": "No Warranty here yet"
+    }
+  },
+  "dialog": {
+    "failed_fetching": {
+      "default": {
+        "button_text": "Retry",
+        "second_text_first_part": "Or you can ",
+        "second_text_second_part": "go back"
+      }
+    }
+  },
+  "assign_menu": {
+    "revenue_type": "revenue type",
+    "primary_checkbox": "Primary",
+    "no_driver": "No Driver",
+    "phone_number": "Phone: {{phoneNumber}}",
+    "select_title": {
+      "drivers": "Drivers",
+      "trailers": "Trailers",
+      "trucks": "Trucks"
+    },
+    "driver_to_truck": {
+      "title": "Assign Driver to Truck #{{referenceId}}",
+      "message": {
+        "loading": "Assigning Driver",
+        "success": "Driver was assigned"
+      }
+    },
+    "trailer_to_truck": {
+      "title": "Assign Trailer to Truck #{{referenceId}}",
+      "message": {
+        "loading": "Assigning Trailer",
+        "success": "Trailer was assigned"
+      }
+    },
+    "driver_to_trailer": {
+      "title": "Assign Driver to Trailer #{{referenceId}}",
+      "message": {
+        "loading": "Assigning Driver",
+        "success": "Driver was assigned"
+      }
+    },
+    "truck_to_trailer": {
+      "title": "Assign Truck to Trailer #{{referenceId}}",
+      "message": {
+        "loading": "Assigning Truck",
+        "success": "Truck was assigned"
+      }
+    },
+    "trailer_to_driver": {
+      "title": "Assign Trailer to Driver {{firstName}}",
+      "message": {
+        "loading": "Assigning Trailer",
+        "success": "Trailer was assigned"
+      }
+    },
+    "truck_to_driver": {
+      "title": "Assign Truck to Driver {{firstName}}",
+      "message": {
+        "loading": "Assigning Truck",
+        "success": "Truck was assigned"
+      }
+    },
+    "select_truck": {
+      "title": "Select Truck"
+    },
+    "load_to_truck": {
+      "title": "Assign Truck to Order #{{friendly_id}}"
+    },
+    "re_assign_manifest_to_truck": {
+      "title": "Re-Assign Truck to Manifest #{{friendly_id}}"
+    },
+    "truck_to_settlement": {
+      "title": "Assign Truck to Settlement #{{friendly_id}}"
+    },
+    "truck_to_manifest": {
+      "title": "Assign Truck to Manifest #{{friendly_id}}"
+    },
+    "create_by_entity": {
+      "create_driver": "Create driver",
+      "create_truck": "Create truck",
+      "create_trailer": "Create trailer"
+    }
+  },
+  "changeable_avatar": {
+    "title": "Update Photo"
+  },
+  "copy_text": {
+    "tooltip_copy": "Click to copy",
+    "tooltip_copied": "Copied"
+  },
+  "crop_image_dialog": {
+    "title": "Crop Image"
+  },
+  "date_range": {
+    "start": "Start Date",
+    "end": "End Date"
+  },
+  "hook_fabric": {
+    "confirm": {
+      "title": "Are you sure you want to close this window?",
+      "body": "If you close this window, all the changes will be lost."
+    }
+  },
+  "documents": {
+    "company_documents": "Company Documents",
+    "title": "Documents",
+    "version": "Version",
+    "not_loaded_files": "Not loaded",
+    "buttons": {
+      "add": "Add Document"
+    },
+    "fields": {
+      "version": {
+        "label": "Version",
+        "uploaded": "Updated {{diffFormatted}} ago"
+      },
+      "number": {
+        "label": "Number",
+        "label_read_only": "Number (read only)",
+        "placeholder": "xxxx"
+      },
+      "state": {
+        "label": "State",
+        "label_read_only": "State (read only)"
+      },
+      "expires_at": {
+        "label": "Expires at",
+        "label_read_only": "Expires at (read only)"
+      },
+      "status": {
+        "label": "Status",
+        "label_read_only": "Status (read only)"
+      }
+    },
+    "tooltips": {
+      "download_all": "Download all documents",
+      "no_files": "No Files to Download",
+      "new": "New",
+      "crop": "Crop",
+      "print": "Print",
+      "download": "Download",
+      "rotate_right": "Rotate Right",
+      "open_new_tab": "Open document in new tab",
+      "clear_document": "Clear document",
+      "delete_document": "Delete document"
+    },
+    "clear_document_confirm": {
+      "title": "{{title}} will be cleared",
+      "body": "Are you sure you want to clear {{title}}?"
+    },
+    "delete_document_confirm": {
+      "title": "{{title}} will be deleted",
+      "body": "Are you sure you want to delete {{title}}?"
+    },
+    "upload_banner": {
+      "title": "Upload Document(s)",
+      "sub_title": "or Drag-n-Drop multiple files for PDF auto-merge",
+      "loading": "Uploading",
+      "format_files": "Allowed *.jpeg, *.jpg, *.png, *.pdf"
+    },
+    "empty_state": {
+      "first_text": "You have no documents to preview. ",
+      "second_text": "Get started by adding a document",
+      "button_text": "Add a document",
+      "clear_document": "Oops, looks like this document has been cleared"
+    },
+    "dialogs": {
+      "download_documents": {
+        "title": "Download documents for {{title}}"
+      }
+    },
+    "menus": {
+      "choose_document_type": {
+        "no_types_found": "No Types Found",
+        "or": "OR",
+        "name_is_required": "Name is required",
+        "already_exist": "Document already exist",
+        "fields": {
+          "name": {
+            "label": "New Document Type",
+            "placeholder": "Enter new document type"
+          }
+        }
+      }
+    }
+  },
+  "export_dialog": {
+    "title": "Exports {{label}} info",
+    "empty_state": "No info is available for export",
+    "failed_fetch": "No info is available for export",
+    "loading": "Preparing export",
+    "error": "Something went wrong. Please try again.",
+    "success": "Your export is ready.If you can't find it, please check",
+    "success_link": "try downloading again.",
+    "exports": "Exports",
+    "fields": {
+      "labels": {
+        "invoice_status": "Invoice Status"
+      },
+      "date_range": {
+        "label": "Date Range",
+        "options": {
+          "today": "Today",
+          "last_7_days": "Last 7 days",
+          "current_month": "Current month",
+          "last_month": "Last month",
+          "custom": "Custom",
+          "all": "All"
+        }
+      },
+      "multiselect": {
+        "options": {
+          "default": "Default",
+          "custom": "Custom"
+        }
+      }
+    },
+    "button": {
+      "export": "Export"
+    }
+  },
+  "filters": {
+    "labels": {
+      "sort_by": "Sort By",
+      "revenue_type": "Revenue Type",
+      "fuel_transaction": "Verified Status",
+      "invoice_status": "Invoice Status",
+      "vehicle_type": "Vehicle Type",
+      "tags": "Tags",
+      "company": "Company",
+      "driver_net_type": "Driver Net Type",
+      "settlement": "Settlement",
+      "ownership_type": "Ownership Type"
+    },
+    "menu": {
+      "search": {
+        "placeholder": "Search for filter"
+      },
+      "clear_filter_tooltip": "Clear filter"
+    },
+    "clear_filters": "Clear Filters",
+    "save_filter_view": "Save Filter View",
+    "update_filter_view": "Update Filter View",
+    "and_more": "and {{count}} more"
+  },
+  "import": {
+    "header": {
+      "title": "Import Data"
+    },
+    "button": {
+      "records": "Records",
+      "import_another_file": "Import Another File",
+      "view_report": "View report",
+      "download": "Download sample file"
+    },
+    "steps": {
+      "upload": "Upload File",
+      "extract": "Extract & Review",
+      "import": "Import Results"
+    },
+    "step": {
+      "first": {
+        "title": "Select the type of data to import",
+        "select": "File Type",
+        "desc": "Import Data ",
+        "descr": "from",
+        "dropzone": {
+          "title": "Drag and Drop to upload file, or browse",
+          "desc": "Support Excel, CSV Files"
+        }
+      },
+      "second": {
+        "title": "Extracted Data Results",
+        "desc_invalid": "An error occurred during import. Please check your details and try again.",
+        "desc_valid": "Please review extracted data from the uploaded file to proceed with import",
+        "report_valid": "Please review extracted data from the uploaded file",
+        "extracted": "Extracted rows",
+        "importable": "Importable new rows"
+      },
+      "third": {
+        "title": "Import Results",
+        "uploaded_rows": "Uploaded rows",
+        "desc": {
+          "is_loading": "Import in progress",
+          "is_error": "Upload Failed",
+          "loading": "Please wait, this action may take a few",
+          "done": "Completed!",
+          "error": "Sorry, your document contains an error"
+        }
+      },
+      "report": {
+        "title": "Report",
+        "incomplete": "Incomplete rows"
+      }
+    },
+    "error": {
+      "file": "File type not supported or many files"
+    }
+  },
+  "loads_empty_state": {
+    "filter_empty_state": {
+      "first_title": "No orders available, you can add",
+      "second_title": "here",
+      "text_btn": "new order",
+      "description": "There are currently no orders in the system"
+    },
+    "empty_state": {
+      "first_title": "No orders found, you can",
+      "text_btn": "clear filters",
+      "description": "No orders match the selected filters"
+    }
+  },
+  "notes": {
+    "title": "Notes",
+    "you": "You",
+    "drag_active_title": "Drop your file here to easily share it!",
+    "errors": {
+      "uploading_file": "Error uploading file",
+      "not_supported_file": "File type not supported"
+    },
+    "tooltips": {
+      "attach_file": "Attach file",
+      "save_changes": "Save changes",
+      "leave_note": "Leave note"
+    },
+    "no_notes": {
+      "title": "Notes Section Empty",
+      "desc": "Start jotting down your thoughts and important information"
+    },
+    "tabs": {
+      "all": "All",
+      "team": "Team",
+      "driver": "Driver"
+    },
+    "more_options": {
+      "delete": {
+        "confirm": {
+          "title": "Delete Note",
+          "body": "Are you sure you want to delete this note?"
+        }
+      }
+    }
+  },
+  "search": {
+    "main_name": "Search",
+    "clear_search": "Clear search",
+    "autocomplete": {
+      "suggested_filers": "Suggested Filters",
+      "show_all_result": "Show all results for",
+      "placeholder": "Search by date, name, amount, truck, type…",
+      "ship": {
+        "tooltips": {
+          "delete_all": "Delete all chips",
+          "show_more": "Show more"
+        }
+      }
+    }
+  },
+  "basic": {
+    "edit_filter_view": {
+      "title": "Edit Filter View"
+    },
+    "date_range": {
+      "shortcuts": {
+        "this_week": "This Week",
+        "last_7_days": "Last 7 Days",
+        "last_week": "Last Week",
+        "this_month": "This Month",
+        "last_month": "Last Month",
+        "reset": "Reset"
+      }
+    },
+    "google_maps_btn": {
+      "tooltip": "View on Google Maps"
+    },
+    "load": {
+      "clone_button": {
+        "confirm": {
+          "title": "Do you wish to proceed?",
+          "body": "A new order will be created with the same client and stops. You will need to set the rates and dates."
+        }
+      },
+      "driver_pay_items_table": {
+        "header": {
+          "pay_item": "Pay Item",
+          "units": "Units",
+          "rate": "Rate",
+          "total": "Total"
+        }
+      },
+      "invoicing_payments_table": {
+        "header": {
+          "description": "Description",
+          "rec_type": "Rec Type",
+          "amount": "Amount"
+        }
+      },
+      "commodities": {
+        "header": {
+          "name": "Name",
+          "stops": "Stops",
+          "qtv": "QTY",
+          "dimensions": "Dimensions",
+          "weight": "Weight",
+          "type": "Type",
+          "height": "Height",
+          "length": "Length",
+          "width": "Width"
+        },
+        "dialogs": {
+          "titles": {
+            "add": "Add Commodity",
+            "edit": "Edit Commodity"
+          },
+          "fields": {
+            "measurementUnit": {
+              "label": "Unit",
+              "placeholder": "Unit"
+            },
+            "weightUnit": {
+              "label": "Weight Unit",
+              "placeholder": "Weight Unit"
+            },
+            "description": {
+              "label": "Description",
+              "placeholder": "Description"
+            },
+            "type": {
+              "label": "Type",
+              "placeholder": "Type"
+            },
+            "height": {
+              "label": "Height",
+              "placeholder": "Height"
+            },
+            "length": {
+              "label": "Length",
+              "placeholder": "Length"
+            },
+            "weight": {
+              "label": "Weight",
+              "placeholder": "Weight"
+            },
+            "quantity": {
+              "label": "Quantity",
+              "placeholder": "Quantity"
+            },
+            "width": {
+              "label": "Width",
+              "placeholder": "Width"
+            }
+          }
+        }
+      },
+      "documents": {
+        "tooltip": {
+          "download": "Download Document",
+          "print": "Print Document"
+        },
+        "button": {
+          "upload": "Upload Document"
+        },
+        "empty_text": "No documents",
+        "uploading": "Uploading {{title}}",
+        "time": {
+          "day_ago": "{{days}} day ago",
+          "hours_ago": "hour ago",
+          "hours_ago_plural": "{{hours}} hours ago",
+          "minutes_ago": "{{minutes}} minutes ago"
+        }
+      },
+      "filter_control": {
+        "new_view": "New View"
+      },
+      "map": {
+        "weather_menu": {
+          "title": "Weather layers",
+          "options": {
+            "turn_off": "Turn off the weather",
+            "temperature": {
+              "label": "Temperature",
+              "description": "The \"real\" temperature measurement (at 2m)"
+            },
+            "rain_snow": {
+              "label": "Rain/Snow",
+              "description": "The instantaneous precipitation rate at ground level"
+            },
+            "visibility": {
+              "label": "Visibility",
+              "description": "The measure of the distance at which an object or light can be clearly discerned"
+            }
+          }
+        },
+        "tooltips": {
+          "auto_fit_founds": "Fly to fleet location",
+          "auto_fit_founds_disabled": "disabled because there is no fleet location or route",
+          "connect_loc_history": "Connect location history",
+          "disconnect_loc_history": "Disconnect location history",
+          "switch_to_satellite": "Switch to satellite view",
+          "switch_to_light": "Switch to light mode",
+          "switch_to_dark": "Switch to dark mode",
+          "show_other_drivers": "Show other drivers",
+          "hide_other_drivers": "Hide other drivers",
+          "weather_settings": "Weather settings"
+        },
+        "eta": "Eta"
+      }
+    },
+    "mini_table": {
+      "no_items": "No items assigned",
+      "total": "Total"
+    },
+    "page_headers": {
+      "avatars": {
+        "tooltips": {
+          "contact": "Contacts",
+          "online": "Online"
+        },
+        "contacts": "Contacts",
+        "times": {
+          "last_seen_minutes": "last seen {{minutes}} minutes ago",
+          "last_seen_hours": "last seen {{hours}} hours ago",
+          "last_seen_yesterday": "last seen yesterday at {{date}}",
+          "last_seen": "last seen {{date}}"
+        }
+      },
+      "buttons": {
+        "new_load": "New Order",
+        "export": "Export",
+        "import": "Import",
+        "add": "Add"
+      },
+      "time_range": {
+        "label": "Model Year"
+      }
+    },
+    "profiles": {}
+  },
+  "selects": {
+    "broker": {
+      "create": "Create {{name}} Broker"
+    },
+    "manifest": "Manifest",
+    "driver_pay_items": {
+      "dialog": {
+        "add": {
+          "header": {
+            "title": "Add Category"
+          },
+          "fields": {
+            "name": {
+              "label": "Category Name",
+              "placeholder": "Category Nam"
+            }
+          }
+        }
+      }
+    },
+    "trailer_ownership_type": {
+      "label": "Ownership"
+    },
+    "driver": {
+      "label": "Select Driver",
+      "tooltip": "Create new driver"
+    },
+    "tag": {
+      "tooltip": "Create Tag",
+      "menu": {
+        "fields": {
+          "name": {
+            "label": "New Tag",
+            "placeholder": "Name of Tag"
+          }
+        }
+      }
+    },
+    "trailer": {
+      "label": "Select Trailer"
+    },
+    "truck": {
+      "label": "Select Truck"
+    },
+    "color": {
+      "label": "Color"
+    },
+    "country": {
+      "label": "Country"
+    },
+    "driver_type": {
+      "label": "Driver Type"
+    },
+    "driver_type_tags": {
+      "label": "Driver Type"
+    },
+    "factoring_company": {
+      "label": "Factoring Company"
+    },
+    "invoicing_company": {
+      "label": "Invoicing Company"
+    },
+    "payout_status": {
+      "label": "Status"
+    },
+    "payout_type": {
+      "label": "Payment"
+    },
+    "plate": {
+      "owned": "(Owned)",
+      "not_owned": "(Not Owned)"
+    },
+    "role": {
+      "label": "Role"
+    },
+    "trailer_type": {
+      "label": "Type"
+    },
+    "transaction_category": {
+      "read_only_label": "{{label}} (read only)"
+    },
+    "table_color": {
+      "label": "Color",
+      "colors": {
+        "default": "Default",
+        "slate_gray": "Slate Gray",
+        "steel_blue": "Steel Blue",
+        "cadet_blue": "Cadet Blue",
+        "dark_sea_green": "Dark Sea Green",
+        "medium_turquoise": "Medium Turquoise",
+        "thistle": "Thistle",
+        "light_steel_blue": "Light Steel Blue",
+        "powder_blue": "Powder Blue",
+        "pale_goldenrod": "Pale Goldenrod",
+        "khaki": "Khaki",
+        "rosy_brown": "Rosy Brown",
+        "indian_red": "Indian Red",
+        "salmon": "Salmon",
+        "dark_khaki": "Dark Khaki",
+        "tan": "Tan",
+        "burlywood": "Burlywood",
+        "sandy_brown": "Sandy Brown",
+        "dark_salmon": "Dark Salmon",
+        "light_coral": "Light Coral",
+        "peach_puff": "Peach Puff"
+      }
+    },
+    "autocomplete": {
+      "add_button": {
+        "tooltip": "Add {{label}}"
+      },
+      "no_options": {
+        "add_driver": "add driver",
+        "add_truck": "add truck",
+        "add_trailer": "add trailer",
+        "default_text": "No options",
+        "create": {
+          "first_text": "Create ",
+          "second_text": "{{entity}}"
+        }
+      }
+    }
+  }
+}

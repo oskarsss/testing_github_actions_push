@@ -1,0 +1,418 @@
+// abstracts.scss
+
+// Font Family
+$font-family-inter: 'Inter', sans-serif;
+
+// Font Weights
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Font Sizes
+$font-size-2xl: 48px; // Head 2xl
+$font-size-xl: 32px; // Head xl
+$font-size-lg: 28px; // Head lg
+$font-size-md: 24px; // Head md
+$font-size-sm: 20px; // Head sm
+$font-size-xs: 18px; // Head xs
+$font-size-xxs: 16px; // Body xl
+$font-size-xs-body: 14px; // Body xs
+$font-size-xxs-body: 12px; // Body xxs
+$font-size-xxxs-body: 10px; // Body xxxs
+
+// Line Heights
+$line-height-2xl: 110%;
+$line-height-xl: 120%;
+$line-height-lg: 120%;
+$line-height-md: 120%;
+$line-height-sm: 120%;
+$line-height-xs: 130%;
+$line-height-xxs: 140%;
+$line-height-xs-body: 150%;
+$line-height-xxs-body: 150%;
+$line-height-xxxs-body: 150%;
+
+// Head 2xl
+$head-2xl-regular: (
+    family: $font-family-inter,
+    size: $font-size-2xl,
+    weight: $font-weight-regular,
+    line-height: $line-height-2xl
+);
+
+$head-2xl-medium: (
+    family: $font-family-inter,
+    size: $font-size-2xl,
+    weight: $font-weight-medium,
+    line-height: $line-height-2xl
+);
+
+$head-2xl-semibold: (
+    family: $font-family-inter,
+    size: $font-size-2xl,
+    weight: $font-weight-semibold,
+    line-height: $line-height-2xl
+);
+
+$head-2xl-bold: (
+    family: $font-family-inter,
+    size: $font-size-2xl,
+    weight: $font-weight-bold,
+    line-height: $line-height-2xl
+);
+
+// Head xl
+$head-xl-regular: (
+    family: $font-family-inter,
+    size: $font-size-xl,
+    weight: $font-weight-regular,
+    line-height: $line-height-xl
+);
+
+$head-xl-medium: (
+    family: $font-family-inter,
+    size: $font-size-xl,
+    weight: $font-weight-medium,
+    line-height: $line-height-xl
+);
+
+$head-xl-semibold: (
+    family: $font-family-inter,
+    size: $font-size-xl,
+    weight: $font-weight-semibold,
+    line-height: $line-height-xl
+);
+
+$head-xl-bold: (
+    family: $font-family-inter,
+    size: $font-size-xl,
+    weight: $font-weight-bold,
+    line-height: $line-height-xl
+);
+
+// Head lg
+$head-lg-regular: (
+    family: $font-family-inter,
+    size: $font-size-lg,
+    weight: $font-weight-regular,
+    line-height: $line-height-lg
+);
+
+$head-lg-medium: (
+    family: $font-family-inter,
+    size: $font-size-lg,
+    weight: $font-weight-medium,
+    line-height: $line-height-lg
+);
+
+$head-lg-semibold: (
+    family: $font-family-inter,
+    size: $font-size-lg,
+    weight: $font-weight-semibold,
+    line-height: $line-height-lg
+);
+
+$head-lg-bold: (
+    family: $font-family-inter,
+    size: $font-size-lg,
+    weight: $font-weight-bold,
+    line-height: $line-height-lg
+);
+
+// Head md
+$head-md-regular: (
+    family: $font-family-inter,
+    size: $font-size-md,
+    weight: $font-weight-regular,
+    line-height: $line-height-md
+);
+
+$head-md-medium: (
+    family: $font-family-inter,
+    size: $font-size-md,
+    weight: $font-weight-medium,
+    line-height: $line-height-md
+);
+
+$head-md-semibold: (
+    family: $font-family-inter,
+    size: $font-size-md,
+    weight: $font-weight-semibold,
+    line-height: $line-height-md
+);
+
+$head-md-bold: (
+    family: $font-family-inter,
+    size: $font-size-md,
+    weight: $font-weight-bold,
+    line-height: $line-height-md
+);
+
+// Head sm
+$head-sm-regular: (
+    family: $font-family-inter,
+    size: $font-size-sm,
+    weight: $font-weight-regular,
+    line-height: $line-height-sm
+);
+
+$head-sm-medium: (
+    family: $font-family-inter,
+    size: $font-size-sm,
+    weight: $font-weight-medium,
+    line-height: $line-height-sm
+);
+
+$head-sm-semibold: (
+    family: $font-family-inter,
+    size: $font-size-sm,
+    weight: $font-weight-semibold,
+    line-height: $line-height-sm
+);
+
+$head-sm-bold: (
+    family: $font-family-inter,
+    size: $font-size-sm,
+    weight: $font-weight-bold,
+    line-height: $line-height-sm
+);
+
+// Head xs
+$head-xs-regular: (
+    family: $font-family-inter,
+    size: $font-size-xs,
+    weight: $font-weight-regular,
+    line-height: $line-height-xs
+);
+
+$head-xs-medium: (
+    family: $font-family-inter,
+    size: $font-size-xs,
+    weight: $font-weight-medium,
+    line-height: $line-height-xs
+);
+
+$head-xs-semibold: (
+    family: $font-family-inter,
+    size: $font-size-xs,
+    weight: $font-weight-semibold,
+    line-height: $line-height-xs
+);
+
+$head-xs-bold: (
+    family: $font-family-inter,
+    size: $font-size-xs,
+    weight: $font-weight-bold,
+    line-height: $line-height-xs
+);
+
+// Body xl
+$body-xl-regular: (
+    family: $font-family-inter,
+    size: $font-size-xxs,
+    weight: $font-weight-regular,
+    line-height: $line-height-xxs
+);
+
+$body-xl-medium: (
+    family: $font-family-inter,
+    size: $font-size-xxs,
+    weight: $font-weight-medium,
+    line-height: $line-height-xxs
+);
+
+$body-xl-semibold: (
+    family: $font-family-inter,
+    size: $font-size-xxs,
+    weight: $font-weight-semibold,
+    line-height: $line-height-xxs
+);
+
+$body-xl-bold: (
+    family: $font-family-inter,
+    size: $font-size-xxs,
+    weight: $font-weight-bold,
+    line-height: $line-height-xxs
+);
+
+// Body lg
+$body-lg-regular: (
+    family: $font-family-inter,
+    size: $font-size-xs,
+    weight: $font-weight-regular,
+    line-height: $line-height-xs
+);
+
+$body-lg-medium: (
+    family: $font-family-inter,
+    size: $font-size-xs,
+    weight: $font-weight-medium,
+    line-height: $line-height-xs
+);
+
+$body-lg-semibold: (
+    family: $font-family-inter,
+    size: $font-size-xs,
+    weight: $font-weight-semibold,
+    line-height: $line-height-xs
+);
+
+$body-lg-bold: (
+    family: $font-family-inter,
+    size: $font-size-xs,
+    weight: $font-weight-bold,
+    line-height: $line-height-xs
+);
+
+// Body md
+$body-md-regular: (
+    family: $font-family-inter,
+    size: $font-size-sm,
+    weight: $font-weight-regular,
+    line-height: $line-height-sm
+);
+
+$body-md-medium: (
+    family: $font-family-inter,
+    size: $font-size-sm,
+    weight: $font-weight-medium,
+    line-height: $line-height-sm
+);
+
+$body-md-semibold: (
+    family: $font-family-inter,
+    size: $font-size-sm,
+    weight: $font-weight-semibold,
+    line-height: $line-height-sm
+);
+
+$body-md-bold: (
+    family: $font-family-inter,
+    size: $font-size-sm,
+    weight: $font-weight-bold,
+    line-height: $line-height-sm
+);
+
+// Body sm
+$body-sm-regular: (
+    family: $font-family-inter,
+    size: $font-size-xs,
+    weight: $font-weight-regular,
+    line-height: $line-height-xs
+);
+
+$body-sm-medium: (
+    family: $font-family-inter,
+    size: $font-size-xs,
+    weight: $font-weight-medium,
+    line-height: $line-height-xs
+);
+
+$body-sm-semibold: (
+    family: $font-family-inter,
+    size: $font-size-xs,
+    weight: $font-weight-semibold,
+    line-height: $line-height-xs
+);
+
+$body-sm-bold: (
+    family: $font-family-inter,
+    size: $font-size-xs,
+    weight: $font-weight-bold,
+    line-height: $line-height-xs
+);
+
+// Body xs
+$body-xs-regular: (
+    family: $font-family-inter,
+    size: $font-size-xs-body,
+    weight: $font-weight-regular,
+    line-height: $line-height-xs-body
+);
+
+$body-xs-medium: (
+    family: $font-family-inter,
+    size: $font-size-xs-body,
+    weight: $font-weight-medium,
+    line-height: $line-height-xs-body
+);
+
+$body-xs-semibold: (
+    family: $font-family-inter,
+    size: $font-size-xs-body,
+    weight: $font-weight-semibold,
+    line-height: $line-height-xs-body
+);
+
+$body-xs-bold: (
+    family: $font-family-inter,
+    size: $font-size-xs-body,
+    weight: $font-weight-bold,
+    line-height: $line-height-xs-body
+);
+
+// Body xxs
+$body-xxs-regular: (
+    family: $font-family-inter,
+    size: $font-size-xxs-body,
+    weight: $font-weight-regular,
+    line-height: $line-height-xxs-body
+);
+
+$body-xxs-medium: (
+    family: $font-family-inter,
+    size: $font-size-xxs-body,
+    weight: $font-weight-medium,
+    line-height: $line-height-xxs-body
+);
+
+$body-xxs-semibold: (
+    family: $font-family-inter,
+    size: $font-size-xxs-body,
+    weight: $font-weight-semibold,
+    line-height: $line-height-xxs-body
+);
+
+$body-xxs-bold: (
+    family: $font-family-inter,
+    size: $font-size-xxs-body,
+    weight: $font-weight-bold,
+    line-height: $line-height-xxs-body
+);
+
+// Body xxxs
+$body-xxxs-regular: (
+    family: $font-family-inter,
+    size: $font-size-xxxs-body,
+    weight: $font-weight-regular,
+    line-height: $line-height-xxxs-body
+);
+
+$body-xxxs-medium: (
+    family: $font-family-inter,
+    size: $font-size-xxxs-body,
+    weight: $font-weight-medium,
+    line-height: $line-height-xxxs-body
+);
+
+$body-xxxs-semibold: (
+    family: $font-family-inter,
+    size: $font-size-xxxs-body,
+    weight: $font-weight-semibold,
+    line-height: $line-height-xxxs-body
+);
+
+$body-xxxs-bold: (
+    family: $font-family-inter,
+    size: $font-size-xxxs-body,
+    weight: $font-weight-bold,
+    line-height: $line-height-xxxs-body
+);
+
+@mixin apply-typography($style) {
+    font-family: map-get($style, family);
+    font-size: map-get($style, size);
+    font-weight: map-get($style, weight);
+    line-height: map-get($style, line-height);
+}

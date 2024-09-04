@@ -1,0 +1,26 @@
+{
+  "header": {
+    "buttons": {
+      "add_transaction": "Додати транзакцію",
+      "unassigned": "Непризначений"
+    }
+  },
+  "confirm_dialog": {
+    "delete": {
+      "title": "Видалити дорожні збори",
+      "body": "Ви впевнені, що бажаєте видалити вибрані плати?"
+    }
+  },
+  "table": {
+    "customActions": {
+      "delete": {
+        "label": "Видалити",
+        "tooltip": "Видалити вибрані збори"
+      }
+    },
+    "columns": {
+      "no_driver": "Немає водія",
+      "no_truck": "Без вантажівки"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.wrapper {
+    height: 100%;
+    display: flex;
+}
+
+.content {
+    flex-grow: 1;
+    min-width: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    width: 100%;
+    transition: padding 0.25s ease-in-out;
+}

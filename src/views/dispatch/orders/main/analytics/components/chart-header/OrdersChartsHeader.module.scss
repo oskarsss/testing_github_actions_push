@@ -1,0 +1,23 @@
+@use '@/scss/abstracts' as *;
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 16px;
+    width: 100%;
+    min-height: 64px;
+    height: 64px;
+    max-height: 64px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--semantic-border-primary) !important;
+}
+
+.title {
+    @include apply-typography($head-sm-semibold); //
+}

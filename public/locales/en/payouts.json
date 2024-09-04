@@ -1,0 +1,20 @@
+{
+  "table": {
+    "columns": {
+      "headers": {
+        "entity_type": "Entity Type",
+        "reference_id": "Ref Id",
+        "bank_name": "Bank Name",
+        "bank_account_last_4": "Bank Account Last Four"
+      }
+    },
+    "custom_action": {
+      "export": {
+        "tooltip": "Export selected settlements"
+      },
+      "send": {
+        "tooltip": "Send selected settlements"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.eta {
+    white-space: nowrap;
+    font-size: 11px;
+    color: var(--semantic-text-secondary);
+}
+
+.lateness {
+    font-weight: 600;
+    color: red;
+    font-size: 13px;
+}
+
+.earliness {
+    font-weight: 600;
+    color: green;
+    font-size: 13px;
+}
+
+.empty {
+    color: var(--semantic-text-secondary);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.title {
+    font-weight: 500;
+    color: var(--semantic-text-primary);
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin: 0;
+}
+
+.description {
+    color: var(--semantic-text-secondary);
+    overflow: hidden;
+    text-overflow: ' ';
+    white-space: nowrap;
+    margin: 0;
+    text-transform: capitalize;
+    &Small {
+        font-size: 11px;
+    }
+    &Medium {
+        font-size: 13px;
+    }
+}

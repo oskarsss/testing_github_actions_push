@@ -1,0 +1,682 @@
+{
+  "warnings": {
+    "assign_truck_to_manifest": "You are about to assign a truck to the first manifest",
+    "re_assign_truck_to_manifest": "You are about to re-assign a truck to the first manifest",
+    "change_route": "You are in edit mode and have unsaved changes. Please update route to save your changes."
+  },
+  "packaging_unit": {
+    "UNSPECIFIED": "Unspecified",
+    "BAG": "Bag",
+    "BLE": "Bale",
+    "BBL": "Barrel",
+    "BSK": "Basket",
+    "BIN": "Bin",
+    "BIC": "Bing Chest",
+    "BOX": "Box",
+    "BKT": "Bucket",
+    "BDL": "Bundle",
+    "CAN": "Can",
+    "CCS": "Can Case",
+    "CBY": "Carboy",
+    "CAR": "Carcass",
+    "CTN": "Carton",
+    "CAS": "Case",
+    "CSK": "Cask",
+    "CHS": "Chest",
+    "COL": "Coil",
+    "CBC": "Container Bulk Cargo",
+    "COR": "Cord",
+    "CRT": "Crate",
+    "CYL": "Cylinder",
+    "DRM": "Drum",
+    "DBK": "Dry Bulk",
+    "GAL": "Gallon",
+    "HMP": "Hamper",
+    "HED": "Heads of Beef",
+    "KEG": "Keg",
+    "LVN": "Lift Van",
+    "LBK": "Liquid Bulk",
+    "LOG": "Logs",
+    "LUG": "Lugs",
+    "PKG": "Package",
+    "PAL": "Pail",
+    "PLT": "Pallet",
+    "PCL": "Parcel",
+    "PCS": "Pieces",
+    "POV": "Private Vehicle",
+    "QTR": "Quarters of Beef",
+    "REL": "Reel",
+    "ROL": "Roll",
+    "SAK": "Sack",
+    "SHT": "Sheet",
+    "SID": "Sides of Beef",
+    "SKD": "Skid",
+    "TNK": "Tank",
+    "TIN": "Tin",
+    "TBN": "Tote Bin",
+    "TBE": "Tube",
+    "UNT": "Unit",
+    "VPK": "Van Pack",
+    "VEH": "Vehicle",
+    "WDC": "Wooden Case"
+  },
+  "states": {
+    "US": {
+      "AL": "Alabama",
+      "AK": "Alaska",
+      "AZ": "Arizona",
+      "AR": "Arkansas",
+      "CA": "California",
+      "CO": "Colorado",
+      "CT": "Connecticut",
+      "DE": "Delaware",
+      "DC": "District of Columbia",
+      "FL": "Florida",
+      "GA": "Georgia",
+      "HI": "Hawaii",
+      "ID": "Idaho",
+      "IL": "Illinois",
+      "IN": "Indiana",
+      "IA": "Iowa",
+      "KS": "Kansas",
+      "KY": "Kentucky",
+      "LA": "Lousiana",
+      "ME": "Maine",
+      "MD": "Maryland",
+      "MA": "Massachusetts",
+      "MI": "Michigan",
+      "MN": "Minnesota",
+      "MS": "Mississippi",
+      "MO": "Missouri",
+      "MT": "Montana",
+      "NE": "Nebraska",
+      "NV": "Nevada",
+      "NH": "New Hampshire",
+      "NJ": "New Jersey",
+      "NM": "New Mexico",
+      "NY": "New York",
+      "NC": "North Carolina",
+      "ND": "North Dakota",
+      "OH": "Ohio",
+      "OK": "Oklahoma",
+      "OR": "Oregon",
+      "PA": "Pennsylvania",
+      "RI": "Rhode Island",
+      "SC": "South Carolina",
+      "SD": "South Dakota",
+      "TN": "Tennessee",
+      "TX": "Texas",
+      "UT": "Utah",
+      "VT": "Vermont",
+      "VA": "Virginia",
+      "WA": "Washington",
+      "WV": "West Virginia",
+      "WI": "Wisconsin",
+      "WY": "Wyoming"
+    },
+    "CA": {
+      "AB": "Alberta",
+      "BC": "British Columbia",
+      "MB": "Manitoba",
+      "NB": "New Brunswick",
+      "NL": "Newfoundland and Labrador",
+      "NS": "Nova Scotia",
+      "ON": "Ontario",
+      "PE": "Prince Edward Island",
+      "QC": "Quebec",
+      "SK": "Saskatchewan",
+      "NT": "Northwest Territories",
+      "NU": "Nunavut",
+      "YT": "Yukon"
+    },
+    "MX": {
+      "AGS": "Aguascalientes",
+      "BC": "Baja California",
+      "BCS": "Baja California Sur",
+      "CAMP": "Campeche",
+      "CHIS": "Chiapas",
+      "CHIH": "Chihuahua",
+      "COAH": "Coahuila",
+      "COL": "Colima",
+      "DGO": "Durango",
+      "GTO": "Guanajuato",
+      "GRO": "Guerrero",
+      "HGO": "Hidalgo",
+      "JAL": "Jalisco",
+      "MEX": "México (State)",
+      "MICH": "Michoacán",
+      "MOR": "Morelos",
+      "NAY": "Nayarit",
+      "NL": "Nuevo León",
+      "OAX": "Oaxaca",
+      "PUE": "Puebla",
+      "QRO": "Querétaro",
+      "QROO": "Quintana Roo",
+      "SLP": "San Luis Potosí",
+      "SIN": "Sinaloa",
+      "SON": "Sonora",
+      "TAB": "Tabasco",
+      "TAMPS": "Tamaulipas",
+      "TLAX": "Tlaxcala",
+      "VER": "Veracruz",
+      "YUC": "Yucatán",
+      "ZAC": "Zacatecas",
+      "CDMX": "Ciudad de México"
+    }
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalid_email": "Invalid email",
+    "least_characters_long": "The {{name}} must be less than {{length}} characters long."
+  },
+  "dimensions": {
+    "short_name": {
+      "width": "W",
+      "height": "H",
+      "length": "L"
+    }
+  },
+  "time": {
+    "time": "time:",
+    "ago": {
+      "years": "{{years}}yr ago",
+      "months": "{{months}}mon ago",
+      "days": "{{days}}d ago",
+      "hours": "{{hours}}h ago",
+      "minutes": "{{minutes}}m ago",
+      "seconds": "{{seconds}}s ago"
+    },
+    "month": {
+      "short_name": {
+        "jan": "Jan",
+        "feb": "Feb",
+        "mar": "Mar",
+        "apr": "Apr",
+        "may": "May",
+        "jun": "Jun",
+        "jul": "Jul",
+        "aug": "Aug",
+        "sep": "Sep",
+        "oct": "Oct",
+        "nov": "Nov",
+        "dec": "Dec"
+      }
+    },
+    "short": {
+      "d": "d",
+      "h": "h",
+      "min": "min",
+      "m": "m"
+    }
+  },
+  "edit": {
+    "form": {
+      "label": {
+        "tags": "Tags",
+        "plate": "Plate"
+      }
+    }
+  },
+  "transaction_type": {
+    "credit": "Credit",
+    "debit": "Debit"
+  },
+  "country": {
+    "US": "United States",
+    "CA": "Canada",
+    "MX": "Mexico"
+  },
+  "profile": {
+    "right": {
+      "independent_note": {
+        "title": "Garage Location",
+        "field": {
+          "label": "Garage Location",
+          "placeholder": "Please enter garage location"
+        }
+      },
+      "assigned_users": {
+        "title": "Assigned Users:",
+        "no_users": "No assigned users",
+        "dialogs": {
+          "unassign": {
+            "title": "Unassign {{name}} ?",
+            "body": "You will unassign user from the driver."
+          }
+        },
+        "dialog": {
+          "assign": {
+            "header": {
+              "title": "Assign User"
+            },
+            "fields": {
+              "user_id": {
+                "label": "User"
+              }
+            }
+          }
+        }
+      }
+    },
+    "center": {
+      "title": {
+        "all_notes": "All Notes",
+        "team_notes": "Team Notes",
+        "driver_notes": "Driver Chat",
+        "documents": "Documents",
+        "financial": "Financial",
+        "map": "Map",
+        "loads": "Orders",
+        "manifests": "Manifests",
+        "warranty": "Warranty",
+        "transactions_history": "Transactions History",
+        "members" : "Members",
+        "notifications": "Notifications"
+      },
+      "transactions_history": {
+        "table": {
+          "empty_state_text": "No transactions history",
+          "tooltip": "Read only due to \"{{status}}\" settlement status",
+          "columns": {
+            "category": "Category",
+            "settlement": "Settlement",
+            "description": "Description",
+            "amount": "Amount",
+            "date": "Create At"
+          }
+        }
+      },
+      "warranty": {
+        "modals": {
+          "create_warranty": {
+            "header": "Create Warranty"
+          },
+          "delete_warranty": {
+            "title": "Delete Warranty",
+            "body": "Are you sure you want to delete this warranty?"
+          },
+          "coverage_item": {
+            "create": {
+              "title": "Create Item"
+            },
+            "update": {
+              "title": "Update Item"
+            },
+            "fields": {
+              "period": {
+                "label": "Period Range",
+                "placeholder": "Enter Period Range"
+              },
+              "distance": {
+                "label": "Distance Range",
+                "placeholder": "Enter Distance Range"
+              }
+            }
+          }
+        },
+        "section_titles": {
+          "general_section_title": "General",
+          "country_section_title": "Country features",
+          "details": "Details"
+        },
+        "tabs": {
+          "coverage_items": {
+            "title": "Coverage Items",
+            "total_items": "Total items: {{count}}",
+            "table": {
+              "no_items": "Looks like there no coverage items yet",
+              "columns": {
+                "name": "Name",
+                "range_date": "Range",
+                "period_remain": "Period Remain",
+                "miles_remain": "Range Remain",
+                "range_distance": "Range (Mi)"
+              }
+            }
+          },
+          "documents": {
+            "title": "Documents"
+          }
+        },
+        "fields": {
+          "company": {
+            "label": "Company",
+            "placeholder": "Volvo"
+          },
+          "distance": {
+            "label": "Validity range",
+            "placeholder": "10000"
+          },
+          "period": {
+            "label": "Validity period",
+            "placeholder": "5"
+          },
+          "period_units": {
+            "label": "Unit",
+            "placeholder": "1 year",
+            "units": {
+              "months": "month(s)",
+              "years": "year(s)"
+            }
+          }
+        }
+      },
+      "map": {
+        "left_panel": {
+          "truck": "Truck {{model}}",
+          "trailer": "Trailer {{referenceId}}",
+          "driver": "Driver {{name}}"
+        },
+        "location_unavailable": "Location unavailable"
+      }
+    }
+  },
+  "button": {
+    "save_and_close": "Save & Close",
+    "cancel": "Cancel",
+    "unassign": "Unassign",
+    "unlink": "Unlink",
+    "change": "Change",
+    "add": "Add",
+    "create": "Create",
+    "confirm": "Confirm",
+    "update": "Update",
+    "edit": "Edit",
+    "assign": "Assign",
+    "clear": "Clear",
+    "delete": "Delete",
+    "close": "Close",
+    "back": "Back",
+    "download": "Download",
+    "next": "Next",
+    "import": "Import",
+    "export": "Export",
+    "done": "Done",
+    "select_all": "Select All",
+    "deselect_all": "Deselect All",
+    "save": "Save",
+    "view_profile": "View Profile",
+    "add_item": "Add Item",
+    "clone": "Clone",
+    "send": "Send",
+    "sync": "Sync",
+    "void": "Void",
+    "add_new": "Add New",
+    "reload": "Reload",
+    "new_tab": "New Tab",
+    "select": "Select",
+    "doc": "Doc",
+    "all": "All",
+    "remove": "Remove",
+    "download_docs": "Download Docs",
+    "details": "Details",
+    "copy": "Copy",
+    "share": "Share",
+    "revoke_link": "Revoke link",
+    "refetch": "Refetch",
+    "search": "Search",
+    "refresh": "Refresh",
+    "view": "View",
+    "skip": "Skip",
+    "subscribe": "Subscribe",
+    "change_order": "Change Order",
+    "yes": "Yes",
+    "no": "No",
+    "manage": "Manage",
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "retry": "Retry",
+    "go_to_back": "Go to back",
+    "view_noa": "View NoA",
+    "upload": "Upload",
+    "restore": "Restore",
+    "invite": "Invite",
+    "duplicate": "Duplicate",
+    "new_manifest": "New Manifest",
+    "add_stop": "Add Stop",
+    "add_manifest_stop": "Add Manifest Stop",
+    "unassigned": "Unassigned",
+    "set_default": "Set default",
+    "open_edit_order": "Open Edit Order",
+    "open_edit_manifest": "Open Edit Manifest"
+  },
+  "days": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow",
+    "day_before_yesterday": "Day before yesterday",
+    "day_after_tomorrow": "Day after tomorrow",
+    "short": {
+      "sunday": "Sun",
+      "monday": "Mon",
+      "tuesday": "Tue",
+      "wednesday": "Wed",
+      "thursday": "Thu",
+      "friday": "Fri",
+      "saturday": "Sat"
+    },
+    "full": {
+      "sunday": "Sunday",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday"
+    }
+  },
+  "units": {
+    "year": "Year",
+    "years": "Years",
+    "month": "Month",
+    "months": "Months",
+    "day": "Day",
+    "days": "Days",
+    "hour": "Hour",
+    "hours": "Hours",
+    "minute": "Minute",
+    "minutes": "Minutes",
+    "weight": {
+      "lb": "lb",
+      "lbs": "lbs",
+      "kg": "kg"
+    },
+    "measurement": {
+      "in": "in",
+      "cm": "cm",
+      "inch": "Inch",
+      "centimeter": "Centimeter"
+    }
+  },
+  "error": "Something went wrong",
+  "try_again": "Please try again",
+  "failed_fetch": "Failed to fetch data",
+  "dialog": {
+    "title": {
+      "add_bank_account": "Add Bank Account"
+    }
+  },
+  "copy": {
+    "tooltip": "Click to copy",
+    "title": "Copy {{text}}",
+    "copied": "Copied",
+    "copy_total": "Copy Total"
+  },
+  "tooltips": {
+    "open_in_new_tab": "Open in new tab",
+    "click_to_open": "Click to open",
+    "show_in_google_maps": "Show in Google Maps",
+    "install_driver_app": "Install Driver App or Link ELD",
+    "click_to_edit": "Click to edit",
+    "not_using_the_app": "Not using the App",
+    "edit_note": "Edit note",
+    "change_truck": "Change Truck",
+    "filter_by_truck": "Filter by Truck",
+    "unassign_truck": "Unassign Truck",
+    "click_to_call": "Click to call",
+    "see_entity_details": "See {{entity}} details",
+    "show_on_the_map": "Show on the map",
+    "show_current_loc": "Show current location",
+    "change_to_offline": "Change to offline",
+    "change_to_online": "Change to online",
+    "hide_panel": "Hide panel",
+    "select_members_for_order_notifications": "Select members for order notifications."
+  },
+  "empty": {
+    "make_a_cycle": "Make a cycle first",
+    "empty": "empty",
+    "no_driver": "No driver",
+    "no_drivers": "No drivers",
+    "no_trailers": "No trailers",
+    "no_trucks": "No trucks",
+    "no_members": "No members",
+    "no_message": "No messages",
+    "no_stops": "No stops",
+    "no_plate": "No plate",
+    "no_items": "No items",
+    "no_location": "No Location",
+    "no_address_found": "No address found",
+    "no_plate_company": "No P/C",
+    "no_notes_yet": "No notes yet",
+    "no_vendor": "No vendor",
+    "no_email": "No Email",
+    "no_phone_number": "No Phone Number",
+    "no_address": "No Address",
+    "no_truck": "No truck",
+    "no_users": "No users",
+    "no_trailer": "No trailer",
+    "no_phone_number_short": "No P/N",
+    "no_options": "No options",
+    "no_commodity_items": "No commodity items",
+    "no_revenue_type": "No Revenue Type",
+    "no_driver_pay_item": "You have no drivers assigned to this manifest.",
+    "no_truck_assigned": "No truck assigned",
+    "no_load_assigned": "No order assigned",
+    "no_manifest_assigned": "No manifest assigned",
+    "no_loads": "No orders",
+    "no_drivers_assigned": "You have no drivers assigned.",
+    "no_drivers_and_no_truck_assigned": "You have no drivers and no truck assigned."
+  },
+  "state": {
+    "pending": "Pending",
+    "success": "Success",
+    "failed": "Failed"
+  },
+  "actions": {
+    "assign_vendor": "Assign Vendor",
+    "assign_truck": "Assign Truck",
+    "invite_driver": "Invite Driver",
+    "add_driver": "Add Driver",
+    "add_trailer": "Add Trailer",
+    "add_commodity": "Add Commodity",
+    "add_truck": "Add Truck",
+    "add_plate": "Add Plate",
+    "add_vendor": "Add Vendor",
+    "invite": "Invite",
+    "add_trailer_company": "Add Trailer Company",
+    "show_more": "Show more",
+    "download_invoice": "Download Invoice",
+    "assign_driver_to_manifest": "Assign Driver to Manifest",
+    "create_cycle": "Create cycle"
+  },
+  "notifications": {
+    "titles": {
+      "order": "All order notifications",
+      "manifest": "All manifest notifications",
+      "other": "All other notifications"
+    },
+    "actions": {
+      "enabled": "Inbox",
+      "enabledSms": "SMS",
+      "enabledEmail": "Email",
+      "enabledWebPush": "Web"
+    },
+    "tooltips": {
+      "disable": "Disable",
+      "enable": "Enable",
+      "disable_count": "Disable {{count}} events",
+      "enable_count": "Enable {{count}} events"
+    }
+  },
+  "unspecified": "Unspecified",
+  "something_went_wrong": "Oops! Something went wrong...",
+  "location": "Location",
+  "online": "Online",
+  "read_only": "Read Only",
+  "all": "All",
+  "status": "Status",
+  "type": "Type",
+  "not_provided": "N/A",
+  "assigned": "Assigned",
+  "not_assigned": "Not Assigned",
+  "unassigned": "Unassigned",
+  "error_title": "Error",
+  "new": "New",
+  "just_now": "Just now",
+  "gross": "Gross",
+  "busy": "Busy",
+  "available": "Available",
+  "not_available": "N/A",
+  "loading": "Loading",
+  "updating": "Updating",
+  "amount": "Amount",
+  "yes": "Yes",
+  "no": "No",
+  "mi": "mi",
+  "mon": "mon",
+  "week": "week",
+  "last_seen_not_available": "last seen not available",
+  "reference_id": "Reference ID",
+  "phone": "Phone",
+  "insurance_endorsed": "Insurance Endorsed",
+  "settlement_history": "Settlement history",
+  "invoicing": "Invoicing",
+  "mile": "mile",
+  "miles": "miles",
+  "now": "Now",
+  "make_and_model": "Make & Model",
+  "vin": "VIN",
+  "ref": "Ref",
+  "gps_tracking": "GPS Tracking",
+  "link_to_eld": "Link to ELD/Gateway",
+  "provider": "Provider",
+  "last_update": "Last Update",
+  "email": "Email",
+  "make": "Make",
+  "model": "Model",
+  "year": "Year",
+  "total": "Total",
+  "average": "Average",
+  "views": "Views",
+  "selected": "{{count}} selected",
+  "deduct": "Deduct",
+  "quantity": "Quantity",
+  "rate": "Rate",
+  "id": "ID",
+  "required": "Required",
+  "enabled": "Enabled",
+  "disabled": "Disabled",
+  "collapse": "Collapse",
+  "expand": "Expand",
+  "equipment": "Equipment",
+  "original": "Original",
+  "created": "Created",
+  "rpm": "RPM",
+  "coming_soon": "Coming Soon",
+  "last_service": "Last Service",
+  "charged": "charged",
+  "show_completed": "Show completed: {{count}}",
+  "show_totals": "Show totals",
+  "hide_totals": "Hide totals",
+  "loads": {
+    "friendlyId": "O-{{friendlyId}}"
+  },
+  "manifests": {
+    "friendlyId": "M-{{friendlyId}}",
+    "assign_truck": "Assign Truck"
+  },
+  "latest": "Latest",
+  "need_update": "Need Update",
+  "none": "None",
+  "show_panel": "Show panel"
+}

@@ -1,0 +1,61 @@
+{
+  "header": {
+    "title": "IFTA Reporting"
+  },
+  "period": {
+    "new_tax_owned": "Next Tax Owed:"
+  },
+  "buttons": {
+    "view_report": "View Report",
+    "view_rates": "View Rates"
+  },
+  "details": {
+    "header": {
+      "tabs": {
+        "trucks": "Trucks",
+        "totals": "Totals",
+        "stops": "Stops"
+      }
+    },
+    "totals": {
+      "table": {
+        "columns": {
+          "country": "COUNTRY",
+          "state": "STATE",
+          "total_distance": "MILES",
+          "total_fuel_quantity": "FUEL"
+        },
+        "total": "Total:"
+      }
+    },
+    "stops": {
+      "table": {
+        "columns": {
+          "truck_reference_id": "REF",
+          "from_load_id": "FROM ORDER ID",
+          "from_city": "FROM CITY",
+          "from_state": "FROM STATE",
+          "from_at": "FROM AT",
+          "end_load_id": "END ORDER ID",
+          "end_city": "END CITY",
+          "end_state": "END STATE",
+          "end_at": "END AT",
+          "state": "STATE",
+          "miles": "MILES"
+        }
+      }
+    },
+    "trucks": {
+      "table": {
+        "columns": {
+          "reference_id": "TRUCK #",
+          "type": "TYPE",
+          "state": "STATE",
+          "driver": "DRIVER",
+          "total_fuel_quantity": "FUEL",
+          "total_distance": "MILES"
+        }
+      }
+    }
+  }
+}

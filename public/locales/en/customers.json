@@ -1,0 +1,14 @@
+{
+  "header": {
+    "buttons": {
+      "add_customer": "Add Customer",
+      "unpaid_loads": "Unpaid Orders"
+    },
+    "filters": {
+      "labels": {
+        "created_start": "Created From",
+        "created_end": "Created To"
+      }
+    }
+  }
+}

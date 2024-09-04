@@ -1,0 +1,15 @@
+{
+  "header": {
+    "title": "Dispatchers"
+  },
+  "list": {
+    "empty": "No dispatch payments statistic yet"
+  },
+  "stats": {
+    "average_gross": "Average Gross",
+    "average_rpm": "Average RPM"
+  },
+  "fallback": {
+    "first_text": "No dispatch payments statistic yet"
+  }
+}

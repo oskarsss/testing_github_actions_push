@@ -1,0 +1,150 @@
+{
+  "header": {
+    "title": "Driver",
+    "filters": {
+      "hire_date": {
+        "start": "Hire Date From",
+        "end": "Hire Date To"
+      },
+      "age": {
+        "label": "Age",
+        "options": {
+          "all": "All"
+        }
+      }
+    }
+  },
+  "table": {
+    "confirm_dialog": {
+      "insurance_endorsed": {
+        "title": "Change Insurance Endorsed for {{driverName}}",
+        "description": "Are you sure you want to change driver insurance endorsed?"
+      }
+    }
+  },
+  "error": {
+    "button_text": {
+      "back_to_drivers_page": "Back to Drivers page"
+    }
+  },
+  "profile": {
+    "last_activity": "Last activity: {{lastActivity}}",
+    "left": {
+      "header": {
+        "critical_notification": {
+          "title": "Alert",
+          "tooltip": "Send critical notification"
+        },
+        "trip_information": {
+          "tooltip": "View Orders",
+          "loads": "Orders",
+          "miles_driven": "Miles Driven",
+          "menu": {
+            "loads": {
+              "list": {
+                "loads": "Orders",
+                "schedule": "Schedule"
+              }
+            }
+          }
+        }
+      },
+      "info": {
+        "address": {
+          "title": "Address",
+          "no_address": "No Address"
+        },
+        "phone_number": {
+          "title": "Phone",
+          "no_phone_number": "No P/N",
+          "tooltip": "Send SMS"
+        },
+        "email": {
+          "title": "E-mail",
+          "no_email": "No E-mail"
+        },
+        "revenue": {
+          "title": "Revenue",
+          "no_revenue": "No Revenue"
+        },
+        "cycle": {
+          "title": "Cycle",
+          "no_cycle": "No Cycle"
+        }
+      }
+    },
+    "right": {
+      "partners": {
+        "title": "Driver Partners",
+        "button_text": "Select",
+        "no_partners": "No Driver Partners"
+      },
+      "vendor": {
+        "title": "Vendor / Payee",
+        "tooltip": "Remove Vendor",
+        "no_vendor": "No Driver Vendor / Payee",
+        "dialog": {
+          "select": {
+            "header": {
+              "title": "Select Vendor"
+            },
+            "fields": {
+              "vendor_id": {
+                "label": "Vendor Name"
+              }
+            }
+          },
+          "unassign": {
+            "title": "Unassign vendor {{name}} ?",
+            "description": "You will unassign vendor from the driver."
+          }
+        }
+      },
+      "mobile_app": {
+        "title": "Devices",
+        "no_app": "Driver does not have app installed",
+        "device": {
+          "app_version": "App Version",
+          "operating_system": "Operating System"
+        }
+      },
+      "gps_tracking": {
+        "title": "GPS Tracking",
+        "devices": {
+          "title": "Based on",
+          "no_devices": "No devices"
+        }
+      },
+      "bank_information": {
+        "title": "Bank Information",
+        "bank_name": "Bank",
+        "name_on_account": "Name on Account",
+        "routing_number": "Routing Number",
+        "no_bank": "No Bank Information",
+        "tooltip": "Remove Bank Account",
+        "dialog": {
+          "unassign": {
+            "title": "Delete {{accountHolderName}} bank information ?",
+            "body": "You will remove bank account from the driver."
+          }
+        }
+      },
+      "truck": {
+        "dialog": {
+          "unassign_truck": {
+            "title": "Unassign truck {{referenceId}} ?",
+            "body": "You will unassign truck from the driver."
+          }
+        }
+      },
+      "independent_note": {
+        "title": "Pinned Note",
+        "tooltip": "Visible note to driver (shown in the Driver App)",
+        "field": {
+          "label": "Note",
+          "placeholder": "Please enter note"
+        }
+      }
+    }
+  }
+}

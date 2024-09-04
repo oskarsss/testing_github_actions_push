@@ -1,0 +1,2001 @@
+{
+  "loads": {
+    "settings": {
+      "days_lines": {
+        "show": "Show days lines",
+        "hide": "Hide days lines",
+        "types": {
+          "label": "Days lines type",
+          "compacted": "Compacted",
+          "wide": "Wide"
+        }
+      }
+    },
+    "client_members": {
+      "title": "assigned members",
+      "toast": {
+        "loading": "Updating Members Assigned",
+        "success": "Order Members Were Updated"
+      }
+    },
+    "edit_load": {
+      "titles": {
+        "main": "Edit Order",
+        "notes": "Billing Notes",
+        "commodities": "Commodities",
+        "invoicing_payments": "Invoicing Payments"
+      },
+      "buttons": {
+        "download_invoice": "Invoice"
+      },
+      "confirm": {
+        "delete": {
+          "title": "Mark this order as 'Deleted'?",
+          "body": "The order will remain in the system with 'Deleted' status."
+        }
+      },
+      "fields": {
+        "errors": {
+          "duplicate_load_id": "Duplicate order id"
+        },
+        "titles": {
+          "load_type": "Order Type",
+          "booking_dispatcher": "Booking Dispatcher / CSR",
+          "factoring_company": "Factoring Company",
+          "invoicing_company": "Invoicing Company"
+        },
+        "dialog_titles": {
+          "booking_dispatcher": "Are you sure you want to change the Dispatcher?",
+          "factoring_company": "Are you sure you want to change the Factoring Company?",
+          "reference_id": "Are you sure you want to change the reference ID?",
+          "temperature": "Are you sure you want to change the Temperature?",
+          "invoicing_company": "Are you sure you want to change the Invoicing Company "
+        }
+      },
+      "driver_pay_items": {
+        "title": "Driver Pay",
+        "no_drivers": "You have no drivers assigned to this order.",
+        "select_truck": "Please select truck",
+        "override_gross": "Override Gross",
+        "override_gross_amount": "By setting this amount, you will override original gross {{grossAmountFormatted}}",
+        "dialogs": {
+          "create_driver_pay": {
+            "no_drivers": "No drivers"
+          },
+          "override_gross": {
+            "title": "Are you sure you want to override original gross {{brokerAmount}}?",
+            "desc": "This setting will override original gross, please be careful"
+          },
+          "restore_gross": {
+            "title_1": "Are you sure you want to remove your",
+            "title_2": "Override",
+            "title_3": "Original gross?"
+          }
+        }
+      },
+      "truck_items": {
+        "confirm": {
+          "title": "Unassign \"{{truckReferenceId}}\" ?",
+          "body": "You will unassign truck from order."
+        }
+      },
+      "stops": {
+        "title": "Stops",
+        "labels": {
+          "empty_miles_short": "Empty Mi",
+          "loaded_miles_short": "Loaded Mi",
+          "empty_miles": "Empty Miles",
+          "loaded_miles": "Loaded Miles"
+        },
+        "buttons": {
+          "add_stop": "Add Stop"
+        },
+        "dialogs": {
+          "override_empty_miles": {
+            "title": "Are you sure you want to override original empty miles {{defaultValue}}?",
+            "description": "This setting will override original empty miles, please be careful"
+          },
+          "override_loaded_miles": {
+            "title": "Are you sure you want to override original loaded miles {{defaultValue}}?",
+            "description": "This setting will override original loaded miles, please be careful"
+          }
+        }
+      }
+    },
+    "stops": {
+      "titles": {
+        "load": {
+          "add_stop": "Add Order Stop #{{sequence}}",
+          "edit_stop": "Edit Order Stop #{{sequence}}"
+        },
+        "manifest": {
+          "add_stop": "Add Manifest Stop #{{sequence}}",
+          "edit_stop": "Edit Manifest Stop #{{sequence}}"
+        }
+      },
+      "labels": {
+        "sequence": "Seq Nr.",
+        "ref": "Ref #",
+        "location_name": "Location Name",
+        "start_appointment": "Start Appointment",
+        "end_appointment": "End Appointment",
+        "fixed_appointment": "Fixed Appointment"
+      },
+      "placeholders": {
+        "sequence": "1",
+        "ref": "123",
+        "location_name": "Warehouse"
+      }
+    },
+    "check_in_out": {
+      "titles": {
+        "update": "Update {{title}} Time",
+        "add": "Add {{title}} Time"
+      }
+    },
+    "driver_pay_item": {
+      "titles": {
+        "add": "Add Driver Pay Item",
+        "edit": "Update Driver Pay Item"
+      }
+    },
+    "invoice_item": {
+      "titles": {
+        "add": "Add Invoice Item",
+        "edit": "Update Invoice Item"
+      }
+    },
+    "invoice_payment": {
+      "titles": {
+        "add": "Add Invoice Payment",
+        "edit": "Update Invoice Payment"
+      },
+      "labels": {
+        "paid_on": "Paid On",
+        "receiver_type": "Receiver Type"
+      }
+    },
+    "share_link": {
+      "title": "Share tracking page for this order",
+      "description": "Anyone with link can view this order",
+      "show": "Show",
+      "controls": {
+        "capacity": {
+          "label": "Capacity",
+          "info": "Driver capacity table with additional information"
+        },
+        "documents": {
+          "label": "Documents",
+          "info": "Order documents"
+        },
+        "eta": {
+          "label": "ETA",
+          "info": "Estimated time of arrival"
+        },
+        "driver_contact": {
+          "label": "Driver Contact",
+          "info": "Driver contact information"
+        },
+        "other_load_stops": {
+          "label": "Other Order Stops",
+          "info": "Show other order stops"
+        }
+      }
+    },
+    "stop_options": {
+      "titles": {
+        "merge_stops": "Merge Stops",
+        "split_manifest": "Split Manifest",
+        "rate_confirmation": "Rate Confirmation"
+      }
+    }
+  },
+  "brokers": {
+    "edit": {
+      "title": "Edit Broker",
+      "confirm_delete_modal": {
+        "title": "Are you sure you want to delete this broker?",
+        "description": "If you delete this broker, all the information will be lost."
+      },
+      "fields": {
+        "billing_email": {
+          "label": "Billing Email",
+          "placeholder": "Enter billing email"
+        }
+      }
+    },
+    "add": {
+      "title": "Add Broker",
+      "safer_lookup": "Safer Lookup",
+      "broker_not_found": "Broker is not found by MC number",
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Broker name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "logistics@broker.com"
+        }
+      }
+    },
+    "options": {
+      "download_docs": "Download Docs",
+      "confirm_delete": {
+        "title": "Delete {{mc}} broker?",
+        "body": "You will delete broker permanently."
+      }
+    }
+  },
+  "customers": {
+    "add": {
+      "title": "Add Customer",
+      "fields": {
+        "contact_email": {
+          "placeholder": "logistics@customer.com"
+        }
+      }
+    },
+    "edit": {
+      "title": "Edit Customer",
+      "fields": {
+        "group_title": {
+          "address_info": "Address Info",
+          "personal_info": "Personal Info"
+        },
+        "labels": {
+          "contact_name": "Contact Name",
+          "contact_phone": "Contact Phone",
+          "contact_email": "Contact Email",
+          "contact_fax": "Contact Fax",
+          "billing_email": "Billing Email"
+        },
+        "placeholders": {
+          "contact_name": "John Doe",
+          "contact_phone": "(123) 456-7890",
+          "contact_email": "email@gmail.com",
+          "contact_fax": "6589874",
+          "billing_email": "email@gmail.com"
+        }
+      }
+    },
+    "options": {
+      "download_docs": "Download Docs",
+      "confirm_delete": {
+        "title": "Delete {{name}} customer?",
+        "body": "You will delete customer permanently."
+      }
+    }
+  },
+  "manifests": {
+    "details": {
+      "buttons": {
+        "manifests_related": "Manifests Related",
+        "loads_related": "Orders Related"
+      },
+      "confirm": {
+        "driver_pay": {
+          "delete": {
+            "title": "Remove Driver Pay",
+            "body": "Removing this driver will remove your manifest pay from {{fullName}} settlement"
+          }
+        },
+        "delete": {
+          "title": "Mark this manifest as 'Deleted'?",
+          "body": "The manifest will remain in the system with 'Deleted' status."
+        },
+        "unassign_truck": {
+          "title": "Unassign \"{{ref}}\" ?",
+          "body": "You will unassign truck from manifest."
+        }
+      },
+      "map": {
+        "pop_up": {
+          "req_time": "Req Time",
+          "arr_time": "Arr Time"
+        }
+      },
+      "equipment": {
+        "titles": {
+          "total_miles": "Total Miles",
+          "empty_miles": "Empty Miles",
+          "loaded_miles": "Loaded Miles"
+        }
+      },
+      "tabs": {
+        "titles": {
+          "driver_pay": "Driver Pay",
+          "border_connect": "Border Connect"
+        },
+        "stops": {
+          "header": {
+            "title": "Stops",
+            "buttons": {
+              "edit_route": "Edit Route",
+              "update_route": "Update Route",
+              "take_out": "Take Out",
+              "merge": "Merge",
+              "split": "Split",
+              "add_stop": "Add Stop",
+              "unassign_truck": "Unassign Truck"
+            }
+          }
+        },
+        "border_connect": {
+          "buttons": {
+            "sync_with_cbsa": "sync with cbsa",
+            "send_to_cbsa": "Send to CBSA"
+          },
+          "info": {
+            "titles": {
+              "trip_number": "Trip Number",
+              "estimated_arrival_date": "ESTIMATED ARRIVAL DATE",
+              "fax_billable": "FAX BILLABLE",
+              "last_edited": "Last Edited",
+              "aci_history": "ACI History"
+            }
+          }
+        }
+      }
+    },
+    "add-title": {
+      "title": "Add Title",
+      "title-update": "Update Title",
+      "label": "Title",
+      "placeholder": "Arizona Trip"
+    },
+    "buttons": {
+      "add_title": "Add title"
+    },
+    "sections": {
+      "manifest": "Manifest",
+      "truck": "Truck"
+    },
+    "driver_pay_item": {
+      "titles": {
+        "add": "Add Driver Pay Item",
+        "edit": "Edit Driver Pay Item"
+      }
+    },
+    "take_out": {
+      "title": "Take Out to:",
+      "switch": "Separate Manifests",
+      "warning": "You don't have to select a manifest. The stops will go into the new"
+    },
+    "merge": {
+      "title": "Merge Manifests",
+      "button": "Merge"
+    },
+    "stop": {
+      "errors": {
+        "stop_time_earlier_previous": "Stop time cannot be earlier than previous stop times"
+      },
+      "context-menu": {
+        "delete_stop_confirmation": "Are you sure you want to delete this stop?",
+        "delete_stop_title": "Delete Stop"
+      },
+      "tooltips": {
+        "unassign_from_load_stop": "Unassign from order stop",
+        "assign_to_load_stop": "Assign to order stop"
+      },
+      "titles": {
+        "details": "Details",
+        "address": "Address",
+        "appointment": "Appointment",
+        "not_assigned": "Not assigned",
+        "no_unassigned_items": "No unassigned items"
+      },
+      "fields": {
+        "labels": {
+          "fixed": "Fixed",
+          "start": "Start",
+          "end": "End",
+          "checked_in": "Checked In",
+          "checked_out": "Checked Out"
+        }
+      }
+    },
+    "split": {
+      "header": {
+        "title": "Split Manifest"
+      },
+      "sections": {
+        "last_stop": "Last Stop",
+        "address": "Address",
+        "drop_off_appointment": "Drop Off Appointment",
+        "pick_up_appointment": "Pick Up Appointment"
+      },
+      "fields": {
+        "stop": {
+          "label": "Stop"
+        }
+      }
+    },
+    "edit": {
+      "gross": {
+        "header": {
+          "title": "Edit Manifest Gross",
+          "description": "This setting will override original gross, please be careful"
+        },
+        "fields": {
+          "gross": {
+            "label": "Gross",
+            "placeholder": "Enter manifest gross"
+          }
+        }
+      },
+      "empty_miles": {
+        "header": {
+          "title": "Edit Manifest Empty Miles",
+          "description": "This setting will override original empty miles, please be careful"
+        },
+        "fields": {
+          "gross": {
+            "label": "Empty Miles",
+            "placeholder": "Enter manifest empty miles"
+          }
+        }
+      },
+      "loaded_miles": {
+        "header": {
+          "title": "Edit Manifest Loaded Miles",
+          "description": "This setting will override original loaded miles, please be careful"
+        },
+        "fields": {
+          "gross": {
+            "label": "Loaded Miles",
+            "placeholder": "Enter manifest loaded miles"
+          }
+        }
+      }
+    },
+    "create_blank": {
+      "map": {
+        "add_location": "Click on the map to add a new location."
+      },
+      "header": {
+        "title": "Create Blank Manifest"
+      },
+      "block": {
+        "general": {
+          "title": "General",
+          "fields": {
+            "title": {
+              "label": "Title",
+              "placeholder": "Arizona Trip"
+            },
+            "gross_amount": {
+              "label": "Gross Amount",
+              "placeholder": "1000"
+            }
+          }
+        },
+        "stops": {
+          "alert": "At least 2 stops are required to create a Manifest."
+        }
+      }
+    }
+  },
+  "drivers": {
+    "send_critical_notification": {
+      "title": "Critical Notification Alert",
+      "notification": "The feature is enabled for the driver. Confirming will activate a siren on their phone, disabling all app functions for immediate communication",
+      "sub_title": "Last Sent",
+      "alarm": {
+        "sub_title": "Alarm in Progress",
+        "message": "When you activate the siren in the driver's app, you can close this window only by either deactivating the siren or when the driver responds"
+      },
+      "error": {
+        "app_not_installed": {
+          "sub_title": "App Not Installed",
+          "message": "The driver does not have the app installed. You can send a text message with a link to download the app and enable this feature."
+        },
+        "missing_app_and_contact_info": {
+          "sub_title": "Missing App and Contact Info",
+          "message": "The driver has not installed the app, and there is no provided phone number, making it impossible to send a download link."
+        },
+        "feature_not_enabled": {
+          "sub_title": "Feature Not Enabled",
+          "message": "The driver has the app installed but hasn't activated this feature. You can send an activation link for the driver to enable it.",
+          "dialog": {
+            "send_sms": {
+              "header": {
+                "title": "Send SMS",
+                "sub_title": "Hi {{driverName}}, {{companyName}} is asking you to check Mandatory actions on your {{name}} Driver app and enable Critical Notifications."
+              },
+              "fields": {
+                "body": {
+                  "label": "Message",
+                  "placeholder": "Enter Message"
+                }
+              },
+              "tooltip": "Please add driver phone number"
+            }
+          }
+        },
+        "button": {
+          "edit_profile": "Edit Profile",
+          "send_link": "Send Link"
+        }
+      },
+      "clear_history": "Clear history",
+      "table": {
+        "header": {
+          "from": "From",
+          "message": "Message",
+          "status": "Status"
+        },
+        "status": {
+          "delivered": "Delivered",
+          "not_delivered": "Not delivered"
+        },
+        "body": {
+          "empty": "Do not have any notifications"
+        }
+      },
+      "fields": {
+        "message": {
+          "label": "Message to Driver",
+          "placeholder": "Enter Message"
+        },
+        "checkbox": {
+          "label": "I confirm that activating this notification will trigger a siren on the driver's phone, and I want to proceed."
+        }
+      },
+      "activate_button": "Activate Siren",
+      "stop_button": "Stop Siren"
+    },
+    "invite": {
+      "header": {
+        "sub_title_phone": "Please enter driver phone number",
+        "sub_title_email": "Please enter driver email"
+      }
+    },
+    "edit": {
+      "header": {
+        "title": "Edit {{name}}",
+        "tabs": {
+          "basic": "Basic",
+          "financial": "Financial"
+        }
+      },
+      "block_title": {
+        "personal": "Personal",
+        "financial": "Financial",
+        "address": "Address",
+        "employment": "Employment"
+      },
+      "fields": {
+        "hire_date": {
+          "label": "Hire Date"
+        },
+        "date_of_birth": {
+          "label": "Date of Birth"
+        },
+        "payout_receiver": {
+          "label": "Payout Receiver"
+        },
+        "middle_name": {
+          "label": "Middle Name",
+          "placeholder": "M"
+        }
+      },
+      "payout_receiver": {
+        "driver": "Driver",
+        "vendor": "Vendor"
+      }
+    },
+    "delete": {
+      "title": "Are you sure you want to mark this driver as 'Remote'?",
+      "body": "It will be hidden, but will still be stored in the system."
+    }
+  },
+  "fuels": {
+    "create": {
+      "header": {
+        "title": "Add Fuel Transaction"
+      }
+    },
+    "edit": {
+      "title": "Edit fuel",
+      "confirm_dialog": {
+        "delete": {
+          "title": "Delete Fuel Transaction",
+          "body": "Are you sure you want to delete fuel transaction?"
+        }
+      }
+    },
+    "fields": {
+      "fuel_chain": {
+        "label": "Fuel Chain",
+        "placeholder": "Petro"
+      },
+      "total_amount": {
+        "label": "Total amount",
+        "placeholder": "$30.47"
+      },
+      "quantity": {
+        "label": "Quantity",
+        "placeholder": "Enter quantity"
+      },
+      "total_discounted_amount": {
+        "label": "Total Discount Amount (read only)",
+        "placeholder": "$30.47"
+      },
+      "chain": {
+        "label": "Chain",
+        "placeholder": "Enter chain"
+      },
+      "product": {
+        "label": "Product",
+        "placeholder": "Gasoline 87 Octane"
+      },
+      "truck_stop": {
+        "label": "Truck Stop",
+        "placeholder": "TA - GREENLAND"
+      },
+      "reference_id": {
+        "label": "Reference ID",
+        "duplicate": {
+          "error": "Duplicate found - Fuel Transaction with Ref ID",
+          "tooltip": "Open edit fuel transaction dialog"
+        }
+      },
+      "datetime": {
+        "label": "Entry Date & Time"
+      },
+      "date_time": {
+        "label": "Date & Time"
+      }
+    },
+    "assign_truck": {
+      "title": "Assign truck to fuel"
+    },
+    "options": {
+      "confirm": {
+        "unassign": {
+          "title": "Unassign Toll",
+          "body": "Are you sure you want to unassign this truck?"
+        }
+      }
+    }
+  },
+  "payouts": {
+    "edit": {
+      "title": "Edit Payout",
+      "sub_header": "If payment status is succeeded or failed, you cannot change the amount and payment type fields.",
+      "button": {
+        "submit": "Confirm"
+      }
+    },
+    "add": {
+      "title": "Add Payout"
+    },
+    "field": {
+      "amount": {
+        "label": "Amount",
+        "placeholder": "Enter Amount"
+      },
+      "referenceId": {
+        "label": "Ref Id",
+        "placeholder": "Enter Ref Id"
+      },
+      "status": {
+        "label": "Status"
+      },
+      "type": {
+        "label": "Payment"
+      }
+    },
+    "bank_account": {
+      "title": "Bank Accounts",
+      "bank": "Bank",
+      "name": "Name",
+      "routing_number": "Routing Number",
+      "empty": {
+        "title": "No Bank Accounts",
+        "button": "Add a bank account",
+        "text_after_btn": "to create a payout"
+      }
+    }
+  },
+  "plates": {
+    "edit": {
+      "header": {
+        "title": "Edit Plate"
+      }
+    },
+    "fields": {
+      "owner_name": {
+        "label": "Owner Name",
+        "placeholder": "Enter owner name"
+      },
+      "province": {
+        "label": "Province"
+      },
+      "number": {
+        "label": "Number",
+        "placeholder": "XXXX11"
+      },
+      "vehicle_type": {
+        "label": "Vehicle Type"
+      },
+      "annual_cost": {
+        "label": "Annual Cost",
+        "placeholder": "1500"
+      },
+      "country": {
+        "label": "Country"
+      },
+      "owned": {
+        "label": "Owned"
+      }
+    },
+    "delete": {
+      "title": "Delete {{number}} plate?",
+      "body": "You will delete plate permanently."
+    },
+    "add_company": {
+      "header": {
+        "title": "Add Plate Company"
+      },
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Plate Company Name"
+        },
+        "reference_id": {
+          "label": "Plate Company Number",
+          "placeholder": "101"
+        }
+      }
+    }
+  },
+  "plate_companies": {
+    "add": {
+      "header": {
+        "title": "Add Plate Company"
+      }
+    },
+    "edit": {
+      "header": {
+        "title": "Edit Plate Company - {{name}}"
+      }
+    }
+  },
+  "tolls": {
+    "add": {
+      "title": "Add Toll Transaction"
+    },
+    "edit": {
+      "title": "Edit Toll",
+      "delete": {
+        "confirm": {
+          "title": "Delete Toll",
+          "body": "Are you sure you want to delete selected tolls?"
+        }
+      }
+    },
+    "assign_fleet": {
+      "title": "Assign {{selectedEntity}} to Toll"
+    },
+    "batch_assign": {
+      "title": "Assign {{selectedEntity}} to Tolls"
+    },
+    "options": {
+      "unassign": {
+        "confirm": {
+          "title": "Unassign Toll",
+          "body": "Are you sure you want to unassign this toll?"
+        }
+      }
+    }
+  },
+  "trailers": {
+    "add": {
+      "fields": {
+        "company_rent_amount": {
+          "label": "Rent (monthly)",
+          "placeholder": "101"
+        },
+        "company_deposit_amount": {
+          "label": "Deposit (one time)",
+          "placeholder": "101"
+        },
+        "driver_rent_amount": {
+          "label": "Driver Rent (weekly)",
+          "placeholder": "101"
+        }
+      }
+    },
+    "edit": {
+      "header": {
+        "title": "Trailer #"
+      },
+      "fields": {
+        "company_rent_amount": {
+          "label": "Rent Amount",
+          "placeholder": "$900"
+        },
+        "company_deposit_amount": {
+          "label": "Deposit Amount",
+          "placeholder": "$2000"
+        },
+        "driver_rent_amount": {
+          "label": "Driver Rent",
+          "placeholder": "$400"
+        },
+        "make": {
+          "label": "Make",
+          "placeholder": "Great Dane"
+        },
+        "model": {
+          "label": "Model",
+          "placeholder": "Z Duraplate"
+        }
+      }
+    },
+    "unassign": {
+      "truck": {
+        "title": "Unassign truck {{referenceId}} ?",
+        "body": "You will unassign truck from the trailer."
+      },
+      "company": {
+        "title": "Unassign company {{name}} ?",
+        "body": "You will unassign company from the trailer."
+      }
+    },
+    "select": {
+      "company": {
+        "header": {
+          "title": "Select Company"
+        }
+      }
+    },
+    "delete": {
+      "title": "Are you sure you want to mark this trailer as 'Remote'?",
+      "body": "It will be hidden, but will still be stored in the system."
+    }
+  },
+  "trailer_companies": {
+    "edit": {
+      "header": {
+        "title": "Edit Trailer Company - {{companyName}}"
+      }
+    }
+  },
+  "trucks": {
+    "delete": {
+      "title": "Are you sure you want to mark this truck as 'Remote'?",
+      "body": "It will be hidden, but will still be stored in the system."
+    },
+    "unassign": {
+      "title": "Unassign trailer {{referenceId}} ?",
+      "body": "You will unassign trailer from the truck."
+    },
+    "add": {
+      "fields": {
+        "reference_id": {
+          "label": "Unit Number",
+          "placeholder": "101"
+        },
+        "vin": {
+          "label": "VIN ( 17 characters )"
+        }
+      }
+    },
+    "edit": {
+      "header": {
+        "title": "Truck #"
+      },
+      "confirm": {
+        "change_insurance": {
+          "remove": {
+            "title": "Do you want to remove the insurance endorsement?",
+            "body": "This will remove the insurance endorsement for the truck."
+          },
+          "endorse": {
+            "title": "Do you want to endorse the insurance?",
+            "body": "This will endorse the insurance for the truck."
+          }
+        }
+      },
+      "fields": {
+        "reference_id": {
+          "label": "Unit Number",
+          "placeholder": "101"
+        },
+        "make": {
+          "label": "Make",
+          "placeholder": "Volvo"
+        },
+        "model": {
+          "label": "Model",
+          "placeholder": "VNL 760"
+        },
+        "toll_transponder": {
+          "label": "Toll Transponder Number",
+          "placeholder": "XXXXXXXX"
+        },
+        "fuel_discounts_enabled": {
+          "label": "Fuel Discounts"
+        },
+        "insurance_endorsed": {
+          "label": "Insurance Endorsed"
+        }
+      }
+    }
+  },
+  "vendors": {
+    "add": {
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "ABC Trucking Inc"
+        }
+      }
+    },
+    "edit": {
+      "header": {
+        "title": "Edit Vendor Information",
+        "sub_title": "Ensure that information is kept up to date."
+      },
+      "block_title": {
+        "address": "Address",
+        "basic_details": "Basic Details",
+        "contact_details": "Contact Details",
+        "tax_settings": "Tax Settings"
+      },
+      "fields": {
+        "contact_name": {
+          "label": "Contact Name",
+          "placeholder": "John Dou"
+        },
+        "contact_email": {
+          "label": "Contact Email",
+          "placeholder": "john@gmail.com"
+        },
+        "contact_phone_number": {
+          "label": "Contact Phone Number",
+          "placeholder": "(201) 123-1234"
+        },
+        "tax_id": {
+          "label": "Tax ID",
+          "placeholder": "123"
+        },
+        "state": {
+          "placeholder": "Kansas"
+        }
+      }
+    },
+    "delete": {
+      "title": "Delete {{name}} ?",
+      "body": "You will delete vendor permanently."
+    }
+  },
+  "settlements": {
+    "send_settlement": {
+      "title": "Send Settlement",
+      "titles": {
+        "message": "Message",
+        "documents_preview": "Documents preview",
+        "attachments": "Attachments",
+        "also_send": "Also send"
+      },
+      "empty": {
+        "no_email": "No Email",
+        "no_sms": "No P/N",
+        "no_revenue_type": "No Revenue Type",
+        "no_attachments": "No Attachments",
+        "documents": {
+          "title": "No Documents Available",
+          "sub_title": "We don't have any documents at the moment."
+        },
+        "no_revenue_type_id": {
+          "text_button": "Add Revenue Type",
+          "text_after_button": "to driver"
+        }
+      },
+      "tooltip_open_edit_type": "Click to open Edit {{type}}",
+      "fields": {
+        "labels": {
+          "body": "Body",
+          "subject": "Subject",
+          "email_to": "Email to {{type}}",
+          "sms_to": "SMS to {{type}}",
+          "cc_email": "CC Email"
+        },
+        "placeholders": {
+          "subject": "Please write your message subject here.",
+          "body": "Please write your message body here."
+        },
+        "subject": "Settlement #{settlementId}",
+        "body": "Hi, {recipient}! Please find attached your weekly settlement."
+      },
+      "driver_app": "Driver app",
+      "buttons": {
+        "send_to_vendor": "Send to Vendor",
+        "send_to_driver": "Send to Driver",
+        "send_documents": "Send Documents"
+      }
+    },
+    "periods": {
+      "titles": {
+        "add": "Create new period",
+        "edit": "Edit period"
+      }
+    },
+    "edit_pay_date": {
+      "label": "Pay Date",
+      "title": "Are you sure you want to change the pay date?"
+    },
+    "create_settlement": {
+      "title": "Create Settlements",
+      "buttons": {
+        "submit_zero": "Create settlement",
+        "submit": "Create settlement",
+        "submit_other": "Create {{count}} settlements"
+      },
+      "table": {
+        "titles": {
+          "truck": "Truck#",
+          "name": "Name",
+          "driver_type": "Driver Type",
+          "revenue_type": "Revenue Type"
+        }
+      }
+    },
+    "batch_send_settlements": {
+      "title": "Send Settlements",
+      "title_2": "Sending settlements",
+      "fields": {
+        "body_1": "Hi",
+        "body_2": "Please find attached your weekly settlement."
+      },
+      "mentions": {
+        "name": "recipient name",
+        "settlement_id": "settlement id",
+        "email": "recipient email",
+        "phone_number": "recipient phone number"
+      },
+      "table": {
+        "titles": {
+          "settlement_id": "Settlement ID",
+          "recipient": "Recipient",
+          "to_email": "To Email",
+          "to_phone": "To Phone"
+        },
+        "tooltips": {
+          "email_invalid": "Email or phone number required. Click to edit",
+          "phone_invalid": "Email or phone number required. Click to edit"
+        }
+      }
+    },
+    "assign_vendor": {
+      "title": "Assign Vendor to Settlement {{friendlyId}}"
+    },
+    "edit_settlement": {
+      "title": "Settlement #{{id}} {{status}}",
+      "pro_mode": "Pro Mode",
+      "tooltips": {
+        "assign_to_settlement": "Assign to settlement",
+        "unassign_from_settlement": "Unassign from settlement"
+      },
+      "actions": {
+        "download_pdf": {
+          "tooltip": "Please assign the truck before download PDF",
+          "label": "Download PDF"
+        },
+        "driver_settlement_history": {
+          "label": "Driver Settlement History"
+        },
+        "open_document": {
+          "label": "Open PDF",
+          "tooltip": "Please assign the truck before open PDF"
+        }
+      },
+      "fields": {
+        "confirm_dialogs": {
+          "unassign_vendor": {
+            "title": "Unassign vendor",
+            "body": "Are you sure you want to unassign the vendor?"
+          }
+        }
+      },
+      "overview": {
+        "title": "Overview",
+        "labels": {
+          "driver_earned": "Driver Earned",
+          "per_mile": "Per Mile",
+          "company_net": "Company Net",
+          "company_fee": "Company Fee",
+          "credits": "Credits",
+          "debits": "Debits"
+        }
+      },
+      "turn": {
+        "off": "turn off",
+        "on": "turn on"
+      },
+      "tabs": {
+        "fuel": {
+          "label": "Fuel Transactions",
+          "label_for_small_screen": "Fuels",
+          "header": {
+            "switch": {
+              "discount": "Discount"
+            },
+            "title": "Fuel Transactions"
+          },
+          "table": {
+            "columns": {
+              "truck_stop": "Truck Stop",
+              "product": "Product",
+              "verified": "Verified",
+              "upload_at": "Upload At",
+              "discounted_amount": "Discounted Amount"
+            }
+          },
+          "dialogs": {
+            "titles": {
+              "driver_fuel_deduct": "Do you want to {{infoText}} deduct driver fuel?",
+              "fuel_discount": "Do you want to {{infoText}} fuel discount?"
+            }
+          }
+        },
+        "manifests": {
+          "header": {
+            "switch": {
+              "expand_details": "Expand details"
+            }
+          }
+        },
+        "recurring": {
+          "header": {
+            "title": "Recurring Transactions",
+            "buttons": {
+              "add_credit": "Add Credit",
+              "add_debit": "Add Debit"
+            }
+          }
+        },
+        "tolls": {
+          "label": "Toll transactions",
+          "label_for_small_screen": "Tolls",
+          "header": {
+            "title": "Toll Transactions"
+          },
+          "table": {
+            "columns": {
+              "tag_or_plate": "Tag or Plate",
+              "exit_plaza": "Exit Plaza",
+              "agency": "Agency",
+              "posting_date": "Posting Date"
+            }
+          },
+          "dialogs": {
+            "titles": {
+              "driver_tolls_deduct": "Do you want to {{infoText}} deduct driver tolls?"
+            }
+          }
+        },
+        "transactions": {
+          "label": "Transactions",
+          "header": {
+            "title": "Transactions",
+            "buttons": {
+              "add_credit": "Add credit",
+              "add_debit": "Add debit"
+            }
+          },
+          "table": {
+            "header": {
+              "title": "Recurring",
+              "title_2": "One-Time"
+            },
+            "columns": {
+              "category": "Category",
+              "description": "Description"
+            }
+          },
+          "dialogs": {
+            "titles": {
+              "add_transaction": "Add new transaction",
+              "update_debit": "Update Debit",
+              "update_credit": "Update Credit"
+            },
+            "fields": {
+              "labels": {
+                "debit_category": "Debit Category",
+                "credit_category": "Credit Category",
+                "transaction_date": "Transaction Date"
+              },
+              "placeholders": {
+                "description": "Reason"
+              }
+            }
+          }
+        }
+      },
+      "payout": {
+        "title": "Payout",
+        "confirm": {
+          "delete": {
+            "title": "Delete Payout",
+            "body": "Are you sure you want to delete this payout?"
+          }
+        },
+        "tooltips": {
+          "disabled_edit": "This payout is linked to a QuickBooks bill payment. You can't edit it.",
+          "disabled_delete": "This payout is linked to a QuickBooks bill payment. You can't delete it."
+        },
+        "empty": "No Payouts",
+        "labels": {
+          "info": "Info",
+          "payment": "Payment",
+          "referenceId": "Ref Id",
+          "from": "From",
+          "bank": "Bank",
+          "name": "Name",
+          "to": "To",
+          "routing_number": "Routing Number"
+        },
+        "quickbooks": {
+          "button": {
+            "add": {
+              "confirm": {
+                "title": "Are you sure you want to create the payment bill?",
+                "body": "Once created, the payment bill cannot be edited. It can only be voided or deleted."
+              }
+            },
+            "void": {
+              "confirm": {
+                "title": "Are you sure you want to void the payment bill?",
+                "body": "This will cancel the payment bill and it cannot be undone."
+              }
+            },
+            "delete": {
+              "confirm": {
+                "title": "Are you sure you want to delete the payment bill?",
+                "body": "This action cannot be canceled and the payment bill will be deleted."
+              }
+            },
+            "sync": {
+              "confirm": {
+                "title": "Are you sure you want to sync the payment bill?",
+                "body": "This action cannot be canceled and the payment bill will be sync."
+              }
+            }
+          },
+          "doc_number": "Doc number",
+          "total_amount": "Amount",
+          "validation": {
+            "payment_status": "Payment status must be succeeded",
+            "bank_account": "The payment must have a bank account",
+            "qb_bill": "Quickbooks bill must be created",
+            "bank_account_not_connected": "The system bank account must be linked to quickbooks"
+          }
+        }
+      },
+      "qb_bill": {
+        "buttons": {
+          "create": {
+            "title": "QuickBooks Bill",
+            "confirm": {
+              "title": "Are you sure you want to create the bill?",
+              "body": "Once created, the bill cannot be edited. It can only be deleted."
+            }
+          },
+          "delete": {
+            "confirm": {
+              "title": "Are you sure you want to delete the bill?",
+              "body": "This action cannot be canceled and the bill will be deleted."
+            },
+            "disabled_tooltip": "A QuickBooks bill cannot be deleted if a payment for the bill is already recorded in QuickBooks."
+          },
+          "sync": {
+            "disabled_tooltip": "A QuickBooks bill cannot be synced if a payment for the bill is already recorded in QuickBooks.",
+            "confirm": {
+              "title": "Are you sure you want to sync the bill?",
+              "body": "This action cannot be canceled and the bill will be sync."
+            }
+          }
+        },
+        "copy_balance": "Copy Balance",
+        "due_date": "Due date",
+        "doc_number": "Doc number",
+        "error": {
+          "beforeLinkText": {
+            "please": "Please"
+          },
+          "afterLinkText": {
+            "connect": "and connect"
+          },
+          "revenue_type_not_connected": {
+            "title": "Your Revenue type is not connected",
+            "linkText": "open edit revenue type"
+          },
+          "vendor_not_connected": {
+            "title": "Your Vendor is not connected",
+            "linkText": "open edit vendor"
+          },
+          "driver_not_connected": {
+            "title": "Your Driver is not connected",
+            "linkText": "open edit driver"
+          },
+          "settlement_category_not_connected": {
+            "title": "Settlement category is not connected",
+            "linkText": "open edit settlement category"
+          },
+          "driver_has_not_revenue_type": {
+            "title": "Driver does not have a Revenue type",
+            "linkText": "open edit driver",
+            "afterLinkText": "and add"
+          },
+          "driver_not_correct_revenue_type": {
+            "title": "Driver has an incorrect Revenue type",
+            "linkText": "open edit driver",
+            "afterLinkText": "and change"
+          },
+          "settlement_status": {
+            "title": "QuickBooks bill creation not possible",
+            "beforeLinkText": "Creating bills is not allowed while settlement status is 'open' or 'in review'."
+          }
+        }
+      },
+      "settlement_history": {
+        "title": "Settlement history",
+        "table": {
+          "columns": {
+            "period": "Period",
+            "driver_earned": "Driver Earned"
+          }
+        }
+      },
+      "menus": {
+        "more_actions": {
+          "delete_settlement": {
+            "title": "Delete Settlement",
+            "confirm": {
+              "title": "Delete Settlement",
+              "body": "Are you sure you want to delete this settlement?"
+            }
+          }
+        }
+      },
+      "table": {
+        "manifests": {
+          "columns": {
+            "empty_mi": "Empty Mi",
+            "loaded_mi": "Loaded Mi",
+            "pay_item": "Pay Item",
+            "load_and_stops": "Order/Stops",
+            "units": "Units",
+            "rate": "Rate"
+          },
+          "auto_distance": "auto: {{distance}}",
+          "stops": "{{count}} stops",
+          "empty": {
+            "load": "No order yet",
+            "driver_pay_item": "No driver pay items"
+          }
+        },
+        "assign_info": {
+          "assigned": "Assigned to settlement",
+          "not_assigned": "Not assigned to settlement",
+          "active": "Active",
+          "completed": "Completed"
+        },
+        "empty": {
+          "manifests": "No Manifests",
+          "tolls": "No Tolls",
+          "no_transactions": "No Transactions",
+          "no_fuel": "No Fuel",
+          "recurring": "No Recurring Transactions"
+        }
+      }
+    }
+  },
+  "recurring_transactions": {
+    "add_recurring_transactions": {
+      "header": {
+        "title": "Add Transaction Category"
+      },
+      "fields": {
+        "entity_type": {
+          "label": "Entity Type"
+        },
+        "recurring": {
+          "label": "Recurring"
+        }
+      }
+    },
+    "create": {
+      "header": {
+        "title": "Add Recurring Transaction for {{name}}"
+      }
+    },
+    "edit": {
+      "header": {
+        "title": "Recurring Transaction {{categoryName}} for {{driverName}}"
+      },
+      "confirm_dialog": {
+        "title": "Delete {{categoryName}} transaction?",
+        "body": "You will delete transaction driver permanently."
+      }
+    },
+    "tabs": {
+      "debit": "Debit",
+      "credit": "Credit"
+    },
+    "fields": {
+      "category": {
+        "label": "Category"
+      },
+      "start_date": {
+        "label": "Start Date"
+      },
+      "max_total_amount": {
+        "label": "Max Total Amount",
+        "placeholder": "Max Total Amount"
+      }
+    },
+    "total_line": {
+      "total_charged": "Total charged:",
+      "transactions_history": "Transaction History"
+    },
+    "table": {
+      "title": "Total charged {{transactionsAmount}} transactions for {{total_charged}}",
+      "columns": {
+        "settlement": "Settlement",
+        "date": "Date",
+        "amount": "Amount",
+        "total": "Total"
+      },
+      "empty_state": "No transactions"
+    }
+  },
+  "settings": {
+    "invoicing": {
+      "invoicing_companies": {
+        "sections": {
+          "details": "Details",
+          "contact_info": "Contact Info",
+          "address_info": "Address Info"
+        },
+        "fields": {
+          "labels": {
+            "attached_documents": "Attached Documents",
+            "payment_instructions": "Payment Instructions",
+            "cc_emails": "CC Emails",
+            "payment_terms": "Payment Terms",
+            "logo": "Logo"
+          },
+          "placeholders": {
+            "cc_emails": "Enter CC Emails",
+            "payment_instructions": "Enter Payment Instructions"
+          }
+        },
+        "create": {
+          "title": "Add Invoicing Company"
+        },
+        "edit": {
+          "title": "Edit Invoicing Company - {{companyName}}"
+        }
+      },
+      "factoring_companies": {
+        "create": {
+          "header": {
+            "title": "Add Factoring Company"
+          }
+        },
+        "update": {
+          "header": {
+            "title": "Edit {{companyName}}"
+          }
+        },
+        "sections": {
+          "details": "Details",
+          "contact_info": "Contact Info",
+          "address_info": "Address Info"
+        },
+        "fields": {
+          "feePercentage": {
+            "label": "Factoring Fee"
+          },
+          "contractEndAt": {
+            "label": "Contract End At"
+          },
+          "cutoffTime": {
+            "label": "Cut-off Time",
+            "placeholder": "Cut-off Time"
+          },
+          "fax": {
+            "label": "Fax",
+            "placeholder": "(245) 852-7496"
+          },
+          "ein": {
+            "label": "EIN",
+            "placeholder": "EIN"
+          }
+        },
+        "upload_logo": {
+          "logoFileId": {
+            "label": "Company Logo"
+          },
+          "noaFileId": {
+            "label": "NOA"
+          }
+        },
+        "delete": {
+          "title": "Are you sure you want to delete {{companyName}} ?",
+          "body": "This will delete the factoring company from your account."
+        },
+        "noa": {
+          "header": {
+            "title": "Notice of Assignment of"
+          }
+        }
+      }
+    },
+    "integrations": {
+      "edit": {
+        "header": {
+          "title": "Edit {{name}}"
+        },
+        "fields": {
+          "apexCapitalId": {
+            "label": "Apex Capital Equipment"
+          },
+          "quickbooks": {
+            "customer": "Customer {{name}}",
+            "vendor": "Vendor {{name}}",
+            "gross": "Gross - {{name}} Item",
+            "fuel": "Fuel - {{name}} Item",
+            "tolls": "Tolls - {{name}} Item",
+            "item": "{{name}} Item",
+            "class": "Class {{name}}",
+            "bank_account": "Bank Account {{name}}"
+          }
+        }
+      },
+      "change_password": {
+        "title": "Set Your Password",
+        "sub_title": "Please set a password for your new account. This will ensure your security and ease of use.",
+        "fields": {
+          "new_password": {
+            "label": "New password",
+            "placeholder": "Enter new password"
+          },
+          "confirm_password": {
+            "label": "Confirm password",
+            "placeholder": "Enter confirm password"
+          }
+        },
+        "submit": "Set Password",
+        "confirm": {
+          "body": "If you close this window and want to change, you need to reset your password (Settings -> Password -> 'Forgot Your Password')"
+        }
+      },
+      "provider": {
+        "disconnect": {
+          "title": "Are you sure you want to disconnect {{name}}?",
+          "body": "This will disconnect all connected drivers and vehicles."
+        }
+      },
+      "drivers": {
+        "title": "Manage Drivers",
+        "confirm": {
+          "unlink_driver": {
+            "title": "Unlink Driver",
+            "body": "Are you sure you want to unlink this driver?"
+          }
+        },
+        "menu": {
+          "assign": {
+            "title": "Assign driver"
+          }
+        },
+        "button": {
+          "link": "Link Driver",
+          "unlink": "Unlink Driver"
+        },
+        "empty_screen": {
+          "first_text": "No {{primaryText}} available",
+          "second_text": "Please check and add them in the {{providerName}}"
+        },
+        "table": {
+          "columns": {
+            "username": "Username",
+            "name": "Name",
+            "phone": "Phone",
+            "license_number": "License Number",
+            "license_state": "License State",
+            "driver_id": "{{name}} Driver Id",
+            "driver_name": "{{name}} Driver Name",
+            "license_number_name": "{{name}} License Number",
+            "license_state_name": "{{name}} License State"
+          }
+        }
+      },
+      "vehicles": {
+        "dialog": {
+          "title": "Manage Vehicles",
+          "confirm": {
+            "unlink": {
+              "title": "Unlink Vehicle",
+              "body": "Are you sure you want to link this vehicle?"
+            }
+          },
+          "table": {
+            "columns": {
+              "equipment_id": "Equipment ID",
+              "entity_type": "Entity Type",
+              "name": "Name",
+              "device_serial": "Device Serial"
+            }
+          }
+        },
+        "menu": {
+          "assign": {
+            "title": "Assign {{entityType}}",
+            "option_name": {
+              "empty_driver": "Driver N/A"
+            }
+          }
+        },
+        "button": {
+          "link": "Link Vehicle",
+          "unlink": "Unlink Vehicle"
+        }
+      },
+      "request_integration": {
+        "title": "Request Integration",
+        "description": "Please describe which integration are you looking for, additionally, to speed up\n                integration process, please share your tech contact at the company you're looking to\n                integrate. Thanks!",
+        "sub_title_1": "Integration Info",
+        "sub_title_2": "Contact Person",
+        "submit": "Request integration",
+        "fields": {
+          "contact_name": {
+            "label": "Your Name",
+            "placeholder": "Enter your name"
+          },
+          "contact_phone": {
+            "label": "Phone (optional)",
+            "placeholder": "Enter your phone"
+          },
+          "integration_name": {
+            "label": "Integration Name",
+            "placeholder": "Enter integration name"
+          },
+          "integration_website": {
+            "label": "Integration Website",
+            "placeholder": "Enter integration website"
+          },
+          "integration_purpose": {
+            "label": "What is the purpose of this integration?",
+            "placeholder": "Enter integration purpose"
+          }
+        }
+      }
+    },
+    "user": {
+      "add": {
+        "header": {
+          "title": "Add New User"
+        }
+      },
+      "update": {
+        "header": {
+          "title": "Edit User"
+        }
+      },
+      "add_update": {
+        "header": {
+          "sub_title": "Ensure that information is kept up to date."
+        },
+        "buttons": {
+          "copy_invite": "Copy Invite",
+          "resend_invite": "Re-Send Invite"
+        },
+        "fields": {
+          "title": {
+            "label": "Title",
+            "placeholder": "Dispatcher"
+          },
+          "second_step_auth_enabled": {
+            "label": "2FA Enabled",
+            "tooltip": "Enable a Dual/2FA Authentication via SMS"
+          },
+          "password_change_required": {
+            "label": "PW Change",
+            "tooltip": "Reset password upon next login"
+          }
+        }
+      },
+      "invite": {
+        "header": {
+          "title": "Invite Team Member"
+        }
+      }
+    },
+    "driver_types": {
+      "create": {
+        "header": {
+          "title": "Create Driver Type"
+        }
+      },
+      "update": {
+        "header": {
+          "title": "Edit Driver Type"
+        }
+      },
+      "create_update": {
+        "field": {
+          "type_name": {
+            "label": "Type Name",
+            "placeholder": "Driver Type Name"
+          }
+        },
+        "select": {
+          "driver_type_icon": {
+            "label": "Driver Type Icon"
+          }
+        },
+        "block": {
+          "settlement": {
+            "title": "Settlement"
+          },
+          "app": {
+            "title": "App"
+          }
+        },
+        "is_default": "Is Default",
+        "permission_bank_accounts": "Bank Accounts",
+        "permission_completed_loads": "Completed Orders",
+        "permission_loads_total_amount": "Orders Total Amount",
+        "permission_loads_driver_pay_amount": "Pay Amount",
+        "permission_loads_distance": "Order Distance",
+        "permission_settlements": "Settlements",
+        "permission_settlement_view_loads": "View Orders",
+        "permission_settlement_view_loads_total_amount": "View Orders Total Amount",
+        "permission_settlement_view_loads_pay_amount": "View Orders Pay Amount",
+        "permission_settlement_view_loads_distance": "View Orders Distance",
+        "permission_settlement_view_fuel": "View Fuel",
+        "permission_settlement_view_tolls": "View Tolls",
+        "permission_settlement_view_company_fee": "View Company Fee",
+        "permission_settlement_view_debits": "View Debits",
+        "permission_settlement_view_credits": "View Credits",
+        "permission_app_take_screenshots": "Take Screenshots",
+        "permission_order_commodity_update": "Order Commodity Create/Update",
+        "permission_truck_self_assign": "Self Assign Truck",
+        "permission_trailer_self_assign": "Self Assign Trailer"
+      },
+      "delete": {
+        "title": "Delete Driver Type",
+        "body": "Are you sure you want to delete this driver type - {{name}} ?"
+      }
+    },
+    "trailer_types": {
+      "edit": {
+        "header": {
+          "title": "Edit Trailer Type"
+        }
+      },
+      "add": {
+        "header": {
+          "title": "Add Trailer Type"
+        }
+      },
+      "add_edit": {
+        "fields": {
+          "code": {
+            "label": "Code",
+            "placeholder": "Code"
+          },
+          "name": {
+            "label": "Name",
+            "placeholder": "Trailer Type Name"
+          },
+          "icon": {
+            "label": "Trailer Type Icon",
+            "icons_titles": {
+              "default": "Default",
+              "dry_van": "Dry Van",
+              "refer": "Reefer",
+              "flatbed": "Flatbed",
+              "step_dec": "Step Dec",
+              "tanker": "Tanker",
+              "low_boy": "RGN Low-boy",
+              "power_only": "Power Only"
+            }
+          }
+        }
+      },
+      "delete": {
+        "title": "Delete Trailer Type ?",
+        "body": "You will delete this type {{code}}-{{name}}."
+      }
+    },
+    "bank_accounts": {
+      "create": {
+        "header": {
+          "title": "Add Bank Account"
+        },
+        "fields": {
+          "name_on_account": {
+            "label": "Name on Account",
+            "placeholder": "John Doe"
+          },
+          "routing_number": {
+            "label": "Routing Number",
+            "placeholder": "021000021"
+          },
+          "account_number": {
+            "label": "Account Number",
+            "placeholder": "01234567890"
+          }
+        }
+      },
+      "delete": {
+        "title": "Delete Bank Account",
+        "body": "Are you sure you want to delete this bank account?"
+      },
+      "restore": {
+        "title": "Restore Bank Account",
+        "body": "Are you sure you want to restore this bank account?"
+      }
+    },
+    "loads": {
+      "driver_pay_categories": {
+        "fields": {
+          "name": {
+            "label": "Category Name",
+            "placeholder": "Category Name"
+          }
+        },
+        "add": {
+          "title": "Add Driver Pay Category"
+        },
+        "edit": {
+          "title": "Edit Driver Pay Category"
+        }
+      },
+      "invoice_item_categories": {
+        "fields": {
+          "name": {
+            "label": "Category Name",
+            "placeholder": "Category Name"
+          },
+          "required": {
+            "label": " Required means that this category must be filled out when creating a new order and it will automatically be added to new order drafts."
+          },
+          "include_in_gross_amount": {
+            "label": " Include in driver gross is responsible for correct calculation of total driver gross amount."
+          }
+        },
+        "add": {
+          "title": "Add Invoice Item Category"
+        },
+        "edit": {
+          "title": "Edit Invoice Item Category"
+        }
+      },
+      "load_types": {
+        "fields": {
+          "icon": {
+            "label": "Order Type Icon"
+          },
+          "code": {
+            "label": "Code",
+            "placeholder": "FTL"
+          },
+          "name": {
+            "label": "Name",
+            "placeholder": "Full Truck Order"
+          }
+        },
+        "add": {
+          "title": "Add Order Type"
+        },
+        "edit": {
+          "title": "Edit Order Type"
+        }
+      }
+    },
+    "settlements": {
+      "debit_categories": {
+        "fields": {
+          "labels": {
+            "name": "Name",
+            "entity_type": "Entity Type",
+            "recurring": "Recurring",
+            "cycle_frequency": "Cycle Frequency"
+          }
+        },
+        "edit": {
+          "title": "Edit Debit Category"
+        },
+        "add": {
+          "title": "Add Debit Category"
+        }
+      },
+      "credit_categories": {
+        "edit": {
+          "title": "Edit Credit Category"
+        },
+        "add": {
+          "title": "Add Credit Category"
+        }
+      },
+      "revenue_types": {
+        "add": {
+          "header": {
+            "title": "Create Revenue Type"
+          }
+        },
+        "edit": {
+          "header": {
+            "title": "Edit {{typeName}} Type"
+          }
+        },
+        "fields": {
+          "deduct_fuel": {
+            "label": "Deduct fuel"
+          },
+          "deduct_tolls": {
+            "label": "Deduct tolls"
+          },
+          "default": {
+            "label": "Default"
+          },
+          "documents": {
+            "label": "Documents attached to Driver Settlement"
+          }
+        }
+      },
+      "cycles": {
+        "add": {
+          "title": "Create Your New Cycle"
+        },
+        "edit": {
+          "title": "Edit {{cycleName}} Cycle"
+        },
+        "fields": {
+          "name": {
+            "label": "Name",
+            "placeholder": "Cycle Name"
+          },
+          "period_weeks": {
+            "label": "Weeks in One Cycle"
+          },
+          "closing_day": {
+            "label": "Closing Weekday"
+          },
+          "closing_time": {
+            "label": "Closing Time",
+            "placeholder": "Closing Time"
+          },
+          "pay_date_days_after_closing": {
+            "label": "Pay Date"
+          },
+          "description": {
+            "label": "Note",
+            "placeholder": "Note"
+          }
+        },
+        "checkboxes": {
+          "auto_create_period_settlements": {
+            "label": "Check to make auto create period settlements."
+          },
+          "auto_create_periods": {
+            "label": "Check to make auto create period."
+          },
+          "default": {
+            "label": "Check to make this cycle your organizations default cycle and automatically assign all new drivers to this cycle."
+          }
+        }
+      }
+    }
+  }
+}

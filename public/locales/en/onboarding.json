@@ -1,0 +1,122 @@
+{
+  "header": {
+    "button": {
+      "hide": "Hide Page"
+    }
+  },
+  "side": {
+    "left": {
+      "header": {
+        "title": "Welcome to",
+        "sub_title": "Watch an instructional video on the system for a quick start",
+        "button": "Watch Full Demo"
+      },
+      "item": {
+        "button": {
+          "questions": "Any questions"
+        },
+        "progress": "{{progress}} of {{total}} complete",
+        "label": {
+          "watch_video": "Watch Video Tutorial",
+          "optional": "Optional"
+        },
+        "setup_profile": {
+          "title": "Setup Profile",
+          "sub_title": "Define your company's identity for consistency. Complete your profile with contact details and branding.",
+          "label": {
+            "complete_company_profile": "Complete Company Profile",
+            "add_factoring_company": "Add Your Factoring Company",
+            "personalize_settlements": "Personalize Settlements",
+            "cusomize_invoice": "Customize Invoice"
+          }
+        },
+        "setup_fleet": {
+          "title": "Add Equipment & Drivers",
+          "sub_title": "Organize your fleet and personnel by cataloging vehicles, trailers, and driver profiles.",
+          "label": {
+            "add_truck": "Add Truck",
+            "add_trailer": "Add Trailer",
+            "add_driver": "Add Driver",
+            "add_vendor": "Add Vendor’s"
+          }
+        },
+        "integration": {
+          "title": "Integrations",
+          "sub_title_1": "Enhance operations with integrations.",
+          "sub_title_2": "Request integration",
+          "sub_title_3": "or",
+          "sub_title_4": "chat with us",
+          "sub_title_5": "for assistance.",
+          "label": {
+            "connect_eld": "Connect your GPS / ELD Provider",
+            "connect_fuel": "Connect your Fuel",
+            "connect_toll": "Connect your Toll Transponder",
+            "connect_qb": "Connect QuickBooks",
+            "connect_loadboard": "Connect your Loadboards & Brokers"
+          }
+        },
+        "setup_payroll": {
+          "title": "Setup Payroll",
+          "sub_title": "Automate payroll for accurate driver compensation calculation, including automatic deductions on settlements.",
+          "label": {
+            "create_cycle": "Create Cycle",
+            "revenue_types": "Configure Revenue Types",
+            "debit_categories": "Configure Debit Categories",
+            "add_recurring_transaction": "Add Recurring Transactions"
+          }
+        },
+        "setup_configurations": {
+          "title": "Setup Configurations",
+          "sub_title": "Ensure everything to run as expected and secure user.",
+          "label": {
+            "shown_to_driver": "Configure Items Shown to Driver",
+            "roles_and_permissions": "Review User Roles & Permissions",
+            "doc_types": "Review Document Types",
+            "invoice_items": "Review Invoice Items"
+          }
+        }
+      }
+    },
+    "right": {
+      "item": {
+        "invite_team": {
+          "title": "Invite Team Members & Drivers",
+          "sub_title": "Want some help finishing these setup tasks? Invite your teammates to Vektor",
+          "button": {
+            "invite_member": "invite member",
+            "invite_driver": "invite driver"
+          }
+        },
+        "contact_us": {
+          "title": "Contact us",
+          "sub_title": "Schedule a call with your customer success manager",
+          "button": {
+            "schedule_call": "SCHEDULE CALL",
+            "start_chat": "START LIVE CHAT"
+          }
+        },
+        "more_resources": {
+          "title": "More resources",
+          "sub_title": "Explore additional references that can help you maximize your Vektor implementation",
+          "button": {
+            "help_center": "help center",
+            "update_changelog": "UPDATE CHANGELOG",
+            "submit_feedback": "SUBMIT FEEDBACK",
+            "request_integration": "REQUEST INTEGRATION"
+          }
+        },
+        "personalized_training": {
+          "title": "Personalized Training",
+          "sub_title": "Let our team guide how to maximize platform features, for Safety to Fleet & Dispatch teams.",
+          "button": {
+            "schedule_session": "schedule Session"
+          }
+        },
+        "progress": "Progress",
+        "follow_social_media": {
+          "title": "Follow us on Social Media"
+        }
+      }
+    }
+  }
+}

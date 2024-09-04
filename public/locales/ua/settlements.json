@@ -1,0 +1,504 @@
+{
+  "recurring_transaction_cycle_period_frequency": {
+    "monthly": "Щомісяця",
+    "every_period": "Кожен період"
+  },
+  "period": {
+    "status": {
+      "open": "ВІДЧИНЕНО",
+      "closed": "ЗАЧИНЕНО"
+    },
+    "buttons": {
+      "create_period": "Створити період"
+    }
+  },
+  "cycle": {
+    "state": {
+      "default": "За замовчуванням"
+    },
+    "empty": {
+      "make_a_cycle": "Спочатку зробіть цикл"
+    },
+    "buttons": {
+      "create_cycle": "Створити цикл"
+    }
+  },
+  "status": {
+    "open": "ВІДЧИНЕНО",
+    "in_review": "У огляді",
+    "sent": "Надісланий",
+    "deleted": "Видалено",
+    "closed": "ЗАЧИНЕНО",
+    "paid": "Платний",
+    "verified": "Перевірено"
+  },
+  "driver_net_type": {
+    "positive": "Позитивний",
+    "negative": "Негативний"
+  },
+  "labels": {
+    "period": "Крапка",
+    "periods": "Періоди",
+    "cycles": "Цикли",
+    "company_net": "Компанія Net"
+  },
+  "header": {
+    "please_select": "Виберіть будь ласка",
+    "confirm": {
+      "sync": {
+        "title": "Ви впевнені, що хочете СИНХРОНІЗУВАТИ?",
+        "body": "Він лише синхронізується"
+      }
+    },
+    "buttons": {
+      "create_settlements": "Створення поселень"
+    },
+    "tooltips": {
+      "edit_table_view": "Редагувати вигляд таблиці",
+      "edit_view": "Редагувати перегляд"
+    },
+    "filters": {
+      "labels": {
+        "driver_type": "Тип драйвера",
+        "truck_type": "Тип вантажівки",
+        "show_percentages": "Показати %"
+      }
+    }
+  },
+  "table": {
+    "labels": {
+      "rpm": "RPM"
+    },
+    "custom_action": {
+      "change_status_to": {
+        "label": "Змінити статус на",
+        "tooltip": "Змінити статус для обраного населеного пункту"
+      },
+      "export": {
+        "label": "Експорт",
+        "tooltip": "Експорт вибраних населених пунктів"
+      },
+      "send": {
+        "label": "Надіслати",
+        "tooltip": "Відправити вибрані населені пункти"
+      },
+      "delete": {
+        "label": "Видалити",
+        "tooltip": "Видалити вибрані населені пункти"
+      }
+    }
+  },
+  "confirm_dialog": {
+    "delete": {
+      "title": "Видалити поселення",
+      "body": "Ви впевнені, що бажаєте видалити вибрані населені пункти?"
+    }
+  },
+  "fallback": {
+    "no_cycles": {
+      "first_text": "Немає доступних циклів, ви можете",
+      "button_text": "додати цикли",
+      "text_after_button": "тут",
+      "second_text": "Наразі в системі немає циклів."
+    }
+  },
+  "dialogs": {
+    "send_settlement": {
+      "title": "Надіслати Розрахунок",
+      "tooltip_open_edit_type": "Натисніть, щоб відкрити редагування {{type}}",
+      "fields": {
+        "labels": {
+          "subject": "Тема",
+          "email_to": "Надіслати електронний лист до {{type}}",
+          "sms_to": "SMS на номер {{type}}"
+        },
+        "placeholders": {
+          "subject": "Будь ласка, напишіть тут тему свого повідомлення."
+        },
+        "subject": "Поселення №{{id}}",
+        "body": "Привіт, {{name}}! "
+      },
+      "buttons": {
+        "send_to_vendor": "Надіслати постачальнику",
+        "send_to_driver": "Надіслати водієві"
+      }
+    },
+    "periods": {
+      "titles": {
+        "add": "Створити новий період",
+        "edit": "Період редагування"
+      }
+    },
+    "edit_pay_date": {
+      "label": "Дата оплати",
+      "title": "Ви впевнені, що хочете змінити дату виплати?"
+    },
+    "create_settlement": {
+      "title": "Створення поселень",
+      "buttons": {
+        "submit": "Створити {count, plural, =0 {{населені пункт}} =1 {{населені пункт}} other {{# населені пункти}}}"
+      },
+      "table": {
+        "titles": {
+          "truck": "Вантажівка №",
+          "name": "Ім'я",
+          "driver_type": "Тип драйвера",
+          "revenue_type": "Тип доходу"
+        }
+      }
+    },
+    "batch_send_settlements": {
+      "title": "Відправити Розрахунки",
+      "title_2": "Відправка розрахунків",
+      "fields": {
+        "body_1": "Привіт",
+        "body_2": "Будь ласка, додайте свій тижневий розрахунок."
+      },
+      "mentions": {
+        "name": "Ім'я Одержувача",
+        "settlement_id": "ідентифікатор поселення",
+        "email": "адреса електронної пошти одержувача",
+        "phone_number": "номер телефону одержувача"
+      },
+      "table": {
+        "titles": {
+          "settlement_id": "Ідентифікатор населеного пункту",
+          "recipient": "одержувач",
+          "to_email": "На електронну пошту",
+          "to_phone": "Телефонувати"
+        },
+        "tooltips": {
+          "email_invalid": "Потрібна електронна адреса або номер телефону. ",
+          "phone_invalid": "Потрібна електронна адреса або номер телефону. "
+        }
+      }
+    },
+    "assign_vendor": {
+      "title": "Призначити постачальника до поселення {{friendlyId}}"
+    },
+    "edit_settlement": {
+      "title": "Поселення №{{id}} {{status}}",
+      "pro_mode": "Професійний режим",
+      "tooltips": {
+        "assign_to_settlement": "Призначити до поселення",
+        "unassign_from_settlement": "Вилучити з поселення"
+      },
+      "actions": {
+        "download_pdf": {
+          "tooltip": "Будь ласка, призначте вантажівку перед завантаженням PDF",
+          "label": "Завантажити PDF"
+        },
+        "driver_settlement_history": {
+          "label": "Історія поселення водія"
+        }
+      },
+      "fields": {
+        "confirm_dialogs": {
+          "unassign_vendor": {
+            "title": "Скасувати призначення постачальника",
+            "body": "Ви впевнені, що бажаєте скасувати призначення постачальника?"
+          }
+        }
+      },
+      "overview": {
+        "title": "Огляд",
+        "labels": {
+          "driver_earned": "Водій заробив",
+          "per_mile": "За милю",
+          "company_net": "Компанія Net",
+          "company_fee": "Комісія компанії",
+          "credits": "Кредити",
+          "debits": "Дебети"
+        }
+      },
+      "turn": {
+        "off": "вимкнути",
+        "on": "ввімкнути"
+      },
+      "tabs": {
+        "fuel": {
+          "label": "Операції з паливом",
+          "header": {
+            "switch": {
+              "discount": "Знижка"
+            },
+            "title": "Операції з паливом"
+          },
+          "table": {
+            "columns": {
+              "truck_stop": "Зупинка вантажівок",
+              "product": "Продукт",
+              "verified": "Перевірено",
+              "upload_at": "Завантажити на",
+              "discounted_amount": "Сума зі знижкою"
+            }
+          },
+          "dialogs": {
+            "titles": {
+              "driver_fuel_deduct": "Бажаєте {{infoText}} відрахувати пальне водія?",
+              "fuel_discount": "Бажаєте {{infoText}} знижку на пальне?"
+            }
+          }
+        },
+        "loads": {
+          "header": {
+            "switch": {
+              "expand_details": "Розгорнути деталі"
+            }
+          },
+          "table": {
+            "columns": {
+              "rpm": "RPM",
+              "driver_pay": "Оплата водія",
+              "destination": "Пункт призначення",
+              "origin": "Походження",
+              "stops": "Зупинки",
+              "miles": "Мілі"
+            }
+          }
+        },
+        "recurring": {
+          "header": {
+            "title": "Повторювані транзакції",
+            "buttons": {
+              "add_credit": "Додати кредит",
+              "add_debit": "Додати дебет"
+            }
+          }
+        },
+        "tolls": {
+          "label": "Платні операції",
+          "header": {
+            "title": "Платні операції"
+          },
+          "table": {
+            "columns": {
+              "tag_or_plate": "Тег або табличка",
+              "exit_plaza": "Вийти з Plaza",
+              "agency": "Агентство",
+              "posting_date": "Дата розміщення"
+            }
+          },
+          "dialogs": {
+            "titles": {
+              "driver_tolls_deduct": "Бажаєте {{infoText}} відраховувати плату за проїзд?"
+            }
+          }
+        },
+        "transactions": {
+          "label": "транзакції",
+          "header": {
+            "title": "транзакції",
+            "buttons": {
+              "add_credit": "Додати кредит",
+              "add_debit": "Додати дебет"
+            }
+          },
+          "table": {
+            "header": {
+              "title": "Повторювані",
+              "title_2": "Одного разу"
+            },
+            "columns": {
+              "category": "Категорія",
+              "description": "опис"
+            }
+          },
+          "dialogs": {
+            "titles": {
+              "add_transaction": "Додати нову транзакцію",
+              "update_debit": "Оновити дебет",
+              "update_credit": "Оновити кредит"
+            },
+            "fields": {
+              "labels": {
+                "debit_category": "Дебетова категорія",
+                "credit_category": "Кредитна категорія"
+              },
+              "placeholders": {
+                "description": "Причина"
+              }
+            }
+          }
+        }
+      },
+      "payout": {
+        "title": "Виплата",
+        "confirm": {
+          "delete": {
+            "title": "Видалити виплату",
+            "body": "Ви впевнені, що хочете видалити цю виплату?"
+          }
+        },
+        "tooltips": {
+          "disabled_edit": "Ця виплата пов’язана з оплатою рахунку QuickBooks. ",
+          "disabled_delete": "Ця виплата пов’язана з оплатою рахунку QuickBooks. "
+        },
+        "empty": "Без виплат",
+        "labels": {
+          "info": "Інформація",
+          "payment": "Оплата",
+          "referenceId": "Ідентифікатор посилання",
+          "from": "Від",
+          "bank": "банк",
+          "name": "Ім'я",
+          "to": "до",
+          "routing_number": "Номер маршруту"
+        },
+        "quickbooks": {
+          "button": {
+            "add": {
+              "text": "Створити",
+              "confirm": {
+                "title": "Ви впевнені, що хочете створити платіжний рахунок?",
+                "body": "Після створення платіжний рахунок не можна редагувати. "
+              }
+            },
+            "void": {
+              "text": "Пустота",
+              "confirm": {
+                "title": "Ви впевнені, що хочете анулювати платіжний рахунок?",
+                "body": "Це скасує платіжний рахунок, і цю дію неможливо скасувати."
+              }
+            },
+            "delete": {
+              "text": "Видалити",
+              "confirm": {
+                "title": "Ви впевнені, що хочете видалити платіжний рахунок?",
+                "body": "Цю дію неможливо скасувати, і платіжний рахунок буде видалено."
+              }
+            },
+            "sync": {
+              "text": "Синхронізувати",
+              "confirm": {
+                "title": "Ви впевнені, що хочете синхронізувати платіжний рахунок?",
+                "body": "Цю дію неможливо скасувати, і платіжний рахунок буде синхронізовано."
+              }
+            }
+          },
+          "doc_number": "Номер документа",
+          "total_amount": "Сума",
+          "validation": {
+            "payment_status": "Статус платежу має бути успішним",
+            "bank_account": "Для оплати необхідно мати банківський рахунок",
+            "qb_bill": "Необхідно створити рахунок Quickbooks",
+            "bank_account_not_connected": "Банківський рахунок системи має бути прив’язаний до QuickBooks"
+          }
+        }
+      },
+      "qb_bill": {
+        "buttons": {
+          "create": {
+            "title": "Законопроект QuickBooks",
+            "confirm": {
+              "title": "Ви впевнені, що хочете створити рахунок?",
+              "body": "Після створення рахунок не можна редагувати. "
+            }
+          },
+          "delete": {
+            "confirm": {
+              "title": "Ви впевнені, що хочете видалити рахунок?",
+              "body": "Цю дію неможливо скасувати, і рахунок буде видалено."
+            },
+            "disabled_tooltip": "Рахунок QuickBooks не можна видалити, якщо платіж за ним уже зареєстровано в QuickBooks."
+          },
+          "sync": {
+            "disabled_tooltip": "Рахунок QuickBooks не можна синхронізувати, якщо платіж за рахунком уже зареєстровано в QuickBooks.",
+            "confirm": {
+              "title": "Ви впевнені, що хочете синхронізувати рахунок?",
+              "body": "Цю дію неможливо скасувати, і рахунок буде синхронізовано."
+            }
+          }
+        },
+        "copy_balance": "Копіювати баланс",
+        "due_date": "Термін виконання",
+        "doc_number": "Номер документа",
+        "error": {
+          "beforeLinkText": {
+            "please": "Будь ласка"
+          },
+          "afterLinkText": {
+            "connect": "і підключити"
+          },
+          "revenue_type_not_connected": {
+            "title": "Ваш тип доходу не підключено",
+            "linkText": "відкрити редагувати тип доходу"
+          },
+          "vendor_not_connected": {
+            "title": "Ваш постачальник не підключений",
+            "linkText": "відкрити редагувати постачальника"
+          },
+          "driver_not_connected": {
+            "title": "Ваш драйвер не підключено",
+            "linkText": "відкрити редагування драйвера"
+          },
+          "settlement_category_not_connected": {
+            "title": "Категорія поселення не підключається",
+            "linkText": "відкрити редагування категорії розрахунків"
+          },
+          "driver_has_not_revenue_type": {
+            "title": "Водій не має типу доходу",
+            "linkText": "відкрити редагування драйвера",
+            "afterLinkText": "і додати"
+          },
+          "driver_not_correct_revenue_type": {
+            "title": "Драйвер має неправильний тип доходу",
+            "linkText": "відкрити редагування драйвера",
+            "afterLinkText": "і змінити"
+          },
+          "settlement_status": {
+            "title": "Створення рахунку QuickBooks неможливе",
+            "beforeLinkText": "Створення рахунків заборонено, якщо статус розрахунку «відкрито» або «на розгляді»."
+          }
+        }
+      },
+      "settlement_history": {
+        "title": "Історія поселення",
+        "table": {
+          "columns": {
+            "period": "Крапка",
+            "driver_earned": "Водій заробив"
+          }
+        }
+      },
+      "menus": {
+        "more_actions": {
+          "delete_settlement": {
+            "title": "Видалити поселення",
+            "confirm": {
+              "title": "Видалити поселення",
+              "body": "Ви впевнені, що хочете видалити це поселення?"
+            }
+          }
+        }
+      },
+      "table": {
+        "loads": {
+          "columns": {
+            "empty_mi": "Порожній Mi",
+            "loaded_mi": "Завантажений Мі",
+            "pay_item": "Оплатити товар",
+            "units": "одиниці",
+            "rate": "Оцінка"
+          },
+          "empty": {
+            "driver_pay_item": "Немає платних предметів водія"
+          }
+        },
+        "assign_info": {
+          "assigned": "Приписаний до поселення",
+          "not_assigned": "Не віднесений до поселення",
+          "active": "Активний",
+          "completed": "Виконано"
+        },
+        "empty": {
+          "manifests": "Немає манифестів",
+          "tolls": "Без плати",
+          "no_transactions": "Немає транзакцій",
+          "no_fuel": "Без палива",
+          "recurring": "Немає повторюваних транзакцій"
+        }
+      }
+    }
+  }
+}

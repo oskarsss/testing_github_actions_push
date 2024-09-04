@@ -1,0 +1,94 @@
+.Chart {
+    width: 100%;
+    margin-top: -20px;
+}
+
+.List {
+    width: calc(100% + 28px);
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 -14px;
+    .Item {
+        flex-grow: 1;
+        min-width: 261px;
+        display: flex;
+        flex-direction: column;
+        background: #f4f5fa;
+        border: 2px solid #e7eef6;
+        box-shadow: 4px 4px 16px rgba(117, 135, 170, 0.2);
+        border-radius: 16px;
+        margin: 28px 14px 0;
+        .Header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            min-height: 54px;
+            background: #ffffff;
+            border-radius: 14px 14px 0px 0px;
+            padding: 14px 24px;
+            .Label {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 160%;
+                letter-spacing: 0.15px;
+                color: #525164;
+            }
+            .Percentage {
+                display: inline-block;
+                width: 58px;
+                height: 27px;
+                padding: 4px 6px;
+                border-radius: 80px;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 157%;
+                text-align: center;
+                letter-spacing: 0.1px;
+                text-transform: uppercase;
+            }
+        }
+        .Column {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            .Indicator {
+                position: absolute;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                width: 8px;
+                height: 100px;
+                border-radius: 0px 8px 8px 0px;
+            }
+            .Row {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 0 26px;
+                padding: 15px 0 22px;
+                border-bottom: 1px solid #bdc7d2;
+                &:last-child {
+                    border-bottom: none;
+                }
+                .Title {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 133.4%;
+                    color: #71737e;
+                }
+                .Value {
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 133.4%;
+                    text-align: right;
+                    color: #525164;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+@use '@/scss/abstracts' as *;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    span {
+        @include apply-typography($head-md-regular);
+        color: var(--palette-semantic-text-primary);
+        margin-top: 16px;
+    }
+}

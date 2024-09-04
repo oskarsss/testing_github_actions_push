@@ -1,0 +1,78 @@
+@use '@/scss/abstracts' as *;
+
+.count {
+    font-size: 12px;
+    margin: 0;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--semantic-text-primary);
+    font-weight: 500;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    height: 16px;
+    width: 16px;
+    min-width: 16px;
+
+    & svg {
+        width: 12px;
+        height: 12px;
+        color: #fff;
+        transition: opacity 0.2s ease-in-out;
+        opacity: 0;
+    }
+
+    &.selected svg {
+        opacity: 1;
+    }
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: $gap-xs;
+    overflow: hidden;
+}
+
+.label {
+    font-size: 12px;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.4;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: var(--semantic-text-secondary);
+}
+
+.button {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+    min-width: auto;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    text-transform: none;
+    width: calc(50% - 4px);
+
+    @media (max-width: 1919px) {
+        width: 100%;
+        padding: 8px 0;
+    }
+
+    &:hover {
+        background-color: var(--semantic-background-primary);
+    }
+
+    &.selected {
+        border-color: var(--semantic-border-primary);
+    }
+}

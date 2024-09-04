@@ -1,0 +1,9 @@
+{
+  "header": {
+    "filters": {
+      "tax_id": {
+        "label": "No Tax Id"
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+// import analytics from 'public/locales/en/analytics.json';
+// import app_version_alert from 'public/locales/en/app_version_alert.json';
+// import auth from 'public/locales/en/auth.json';
+// import billing from 'public/locales/en/billing.json';
+// import brokers from 'public/locales/en/brokers.json';
+// import columns from 'public/locales/en/columns.json';
+// import common from 'public/locales/en/common.json';
+// import core from 'public/locales/en/core.json';
+// import customers from 'public/locales/en/customers.json';
+// import dispatchers from 'public/locales/en/dispatchers.json';
+// import drivers from 'public/locales/en/drivers.json';
+// import entity from 'public/locales/en/entity.json';
+// import error from 'public/locales/en/error.json';
+// import fields from 'public/locales/en/fields.json';
+// import fuels from 'public/locales/en/fuels.json';
+// import ifta from 'public/locales/en/ifta.json';
+// import loadboard from 'public/locales/en/loadboard.json';
+// import loads from 'public/locales/en/loads.json';
+// import maintenance from 'public/locales/en/maintenance.json';
+// import manifest from 'public/locales/en/manifest.json';
+// import map from 'public/locales/en/map.json';
+// import modals from 'public/locales/en/modals.json';
+// import navigation from 'public/locales/en/navigation.json';
+// import new_loads from 'public/locales/en/new_loads.json';
+// import onboarding from 'public/locales/en/onboarding.json';
+// import pages from 'public/locales/en/pages.json';
+// import payouts from 'public/locales/en/payouts.json';
+// import plates from 'public/locales/en/plates.json';
+// import recurring_transactions from 'public/locales/en/recurring_transactions.json';
+// import reminder from 'public/locales/en/reminder.json';
+// import schedule from 'public/locales/en/schedule.json';
+// import settings from 'public/locales/en/settings.json';
+// import settlements from 'public/locales/en/settlements.json';
+// import state_info from 'public/locales/en/state_info.json';
+// import tolls from 'public/locales/en/tolls.json';
+// import tracking from 'public/locales/en/tracking.json';
+// import trailers from 'public/locales/en/trailers.json';
+// import trucks from 'public/locales/en/trucks.json';
+// import vendors from 'public/locales/en/vendors.json';
+
+// type Messages = {
+//     '': '';
+//     '-': '-';
+//     common: typeof common;
+//     core: typeof core;
+//     entity: typeof entity;
+//     fields: typeof fields;
+//     analytics: typeof analytics;
+//     app_version_alert: typeof app_version_alert;
+//     auth: typeof auth;
+//     billing: typeof billing;
+//     brokers: typeof brokers;
+//     columns: typeof columns;
+//     customers: typeof customers;
+//     dispatchers: typeof dispatchers;
+//     drivers: typeof drivers;
+//     error: typeof error;
+//     fuels: typeof fuels;
+//     ifta: typeof ifta;
+//     loadboard: typeof loadboard;
+//     loads: typeof loads;
+//     maintenance: typeof maintenance;
+//     manifest: typeof manifest;
+//     map: typeof map;
+//     modals: typeof modals;
+//     navigation: typeof navigation;
+//     new_loads: typeof new_loads;
+//     onboarding: typeof onboarding;
+//     pages: typeof pages;
+//     payouts: typeof payouts;
+//     plates: typeof plates;
+//     recurring_transactions: typeof recurring_transactions;
+//     reminder: typeof reminder;
+//     schedule: typeof schedule;
+//     settings: typeof settings;
+//     settlements: typeof settlements;
+//     state_info: typeof state_info;
+//     tolls: typeof tolls;
+//     tracking: typeof tracking;
+//     trailers: typeof trailers;
+//     trucks: typeof trucks;
+//     vendors: typeof vendors;
+// };
+
+// export {};
+
+// declare global {
+//     // eslint-disable-next-line @typescript-eslint/no-empty-interface
+//     interface IntlMessages extends Messages {}
+// }

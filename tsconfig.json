@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "lib": ["dom", "dom.iterable", "esnext", "es6"],
+        "baseUrl": ".",
+        "target": "ESNext",
+        "allowJs": true,
+        "types": ["cypress", "node"],
+        "checkJs": false,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "preserve",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "paths": {
+            "@/*": ["./src/*"],
+            "@proto/*": ["proto/ts/v1/*"]
+        },
+        "incremental": true
+    },
+    "include": [
+        "next-env.d.ts",
+        "declarations.d.ts",
+        "environment.d.ts",
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "api/ts/v1/**.ts",
+        "cypress/**/*.js",
+        "cypress.config.js",
+        "src/pages/404.tsx",
+        "src/@core/components/views/Views.js",
+        "./style-dictionary/config.ts"
+    ],
+    "exclude": ["node_modules", "cypress"]
+}

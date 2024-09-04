@@ -1,0 +1,115 @@
+{
+  "po": "PO",
+  "no_trailer": "Без трейлера",
+  "status": {
+    "all": "все",
+    "active": "Активний",
+    "deleted": "Видалено",
+    "offline": "Офлайн"
+  },
+  "ownership_type": {
+    "owned": "У власності",
+    "owner_operator": "Власник Оператор",
+    "leased": "Зданий в оренду"
+  },
+  "trailer_company": {
+    "header": {
+      "button": {
+        "add": "Додати компанію / IRP"
+      }
+    },
+    "dialog": {
+      "edit": {
+        "header": {
+          "title": "Редагувати трейлер Компанія - {{companyName}}"
+        }
+      }
+    }
+  },
+  "profile": {
+    "left": {
+      "info": {
+        "year": "рік",
+        "plate_company": "Плита Компанія"
+      }
+    },
+    "right": {
+      "company": {
+        "buttons": {
+          "assign": "Призначити компанію",
+          "remove": "Видалити компанію"
+        },
+        "empty": "Жодної трейлерної компанії не призначено"
+      }
+    },
+    "error": {
+      "button_text": "Повернення до сторінки «Трейлери»."
+    }
+  },
+  "dialog": {
+    "add": {
+      "fields": {
+        "company_rent_amount": {
+          "label": "Орендна плата (місячна)",
+          "placeholder": "101"
+        },
+        "company_deposit_amount": {
+          "label": "Депозит (одноразово)",
+          "placeholder": "101"
+        },
+        "driver_rent_amount": {
+          "label": "Оренда водія (щотижня)",
+          "placeholder": "101"
+        }
+      }
+    },
+    "edit": {
+      "header": {
+        "title": "Трейлер #"
+      },
+      "fields": {
+        "company_rent_amount": {
+          "label": "Сума орендної плати",
+          "placeholder": "900 доларів США"
+        },
+        "company_deposit_amount": {
+          "label": "Сума депозиту",
+          "placeholder": "2000 доларів США"
+        },
+        "driver_rent_amount": {
+          "label": "Оренда водія",
+          "placeholder": "400 доларів США"
+        },
+        "make": {
+          "label": "зробити",
+          "placeholder": "Німецький дог"
+        },
+        "model": {
+          "label": "Модель",
+          "placeholder": "Z Duraplate"
+        }
+      }
+    },
+    "unassign": {
+      "truck": {
+        "title": "Скасувати призначення вантажівки {{referenceId}}?",
+        "body": "Ви знімете призначення вантажівки з причепа."
+      },
+      "company": {
+        "title": "Скасувати призначення компанії {{name}}?",
+        "body": "Ви скасуєте компанію з трейлера."
+      }
+    },
+    "select": {
+      "company": {
+        "header": {
+          "title": "Виберіть Компанія"
+        }
+      }
+    },
+    "delete": {
+      "title": "Ви впевнені, що хочете позначити цей трейлер як \"Віддалений\"?",
+      "body": "Він буде прихований, але все одно зберігатиметься в системі."
+    }
+  }
+}

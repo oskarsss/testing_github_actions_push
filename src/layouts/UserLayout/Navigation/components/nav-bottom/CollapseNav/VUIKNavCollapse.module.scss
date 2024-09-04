@@ -1,0 +1,49 @@
+@use '@/scss/abstracts' as *;
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px 16px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+
+    &FullVisible {
+        width: 28px;
+    }
+}
+
+.arrowButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    background-color: var(--semantic-foreground-secondary);
+    border-radius: 4px;
+    svg {
+        font-size: 20px;
+        color: var(--semantic-foreground-primary);
+        rotate: 0;
+        transition: rotate 250ms;
+    }
+    &FullVisible {
+        svg {
+            rotate: 180deg;
+        }
+    }
+}
+
+.description {
+    color: var(--semantic-text-secondary);
+    margin: 0;
+    @include apply-typography($body-xs-regular);
+    opacity: 1;
+    transition: opacity 250ms linear;
+
+    &FullVisible {
+        opacity: 0;
+    }
+}

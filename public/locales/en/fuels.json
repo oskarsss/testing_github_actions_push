@@ -1,0 +1,21 @@
+{
+  "header": {
+    "buttons": {
+      "add_transaction": "Add Transaction"
+    }
+  },
+  "confirm_dialog": {
+    "delete": {
+      "title": "Delete fuels transactions",
+      "body": "Are you sure you want to delete selected fuels?"
+    }
+  },
+  "table": {
+    "customActions": {
+      "delete": {
+        "label": "Delete",
+        "tooltip": "Delete selected fuels"
+      }
+    }
+  }
+}

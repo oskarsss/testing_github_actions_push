@@ -1,0 +1,61 @@
+{
+  "charts": {
+    "total_unpaid": {
+      "empty_screen": {
+        "firstText": "No Total Unpaid",
+        "secondText": "There are currently no Total Unpaid in the system"
+      },
+      "title": "Total Unpaid",
+      "status": "Status",
+      "amount": "Amount"
+    },
+    "total_loads": {
+      "empty_screen": {
+        "firstText": "No Total Orders"
+      },
+      "title": "Total Orders",
+      "info": {
+        "title": "All Orders"
+      }
+    },
+    "top_debtors": {
+      "empty_screen": {
+        "firstText": "No Top Debtors"
+      },
+      "title": "Top Debtors",
+      "info": {
+        "all_debtors": "All Debtors"
+      },
+      "table": {
+        "columns": {
+          "count": "Count",
+          "client": "Client",
+          "loads": "Orders",
+          "total": "Total"
+        }
+      }
+    },
+    "aging_reports": {
+      "title": "Aging reports",
+      "info": {
+        "loads": "Orders",
+        "total": "Total"
+      }
+    },
+    "active_loads": {
+      "title": "Active Orders",
+      "search": "Search",
+      "tabs": "Tabs",
+      "table": {
+        "columns": {
+          "product": "Product",
+          "status": "Status",
+          "miles": "Miles",
+          "sales": "Sales",
+          "delivery_id": "Delivery in",
+          "weight": "Weight (lbs)"
+        }
+      }
+    }
+  }
+}

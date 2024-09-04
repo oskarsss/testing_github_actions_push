@@ -1,0 +1,90 @@
+{
+  "header": {
+    "title": "Повторювані транзакції",
+    "buttons": {
+      "add_recurring": "Додати повторювані",
+      "tooltips": {
+        "settings": "Натисніть, щоб налаштувати категорії на свій розсуд"
+      }
+    },
+    "views": {
+      "drivers": "За замовчуванням",
+      "transactions": "транзакції"
+    }
+  },
+  "tables": {
+    "driver": {
+      "options_menu": {
+        "add_transactions": "Додати транзакцію",
+        "edit_driver": "Редагувати драйвер",
+        "edit_truck": "Редагувати Вантажівка",
+        "edit_trailer": "Редагувати трейлер"
+      }
+    },
+    "transactions": {
+      "options_menu": {
+        "add_transactions": "Додати транзакцію для водія",
+        "edit_transaction": "Редагувати транзакцію"
+      }
+    }
+  },
+  "menu": {
+    "add_recurring_transactions": {
+      "header": {
+        "title": "Додайте категорію транзакції"
+      },
+      "fields": {
+        "entity_type": {
+          "label": "Тип сутності"
+        },
+        "recurring": {
+          "label": "Повторювані"
+        }
+      }
+    },
+    "create": {
+      "header": {
+        "title": "Додати повторювану транзакцію для {{name}}"
+      }
+    },
+    "edit": {
+      "header": {
+        "title": "Повторювана трансакція {{categoryName}} для {{driverName}}"
+      },
+      "confirm_dialog": {
+        "title": "Видалити трансакцію {{categoryName}}?",
+        "body": "Ви назавжди видалите драйвер транзакції."
+      }
+    },
+    "tabs": {
+      "debit": "Дебетовий",
+      "credit": "Кредит"
+    },
+    "fields": {
+      "category": {
+        "label": "Категорія"
+      },
+      "start_date": {
+        "label": "Дата початку"
+      },
+      "max_total_amount": {
+        "label": "Максимальна загальна сума",
+        "placeholder": "Максимальна загальна сума"
+      }
+    },
+    "total_line": {
+      "total_charged": "Всього стягнуто:",
+      "transactions_history": "Історія транзакцій"
+    },
+    "table": {
+      "title": "Загальна кількість стягнених транзакцій: {{transactionsAmount}} за {{total_charged}}",
+      "columns": {
+        "settlement": "Поселення",
+        "date": "Дата",
+        "amount": "Сума",
+        "total": "Всього"
+      },
+      "empty_state": "Жодних транзакцій"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@use '@/scss/abstracts' as *;
+
+.searchContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: $gap-md;
+}
+
+.domainsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-lg;
+}

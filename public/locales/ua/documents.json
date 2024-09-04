@@ -1,0 +1,9 @@
+{
+  "status": {
+    "unspecified": "-",
+    "valid": "Дійсний",
+    "invalid": "Недійсний",
+    "pending": "В очікуванні",
+    "deleted": "Видалено"
+  }
+}

@@ -1,0 +1,25 @@
+export const PROVIDER_ID = Object.freeze({
+    SAMSARA: '1',
+
+    // MOTIVE: '2',
+    // SUPER_DISPATCH: '3',
+    // BLUE_STAR: '4',
+    FLEET_ONE_WEX: '5',
+    MOTIVE       : '6',
+    LOADBOARD_123: '7',
+    UBER_FREIGHT : '8',
+    QUICKBOOKS   : '9',
+    MACROPOINT   : '10',
+    ELD_ALFA     : '11',
+    TRUCK_SMARTER: '12',
+    BEST_PASS    : '13',
+    PRE_PASS     : '14',
+    TCS          : '15',
+    APEX_CAPITAL : '16',
+    CH_ROBINSON  : '17',
+    ELD_RIDER    : '18',
+    TRUCK_STOP   : '19',
+    TRUFUNDING   : '21',
+    OPTIMA_ELD   : '22',
+    default      : 'default'
+} as const);

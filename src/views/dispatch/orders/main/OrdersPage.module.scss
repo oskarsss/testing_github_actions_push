@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    flex: 1 1 100%;
+}
+
+.analytics {
+    display: flex;
+    overflow: hidden;
+    flex: 1 1 0;
+    background-color: var(--semantic-background-secondary);
+    position: relative;
+    @media ((max-width: 1900px)) {
+        flex: 0.4 1 0;
+    }
+}

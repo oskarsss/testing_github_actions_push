@@ -1,0 +1,17 @@
+@use '@/scss/abstracts' as *;
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: $gap-xs;
+
+    span {
+        font-size: 12;
+        font-weight: 500;
+        cursor: pointer;
+        min-width: 240px;
+        color: var(--semantic-text-white);
+        text-decoration: underline;
+    }
+}

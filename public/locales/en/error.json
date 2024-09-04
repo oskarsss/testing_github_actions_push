@@ -1,0 +1,17 @@
+{
+  "404": {
+    "title": "Oops, we got an Error 👀",
+    "desc_first": "This issues is automatically transferred to Quality Assurance team.",
+    "desc_second": "Please share your feedback, it helps making Vektor better."
+  },
+  "500": {
+    "title": "Oops 👀",
+    "desc_first": "This issues is automatically transferred to QA team.",
+    "desc_second": "Please share your feedback, it helps making Vektor better."
+  },
+  "btn": {
+    "back_home": "Back to Home",
+    "submit": "Submit",
+    "report_issue": "Report Issue"
+  }
+}

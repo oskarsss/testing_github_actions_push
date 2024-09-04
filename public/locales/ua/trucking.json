@@ -1,0 +1,45 @@
+{
+  "error": "Не вдалося завантажити навантаження",
+  "panel": {
+    "buttons": {
+      "hide_completed": "Приховати завершено"
+    }
+  },
+  "map": {
+    "titles": {
+      "latest": "Останній",
+      "need_update": "Потрібне оновлення",
+      "not_found": "Не знайдено"
+    }
+  },
+  "sort_by": {
+    "latest": {
+      "title": "Останній",
+      "description": "Останні навантаження"
+    },
+    "oldest": {
+      "title": "Найстаріший",
+      "description": "Найстаріші вантажі"
+    },
+    "smart_dispatch": {
+      "title": "Smart Dispatch",
+      "description": "Розумна диспетчерська завантаження"
+    },
+    "truck_number_asc": {
+      "title": "Номер вантажівки",
+      "description": "Від низького до високого"
+    },
+    "truck_number_desc": {
+      "title": "Номер вантажівки",
+      "description": "Від високого до низького"
+    },
+    "loaded_miles_asc": {
+      "title": "Майлз",
+      "description": "Від низького до високого"
+    },
+    "loaded_miles_desc": {
+      "title": "Майлз",
+      "description": "Від високого до низького"
+    }
+  }
+}

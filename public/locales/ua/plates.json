@@ -1,0 +1,96 @@
+{
+  "header": {
+    "filters": {
+      "equipment_inactive": {
+        "label": "Обладнання неактивне 7 днів"
+      }
+    }
+  },
+  "status": {
+    "empty": "Інший",
+    "all": "все",
+    "active": "Активний",
+    "pending_cancellation": "Очікує на скасування",
+    "cancelled": "Скасовано",
+    "deleted": "Видалено"
+  },
+  "vehicle_type": {
+    "empty": "Інший",
+    "all": "все",
+    "truck": "Вантажівка",
+    "trailer": "Трейлер"
+  },
+  "dialog": {
+    "edit": {
+      "header": {
+        "title": "Редагувати табличку"
+      }
+    },
+    "fields": {
+      "owner_name": {
+        "label": "Ім'я власника",
+        "placeholder": "Введіть ім'я власника"
+      },
+      "province": {
+        "label": "Провінція"
+      },
+      "number": {
+        "label": "Номер",
+        "placeholder": "XXXX11"
+      },
+      "vehicle_type": {
+        "label": "Тип транспортного засобу"
+      },
+      "annual_cost": {
+        "label": "Річна вартість",
+        "placeholder": "1500"
+      },
+      "country": {
+        "label": "Країна"
+      },
+      "owned": {
+        "label": "У власності"
+      }
+    },
+    "delete": {
+      "title": "Видалити номерний знак {{number}}?",
+      "body": "Табличку буде видалено назавжди."
+    }
+  },
+  "menu": {
+    "add_company": {
+      "header": {
+        "title": "Додати компанію «Тарелки»."
+      },
+      "fields": {
+        "name": {
+          "label": "Ім'я",
+          "placeholder": "Назва компанії Plate"
+        },
+        "reference_id": {
+          "label": "Табличка Номер компанії",
+          "placeholder": "101"
+        }
+      }
+    }
+  },
+  "plate_companies": {
+    "header": {
+      "buttons": {
+        "add_company": "Додати компанію"
+      }
+    },
+    "dialog": {
+      "add": {
+        "header": {
+          "title": "Додати компанію «Тарелки»."
+        }
+      },
+      "edit": {
+        "header": {
+          "title": "Редагувати номер компанії - {{name}}"
+        }
+      }
+    }
+  }
+}

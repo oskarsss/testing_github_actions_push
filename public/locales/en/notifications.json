@@ -1,0 +1,11 @@
+{
+  "buttons": {
+    "display": "Display",
+    "mark_all_as_read": "Mark all as read"
+  },
+  "empty_state": {
+    "unread_notifications_zero": "No unread notifications",
+    "unread_notifications_one": "{{count}} unread notification",
+    "unread_notifications_other": "{{count}} unread notifications"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "tooltips": {
+    "add_new_draft": "Add new draft",
+    "delete_draft": "Delete draft"
+  },
+  "labels": {
+    "new_draft": "New Draft",
+    "extracting": "Extracting"
+  },
+  "buttons": {
+    "load_drafts": "order drafts",
+    "clear_all_drafts": "Clear All Drafts",
+    "help": "Help"
+  },
+  "errors": {
+    "file_not_supported": "File type is not supported",
+    "file_larger": "File is larger than 10MB",
+    "something_went_wrong": "Oops! Something went wrong with your submission!",
+    "appointment_times": "Oops, wrong appointment times",
+    "appointment_end_at": "The End Appointment cannot be before the Start Appointment",
+    "customerId": "- Customer is required",
+    "brokerId": "- Broker is required",
+    "referenceId": "- Reference is required",
+    "typeId": "- Type is required",
+    "equipmentTypeId": "- Equipment Type is required",
+    "stops": "- Stops not filled out correctly",
+    "invoiceItems": "- Invoice items not filled out correctly",
+    "loadedMiles": "- Loaded miles not filled out correctly",
+    "duplicate_load": "Duplicate order",
+    "field_required": "Field is required",
+    "last_stop_before_first": "The last stop cannot be before the first one",
+    "last_stop_mere_two_months_first": "The last stop cannot be more than 2 months after the first one"
+  },
+  "draft": {
+    "document": {
+      "drop_zone": {
+        "title": "Drag and drop or",
+        "button": "Choose .PDF",
+        "after_button": "to upload",
+        "description": "Original PDF is required. {{name}} results need to be verified"
+      },
+      "uploading": "Uploading"
+    },
+    "drop_zone": {
+      "title": "Drop rate confirmation here to process it",
+      "description": "And let {{name}} do the data entry!"
+    },
+    "form": {
+      "steps": {
+        "1": "1. Customer/Broker Details",
+        "2": "2. Order details",
+        "3": "3. Stop information",
+        "4": "4. Invoicing Details",
+        "5": "5. Commodities"
+      },
+      "fields": {
+        "reference_id": {
+          "label": "Order Ref #",
+          "placeholder": "111",
+          "error": "Duplicate order id"
+        },
+        "units": {
+          "placeholder": "1"
+        },
+        "rate": {
+          "placeholder": "$0.00"
+        },
+        "equipment_type": {
+          "label": "Equipment type"
+        },
+        "load_type": {
+          "label": "Order Type"
+        },
+        "dispatcher_id": {
+          "label": "Booking Dispatcher / CSR"
+        },
+        "stop_reference_id": {
+          "label": "Ref #",
+          "placeholder": "111"
+        },
+        "fixed_appointment": {
+          "label": "Fixed Appt"
+        },
+        "appointment_start_at": {
+          "label": "Start Appointment"
+        },
+        "appointment_end_at": {
+          "label": "End Appointment"
+        },
+        "time": {
+          "label": "Time"
+        },
+        "loaded_miles": {
+          "label": "Loaded miles"
+        },
+        "empty_miles": {
+          "label": "Empty miles"
+        },
+        "location_address": {
+          "label": "Location Address"
+        }
+      },
+      "invoicing": {
+        "no_items": "No invoice items",
+        "header": {
+          "labels": {
+            "pay_item": "Pay Item",
+            "units": "Units",
+            "rate": "Rate"
+          }
+        }
+      },
+      "commodities": {
+        "no_items": "No commodities",
+        "header": {
+          "labels": {
+            "commodity": "Commodity",
+            "weight": "Weight"
+          }
+        }
+      },
+      "stops": {
+        "empty": "No stops added"
+      },
+      "tooltips": {
+        "delete_item": "Delete item",
+        "skip_loading": "If you want skip extracting information, click.",
+        "move_down": "Move down",
+        "move_up": "Move up"
+      },
+      "buttons": {
+        "add_line_item": "Add line item",
+        "add_new_stop": "Add new stop"
+      }
+    },
+    "toolbar": {
+      "saving_titles": {
+        "saving": "Saving...",
+        "draft_saved": "Draft saved",
+        "draft_saved_seconds_ago": "Draft saved a few seconds ago"
+      },
+      "buttons": {
+        "delete_draft": "Delete draft",
+        "submit_load": "Submit order",
+        "submitting": "Submitting..."
+      }
+    },
+    "rate_confirmation": {
+      "title": "Import Rate Confirmation Document",
+      "description": "Data extraction powered by {{name}}",
+      "tooltips": {
+        "download_file": "Download File",
+        "replace_file": "Replace File",
+        "delete_file": "Delete File",
+        "info": "Rate confirmation - document that spells out the agreed-upon shipping rates between two parties. A broker must provide a rate confirmation document."
+      },
+      "uploading": {
+        "title": "Uploading...",
+        "description": "File is uploading"
+      },
+      "labels": {
+        "extract_data": "Process uploaded rate confirmation through {{name}} to extract data"
+      },
+      "buttons": {
+        "manual_entry": "Manual Entry",
+        "upload": {
+          "title": "Select a file or drag and drop here",
+          "description": "JPG, PNG or PDF, file size no more than 10MB"
+        }
+      }
+    }
+  }
+}

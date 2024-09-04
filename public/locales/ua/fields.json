@@ -1,0 +1,254 @@
+{
+  "location": {
+    "label": "Адреса розташування",
+    "placeholder": "Введіть адресу",
+    "no_locations": "Немає місць"
+  },
+  "select": {
+    "empty_list": "Жодного",
+    "all": "все"
+  },
+  "search": {
+    "label": "Пошук",
+    "placeholder": "Пошук...",
+    "placeholder_2": "Пошук...",
+    "buttons": {
+      "clear_search": "Очистити пошук"
+    }
+  },
+  "weight": {
+    "label": "вага",
+    "placeholder": "0-100000 (фунтів)",
+    "unit": "фунти"
+  },
+  "commodity": {
+    "label": "товарний",
+    "placeholder": "товарний"
+  },
+  "note": {
+    "label": "Примітка",
+    "placeholder": "Примітка",
+    "placeholder_2": "Залишити коментар...",
+    "placeholder_3": "Залиште записку..."
+  },
+  "notes": {
+    "label": "Примітки",
+    "placeholder": "Примітки"
+  },
+  "temperature": {
+    "label": "температура",
+    "placeholder": "12",
+    "unit": "Ф"
+  },
+  "origin": {
+    "label": "Походження"
+  },
+  "destination": {
+    "label": "Пункт призначення"
+  },
+  "discount_amount": {
+    "label": "Розмір знижки",
+    "placeholder": "Введіть суму знижки"
+  },
+  "name": {
+    "label": "Ім'я",
+    "placeholder": "Введіть ім'я"
+  },
+  "phone_number": {
+    "label": "Номер телефону",
+    "placeholder": "(513) 555-7777"
+  },
+  "email": {
+    "label": "Електронна пошта",
+    "placeholder": "Введіть адресу електронної пошти"
+  },
+  "chip_select": {
+    "tooltip": "Натисніть, щоб змінити статус"
+  },
+  "first_name": {
+    "label": "Ім'я",
+    "label_upper": "Ім'я",
+    "placeholder": "Джон",
+    "placeholder_2": "Введіть своє ім'я"
+  },
+  "last_name": {
+    "label": "Прізвище",
+    "label_upper": "Прізвище",
+    "placeholder": "лань",
+    "placeholder_2": "Введіть своє прізвище"
+  },
+  "password": {
+    "label": "Пароль",
+    "placeholder": "Пароль"
+  },
+  "company_name": {
+    "label": "Назва компанії",
+    "placeholder": "Введіть назву компанії"
+  },
+  "address_line_1": {
+    "label": "Адреса, рядок 1",
+    "placeholder": "Канзас-стріт, 123 "
+  },
+  "address_line_2": {
+    "label": "Адресний рядок 2",
+    "placeholder": "Кв./Люкс 123"
+  },
+  "city": {
+    "label": "Місто",
+    "placeholder": "Чикаго"
+  },
+  "state": {
+    "label": "Держава",
+    "placeholder": "IL"
+  },
+  "postal_code": {
+    "label": "Поштовий індекс",
+    "placeholder": "32001"
+  },
+  "dot": {
+    "label": "КРАПКА",
+    "placeholder": "Введіть номер DOT оператора"
+  },
+  "entry_plaza": {
+    "label": "Вхід Плаза",
+    "placeholder": "Увійдіть на площу входу"
+  },
+  "exit_plaza": {
+    "label": "Вийти з Plaza",
+    "placeholder": "Увійдіть на площу виходу"
+  },
+  "transponder_number": {
+    "label": "Номер транспондера",
+    "placeholder": "Введіть номер транспондера"
+  },
+  "reference_id": {
+    "label": "Ідентифікатор посилання",
+    "placeholder": "Введіть ідентифікатор посилання"
+  },
+  "amount": {
+    "label": "Сума",
+    "placeholder": "Введіть суму"
+  },
+  "entry_datetime": {
+    "label": "Дата та час входу"
+  },
+  "exit_datetime": {
+    "label": "Вийти з дати та часу"
+  },
+  "posting_date": {
+    "label": "Дата розміщення"
+  },
+  "source": {
+    "label": "Джерело",
+    "placeholder": "ILToll"
+  },
+  "toll_agency": {
+    "label": "Платне агентство",
+    "placeholder": "EZpass"
+  },
+  "status": {
+    "label": "Статус"
+  },
+  "address": {
+    "label": "Адреса",
+    "placeholder": "Введіть адресу"
+  },
+  "cycles": {
+    "label": "Цикли",
+    "tooltips": {
+      "view_drivers": "Переглянути драйвери",
+      "view_all_cycles": "Переглянути всі цикли",
+      "edit_cycle": "Редагувати цикл"
+    }
+  },
+  "periods": {
+    "label": "Періоди",
+    "no_cycles": "Спочатку зробіть цикл",
+    "settlement_count": "Населені пункти: {{count}}",
+    "company_net": "Мережа компанії: {{companyNet}}",
+    "tooltips": {
+      "create_period": "Створити період",
+      "edit_period": "Період редагування"
+    },
+    "status": {
+      "open": "ВІДЧИНЕНО",
+      "closed": "ЗАЧИНЕНО"
+    },
+    "button": {
+      "create_period": "Створити період"
+    }
+  },
+  "datetime": {
+    "label": "Дата, час"
+  },
+  "type": {
+    "label": "Тип"
+  },
+  "required": {
+    "label": "вимагається"
+  },
+  "broker_name": {
+    "label": "Назва брокера",
+    "placeholder": "Введіть назву брокера"
+  },
+  "short_name": {
+    "label": "Коротке ім'я",
+    "placeholder": "Введіть коротку назву"
+  },
+  "mc": {
+    "label": "MC",
+    "placeholder": "Введіть MC"
+  },
+  "equipment_type": {
+    "label": "Тип обладнання"
+  },
+  "uninsured": {
+    "label": "Незастрахований"
+  },
+  "company": {
+    "label": "Компанія"
+  },
+  "amount_per_unit": {
+    "label": "Сума за одиницю",
+    "placeholder": "2500 доларів США"
+  },
+  "units": {
+    "label": "одиниці",
+    "placeholder": "1"
+  },
+  "description": {
+    "label": "опис",
+    "placeholder": "Введіть опис позиції"
+  },
+  "friendly_name": {
+    "label": "Дружнє ім'я",
+    "placeholder": "Джонні"
+  },
+  "company_id": {
+    "label": "Компанія / ІРП"
+  },
+  "vin": {
+    "label": "VIN номер",
+    "placeholder": "XXXXXXXXXXXXXXXXXX"
+  },
+  "trailer_reference_id": {
+    "label": "Номер трейлера",
+    "placeholder": "4321"
+  },
+  "year": {
+    "label": "рік"
+  },
+  "vendor": {
+    "label": "Продавець"
+  },
+  "location_name": {
+    "label": "Назва розташування",
+    "placeholder": "Склад"
+  },
+  "start_date": {
+    "label": "Дата початку"
+  },
+  "end_date": {
+    "label": "Дата закінчення"
+  }
+}
